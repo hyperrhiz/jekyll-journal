@@ -1,0 +1,13 @@
+---
+layout: root
+title: All Authors
+author: Editor
+subtitle: "Author List"
+description: "List of all authors from our archive"
+---
+<!--Alphabetical list of all authors from bio data file-->
+
+{% assign authors = site.data.bios | sort %}
+{% for author in authors %}
+<p>{{author[1].firstname}} {{author[1].lastname}} . {{author[1].affiliation}}<br>{{author[1].bio}}</p>
+{% endfor %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	       {% include analytics.html %}
+			{% include metadata.html %}
+			{% include head.html %}
+    </head>
+    
+    <body>	  
+	    
+	    
+	    <div id="wrap">
+      	
+      	<!-- navbar -->
+      	{% include navbar.html %}
+
+                {{content}}
+
+	    <!-- close wrapper-->
+	    </div>
+	    
+	    
+       {% include footer.html %}
+	    
+
+    </body>
+</html>

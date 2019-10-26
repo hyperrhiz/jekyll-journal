@@ -1,0 +1,32 @@
+- name: tag1
+  icon: icon_film_white.png
+  urltype: "internal"
+  url: item1.html
+  author: "Liu Yang"
+  title: "Short title"
+  fullicon: foldername/filename.jpg
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>
+  
+- name: tag2
+  icon: icon_film_white.png
+  urltype: "internal"
+  url: item2.html
+  author: "Rakesh Sharma"
+  title: "Short title"
+  fullicon: foldername/filename.jpg
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>
+     
+- name: tag3
+  icon: icon_film_white.png
+  urltype: "internal"
+  url: item3.html
+  author: "Buzz Aldrin"
+  title: "Short title"
+  fullicon: aldrin/filename.jpg
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>

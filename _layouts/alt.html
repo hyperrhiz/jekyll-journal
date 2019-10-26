@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+			{% include html_head.html %}
+    </head>
+    
+    <body>	
+	    <div id="wrapper">
+<div class="header">
+    <header class="wrapper clearfix">
+        <!--<div><h1>{{ site.name }}</h1></div>-->
+            <nav>
+            {% include navmenu.html %}
+            </nav>
+    </header>
+</div>
+
+<div class="main-container">
+            <div class="main wrapper clearfix">
+
+	            <div id="content">
+                {{content}}
+	            </div> <!-- close content -->	            
+
+		</div> <!-- #main -->
+</div> <!-- #main-container -->
+
+<div class="footer-container">
+            <footer class="wrapper">
+            {% include footer.html %}
+            </footer>
+</div>
+
+	    </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

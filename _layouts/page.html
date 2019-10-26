@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="header-bg">
+	<div class="page-header">
+		
+		
+			{% for page in site[page.collection] %} 
+				{% if page.category == lucie %}	
+					<h1>{{ site.name }} {{page.issue}}</h1>     				
+					<h2 class="category">{{ page.topic }}
+					{% if page.subtopic %}
+						:<br>{{ page.subtopic }}
+					{% endif %}
+					<br>{{ page.season }} {{page.year}}</h2>
+				{% endif %}
+			{% endfor %}
+
+
+	
+    </div> 
+</div>
+     
+<div class="container">
+<section class="content">
+     <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.type }}/"> {{site.name | capitalize}} {{page.issue}}</a></h4>
+
+<h1>{{ page.title }}</h1>
+{% for name in page.names %}
+<h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
+{% endfor %}
+<hr>
+
+ {% include citation.html %}
+
+	{{ content }}
+<hr>
+
+</section>
+
+<aside>
+
+	<h4>Bio</h4>
+
+{% for author in page.bio %}
+{% assign name = site.data.bios[author] %}
+<p>{{name.bio}}</p>
+{% endfor %}
+
+</aside>
+
+</div>

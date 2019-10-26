@@ -1,0 +1,40 @@
+---
+layout: page
+category: section1
+type: issue01
+issue: 01
+year: 200x
+DOI: xxx.xxx
+title: Multiauthor Essay
+names:
+ - firstname: Yuri
+   lastname: Gagarin
+   affiliation: a place
+ - firstname: Valentina
+   lastname: Tereshkova
+   affiliation: a place
+ - firstname: Sally
+   lastname: Ride
+   affiliation: a place
+ - firstname: Mae
+   lastname: Jemison
+   affiliation: a place 
+bio: [gagarin, tereshkova, ride, jemison]
+media_path: "issue01/section1/foldername/"
+description: "short description for metadata and twitter"
+meta_image: issue01/section1/foldername/filename.jpg
+---
+
+<p><strong>Abstract</strong>: your abstract here.</p>
+
+<p><strong>Keywords</strong>: keywords for metadata.</p>
+
+
+<hr>
+
+<h3>Title</h3>
+
+{% include image.html url="xxx.jpg" caption="If there was an image in your media server folder you could put it here" %}
+
+
+{% include project.html url="filename.html" message="link to media server file, eg if it's a twine project or something" %}

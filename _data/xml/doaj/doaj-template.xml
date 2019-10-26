@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+
+<!-- repeat for each entry -->
+  <record>
+    <language>eng</language>
+    <publisher>Hyperrhiz</publisher>
+    <journalTitle>Hyperrhiz: New Media Cultures</journalTitle>
+    <issn>15559351</issn>
+    <publicationDate>yyyy-mm-dd</publicationDate>
+    <issue>xx</issue>
+    <startPage>1</startPage>
+    <endPage>1</endPage>
+    <doi>10.20415/hyp/xxxx</doi>
+    <publisherRecordId>xxxx</publisherRecordId>
+    <documentType>article</documentType>
+    <title language="eng">title</title>
+    <authors>
+      <author>
+        <name>First Middle Last </name>
+        <affiliationId>1</affiliationId><!-- matches to affiliations list below -->
+      </author>
+      <author>
+        <name>First Middle Last </name>
+        <affiliationId>2</affiliationId>
+      </author>
+    </authors>
+    <affiliationsList>
+      <affiliationName affiliationId="1">
+        Author 1 Affiliation     
+      </affiliationName>
+      <affiliationName affiliationId="2">
+        Author 2 Affiliation
+      </affiliationName> 
+    </affiliationsList>
+    <abstract language="eng">
+      1-sentence description
+    </abstract>
+    <fullTextUrl format="html">
+      article doi
+    </fullTextUrl>
+    <keywords language="eng">    
+      <keyword>word1</keyword>
+      <keyword>word2</keyword>
+    </keywords>
+    
+  </record>
+<!-- end first record -->
+
+<!-- start second record -->
+  <record>
+   ...
+  </record>
+<!-- end second record -->
+
+</records>

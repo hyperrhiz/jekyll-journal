@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<div class="header-bg">
+	<div class="page-header">
+		<h1>{{ site.name }} {{page.issue}}</h1>
+		<h2 class="category">
+		{{ page.topic }}
+		{% if page.subtopic %}
+		:<br>{{ page.subtopic }}
+		{% endif %}
+		<br>{{ page.season }} {{page.year }}
+		</h2>
+		<h3>Edited by
+		{% for editor in page.editor %}
+			<br>{{ editor }}
+		{% endfor %}
+		</h3>
+	</div> 
+</div>
+    
+<div class="container">
+<section class="content">
+<h2>Table of Contents</h2>
+<hr>
+
+
+<!-- loop here -->
+{% for lucie in page.categories %} <!-- checks the issue index to see what categories are used -->
+	<h3 class="section">{{ lucie }}</h3> <!-- prints the category header -->
+	<ul> <!-- prints all items in that category in a list -->
+
+	{% for page in site[page.collection] %} 
+		{% if page.category == lucie %}	
+		<li class="catmenu"><a href="{{ page.url }}">{{ page.title }}</a><br>
+
+
+
+		{% if page.names.size == 1 %}
+		{{page.names[0].role}} {{page.names[0].firstname}} {{page.names[0].lastname}}
+		{% else %}
+			{% for name in page.names %}
+					{% if name != page.names.first and name != page.names.last %}
+					,
+					{% elsif name == page.names.last %}
+					and
+					{% endif %}
+					{{name.firstname}} {{name.lastname}}
+			{% endfor %}
+			{% endif %}
+
+
+
+		
+		</li>
+		{% endif %}
+	{% endfor %}
+
+
+
+
+ 	</ul>
+ <hr>
+{% endfor %}
+
+	
+<h3 class="section">Issue Citation</h3>
+
+<p><strong>Citation</strong>: <em>{{site.name}}: {{site.description}}</em>, no. {{page.issue}}, {{page.year}}. <a href="https://doi.org/{{ site.DOI }}{{ page.DOI }}">doi:{{ site.DOI }}{{ page.DOI }}</a></p>
+
+</section>
+
+{% include aside.html %}
+
+</div>

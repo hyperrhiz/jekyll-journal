@@ -1,0 +1,12 @@
+<!-- parameters for project include tag
+ % include project.html url="subdirfile" icon="if you have an icon" exturl="externallink" message="clicktext" %
+ -->
+
+<hr>
+
+
+{% if include.exturl %}
+<p class="viewproject"><a href="{{page.external_path}}{{include.exturl}}" target="blank">{{include.message}}</a></p>
+{% else %}
+<p class="viewproject"><a href="{{site.media_server}}{{page.media_path}}{{include.url}}">{{include.message}}</a></p>
+{% endif %}

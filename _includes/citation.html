@@ -1,0 +1,3 @@
+<!-- page citation, mla format -->
+
+<p><strong>Citation</strong>: {{page.names[0].lastname}}, {{page.names[0].firstname}}{% if page.names.size == 2 %} and {{page.names[1].firstname}} {{page.names[1].lastname}}{% elsif page.names.size == 3 %}, {{page.names[1].firstname}} {{page.names[1].lastname}} and {{page.names[2].firstname}} {{page.names[2].lastname}}{% elsif page.names.size > 3 %}, et. al{% endif %}. “{{page.title}}.” <em>{{site.name}}: {{site.description}}</em>, no. {{page.issue}}, {{page.year}}. <a href="https://doi.org/{{ site.DOI }}{{ page.DOI }}">doi:{{ site.DOI }}{{ page.DOI }}</a></p>

@@ -1,0 +1,11 @@
+<!-- parameters for related include tag
+ % include related.html url="subdirectory or file" exturl="if external link" message="text to click" %
+ -->
+
+<hr>
+
+{% if include.exturl %}
+<p class="viewproject"><a href="{{page.external_path}}{{include.exturl}}" target="blank">{{include.message}}</a></p>
+{% else %}
+<p class="viewproject"><a href="/{{page.related_path}}{{include.url}}">{{include.message}}</a></p>
+{% endif %}
