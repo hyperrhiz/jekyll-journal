@@ -33,7 +33,7 @@ layout: default
 
 	{% for page in site[page.collection] %} 
 		{% if page.category == lucie %}	
-		<li class="catmenu"><a href="{{ page.url }}">{{ page.title }}</a><br>
+		<li class="catmenu"><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a><br>
 
 
 

@@ -4,32 +4,24 @@ layout: default
 
      <div class="header-bg">
     <div class="page-header">
-		{% for woodpecker in page.type %}
-			{% for page in site.page.woodpecker %}
-				{% if page.index == true %}
+			{% for page in site[page.collection] %} 
+				{% if page.category == lucie %}	
 					<h1>{{ site.name }} {{page.issue}}</h1>     				
 					<h2 class="category">{{ page.topic }}
 					{% if page.subtopic %}
 						:<br>{{ page.subtopic }}
 					{% endif %}
 					<br>{{ page.season }} {{page.year}}</h2>
-					<h3>Edited by
-					{% for editor in page.editor %}
-						<br>{{ editor }}
-					{% endfor %}
-					</h3>
 				{% endif %}
 			{% endfor %}
-		{% endfor %}
 				
     </div> 
      </div>
      
      <div class="container">
 <section class="content">
-     <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.related_path }}{{ page.feature_home }}">Introduction</a></h4>
 
-<img src="{{ site.media_server }}{{ page.media_path }}thum.jpg">
+<!--<img src="{{ site.media_server }}{{ page.media_path }}thum.jpg">-->
 <h1>{{ page.title }}</h1>
 {% for name in page.names %}
 <h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
@@ -42,7 +34,6 @@ layout: default
 	{{ content }}
 <hr>
     <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.related_path }}{{ page.feature_home }}">Introduction</a></h4>
-<hr>
 
 
 </section>

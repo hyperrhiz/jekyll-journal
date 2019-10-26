@@ -10,8 +10,8 @@
 {% for entry in site.data.feature[page.feature_menu] %}
 
 <div style="padding-bottom:40px;border:1px solid #fff;font-weight:bold;">
-<div style="float:left;"><a href="/{{page.related_path}}{{entry.url}}"><img src="{{site.media_server}}{{page.related_path}}{{entry.fullicon}}" style="padding-top:5px;padding-right:20px;"/></a></div>
-<div><p><a href="/{{page.related_path}}{{entry.url}}">{{entry.fulltitle}}</a><br>{{entry.author}}</p></div>
+<div style="float:left;"><a href="{{site.baseurl}}/{{page.related_path}}{{entry.url}}"><img src="{{site.media_server}}{{page.related_path}}{{entry.fullicon}}" style="padding-top:5px;padding-right:20px;"/></a></div>
+<div><p><a href="{{site.baseurl}}/{{page.related_path}}{{entry.url}}">{{entry.fulltitle}}</a><br>{{entry.author}}</p></div>
 <div><p>{{entry.abstract}}</p></div>
 </div>
 

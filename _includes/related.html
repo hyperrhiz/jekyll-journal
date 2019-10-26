@@ -7,5 +7,5 @@
 {% if include.exturl %}
 <p class="viewproject"><a href="{{page.external_path}}{{include.exturl}}" target="blank">{{include.message}}</a></p>
 {% else %}
-<p class="viewproject"><a href="/{{page.related_path}}{{include.url}}">{{include.message}}</a></p>
+<p class="viewproject"><a href="{{site.baseurl}}/{{page.related_path}}{{include.url}}">{{include.message}}</a></p>
 {% endif %}

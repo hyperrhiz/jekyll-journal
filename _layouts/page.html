@@ -24,8 +24,6 @@ layout: default
      
 <div class="container">
 <section class="content">
-     <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.type }}/"> {{site.name | capitalize}} {{page.issue}}</a></h4>
-
 <h1>{{ page.title }}</h1>
 {% for name in page.names %}
 <h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
@@ -36,6 +34,7 @@ layout: default
 
 	{{ content }}
 <hr>
+     <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.type }}/"> {{site.name | capitalize}} {{page.issue}}</a></h4>
 
 </section>
 
