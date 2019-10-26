@@ -22,3 +22,19 @@ Jekyll-journal is *not* a journal management system for editorial processes. We 
 # Idiosyncracies
 
 - J-j assumes you have media files you want to serve that are not best stored in git repositories. It includes a link to a "media server" that you can specify in order to include files directly. You could use storage on your own server; Amazon s3 is a good alternative.
+
+# Installing
+
+You'll need
+
+- Ruby
+- Bundler
+- Jekyll
+- server space to store media separately from your Jekyll-journal install, unless you have no plans to use more than a few images or other media objects.
+
+# Before you deploy
+
+- remove the file "corner.html" from the "includes" folder and remove the line "{% include corner.html %}" from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that github logo.
+- if you're serving from the root of your directory, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that github pages can figure out pathnames.
+
+
