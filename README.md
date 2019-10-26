@@ -33,6 +33,23 @@ You'll need:
 - Jekyll
 - server space to store media separately from your Jekyll-journal install, unless you have no plans to use more than a few images or other media objects.
 
+## Setup
+
+Edit the config.yml file to suit your own environment. It should all be self evident in the file.
+
+## Workflow
+
+My workflow looks something like this:
+
+- Create a new collections folder at the root, with an underscore (eg "_issue2").
+- Inside the folder, create an index.html file that uses the yml listed below.
+- create individual issue entries. For neatness I create folders for each section. See below for the yml.
+- put all the media files on the media server so they can be linked to using snippets from the includes folder
+- once everything looks good, add the issue title to output:true in config.yml.
+- git push everything for galley checks and corrections.
+- check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
+- file DOI assignments with Crossref, notify other indexing services.
+
 ## Sample issue
 
 In the _issue01 folder is a sample issue. Files include a working example of the footnoting system, multiauthor citation, and a sample "special feature" subsection. 
@@ -41,7 +58,27 @@ Each issue is based on the Jekyll "collections" system. The index file in the ro
 
 When customizing, create a new collection for each issue. Write your yml carefully. If you have weird quotes that you want to put in there, use the |- method to escape them upfront. There's an example in the bios.yml file in the data folder.
 
-The yml for a typical article looks like this:
+First off you'll need an index page with the following info in the root of the issue folder.
+
+```
+---
+layout: category_index <-- leave this as is
+index: true <-- leave this as is
+type: issue01 <-- the name of your issue folder without the underscore
+DOI: xxx <-- the part of the doi unique to this issue. leave off the base journal doi
+issue: 01 
+season: Season
+year: 200x
+topic: Issue topic <-- appears in the header
+subtopic:        <-- optional
+editor: [nameofeditor] <-- match this to a bio entry in bios.yml in the data folder (see below)
+categories: [section1, section2, section3] <-- labels for each part of the issue
+description: "Tweetable description for metadata."
+meta_image: issue01/foldername/filename.jpg <-- media server pathname to a default image for facebook
+---
+```
+
+Next, individual articles. The yml for a typical article looks like this:
 
 ```
 ---
@@ -50,7 +87,7 @@ category: name of the section within the issue
 type: name of the folder containing the issue, minus the underscore
 issue: a number
 year: a year
-DOI: xxx.xxx <-- the parts of the doi unique to this article. leave off the base journal doi
+DOI: xxx.xxx <-- the parts of the doi unique to this issue and article. leave off the base journal doi
 title: title of the essay as it will appear in the TOC
 names:
  - firstname: author1
