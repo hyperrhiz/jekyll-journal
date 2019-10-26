@@ -1,6 +1,6 @@
 # Journals for everyone
 
-Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I developed it to template Hyperrhiz and Rhizomes. It's built to include some of the things necessary for responsible journal display and admin:
+Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I developed it to template [Hyperrhiz](http://hyperrhiz.io/) and [Rhizomes](http://rhizomes.net/). It's built to include some of the things necessary for responsible journal display and admin:
 
 - auto generated table of contents for each issue
 - auto citation (in MLA format rn; will extend to others later)
@@ -25,7 +25,7 @@ Jekyll-journal is *not* a journal management system for editorial processes. We 
 
 # Installing
 
-You'll need
+You'll need:
 
 - Ruby
 - Bundler
@@ -35,6 +35,12 @@ You'll need
 # Before you deploy
 
 - remove the file "corner.html" from the "includes" folder and remove the line "{% include corner.html %}" from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that github logo.
-- if you're serving from the root of your directory, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that github pages can figure out pathnames.
+- if you're serving from the root of your directory, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo.
+
+# Credits
+
+- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun system
+- thanks to [Jacob Heftmann](https://github.com/jheftmann/footnoted) for footnoted.js
+- thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners
 
 
