@@ -159,4 +159,8 @@ If you're publishing somewhere else, you can simply use SFTP and upload the cont
 - thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners.
 - thanks to [@ncstate_english](https://twitter.com/ncstate_english?lang=en) for summer funding for this project in 2015.
 
+## To do
 
+- more citation formats
+- do I really need all that yml in all those places? If I stuck it all in Data instead would I regret it later?
+- autogenerate Crossref and DOAJ deposit files using their schema would be nice
