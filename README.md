@@ -38,7 +38,7 @@ To get and run the site files:
 - `cd jekyll-journal`
 - `gem install jekyll bundler`
 - `bundle init`
-- edit the Gemfile with the line gem "jekyll"
+- edit the Gemfile and add the line `gem "jekyll"`
 - `bundle`
 - `bundle exec jekyll serve`
 - Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/
