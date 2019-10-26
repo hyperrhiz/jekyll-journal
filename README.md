@@ -48,12 +48,12 @@ To get and run the site files:
 - if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from _config.yml. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
 - ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
 - remove the file "corner.html" from the _includes folder and remove the line `{% include corner.html %}` from "page.html" in the _layouts folder. Otherwise you'll be stuck with that Github logo.
-- I recommend using the jekyll-sitemap gem for good Googling. Here's how:
--- gem install jekyll-sitemap
--- edit the Gemfile and add the line `gem "jekyll-sitemap"`
--- bundle
--- list as a plugin in _config.yml. You'll see I've already added it in at line 45.
--- when you regenerate the site it will create a file "sitemap.xml" and place it into your _site folder.
+- I recommend using the [jekyll-sitemap gem](https://github.com/jekyll/jekyll-sitemap) for good Googling. Here's how:
+  * `gem install jekyll-sitemap`
+  * edit the Gemfile and add the line `gem "jekyll-sitemap"`
+  * `bundle`
+  * list as a plugin in _config.yml. You'll see I've already added it in at line 45.
+  * when you regenerate the site it will create a file "sitemap.xml" and place it into your _site folder.
 
 ## Top level pages
 
