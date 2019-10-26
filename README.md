@@ -1,6 +1,6 @@
 # Journals for everyone
 
-Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I developed it to template [Hyperrhiz](http://hyperrhiz.io/) and [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
+Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I developed it to template [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
 
 J-j is built to include some of the things necessary for responsible journal display and admin:
 
