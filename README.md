@@ -46,9 +46,9 @@ To get and run the site files:
 ## Customizing
 
 - Edit the config.yml file to suit your own environment. It should all be self evident in the file.
-- if you're planning on serving your journal from the root of your site, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
+- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
 - ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
-- remove the file "corner.html" from the "includes" folder and remove the line "{% include corner.html %}" from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that Github logo.
+- remove the file "corner.html" from the "includes" folder and remove the line `{% include corner.html %}` from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that Github logo.
 
 ## Top level pages
 
@@ -145,7 +145,7 @@ The "current issue" link is designated in config.yml on line 51 - so every time 
 
 If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
 
-If you're publishing somewhere else, you can simply use SFTP and upload the contents of the _site folder to the root of your domain. But if you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/.)
+If you're publishing somewhere else, you can simply use SFTP and upload the contents of the _site folder to the root of your domain. But if you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost.](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/)
 
 ## Credits
 
