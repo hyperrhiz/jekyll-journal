@@ -5,3 +5,5 @@
 - feature is a place to store info for generating "special feature" submenus. The yml is used to generate a subtable of contents. Make a new file when you make a different special feature.
 
 - xml is a place to put your data stuff like crossref and doaj deposit files.
+
+- I used bio info from astronauts as an example. Because astronauts are amazing and should be in everything.
