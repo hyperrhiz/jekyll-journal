@@ -54,7 +54,8 @@ current: issue01
 collections:
   issue01:
     output: true
-
+  #issue02:
+    #output:true
                                               
 # The URL of your actual domain
 url: http://your.site.url

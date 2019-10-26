@@ -26,35 +26,56 @@ J-j is *not* a journal management system for editorial processes. We got that ha
 
 ## Installing
 
-You'll need:
+Before you start you'll need:
 
-- Ruby
-- Bundler
-- Jekyll
+- a working Ruby environment. If you have a Mac this could (ugggh) take a while.
 - server space to store media separately from your Jekyll-journal install, unless you have no plans to use more than a few images or other media objects.
+- you might want to read the [Jekyll quickstart](https://jekyllrb.com/docs/step-by-step/01-setup/) to give you a sense of what's going on. Theirs is assuming a new local install, so I've included below a quickstart specifically for J-j.
 
-## Setup
+To get and run the site files: 
 
-Edit the config.yml file to suit your own environment. It should all be self evident in the file.
+- git clone https://github.com/hyperrhiz/jekyll-journal.git
+- cd jekyll-journal
+- gem install jekyll bundler
+- bundle init
+- edit the Gemfile with the line gem "jekyll"
+- bundle
+- bundle exec jekyll serve
+- Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/
+
+## Customizing
+
+- Edit the config.yml file to suit your own environment. It should all be self evident in the file.
+- if you're planning on serving your journal from the root of your site, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
+- ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
+- remove the file "corner.html" from the "includes" folder and remove the line "{% include corner.html %}" from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that Github logo.
+
+## Top level pages
+
+All the sidebar/topbar pages are in the folder named "meta". You can rename or remove them as you see fit and they will update automatically. You'll want to keep the "archive" page, though, so you can see previous issues.
+
+## Previewing as you go
+
+Individual articles in each issue will only generate if the issue folder is listed as "output:true" in config.yml. I've put in a commented out "issue02" so you can see how it will work after the first one.
 
 ## Workflow
 
 My workflow looks something like this:
 
-- Create a new collections folder at the root, with an underscore (eg "_issue2").
+- Create a new collections folder at the root, with an underscore (eg "_issue01").
 - Inside the folder, create an index.html file that uses the yml listed below.
 - create individual issue entries. For neatness I create folders for each section. See below for the yml.
 - put all the media files on the media server so they can be linked to using snippets from the includes folder
-- once everything looks good, add the issue title to output:true in config.yml.
+- once everything looks good, edit config.yml to designate the current issue and ensure the new issue files are published.
 - git push everything for galley checks and corrections.
 - check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
 - file DOI assignments with Crossref, notify other indexing services.
 
 ## Sample issue
 
-In the _issue01 folder is a sample issue. Files include a working example of the footnoting system, multiauthor citation, and a sample "special feature" subsection. 
-
 Each issue is based on the Jekyll "collections" system. The index file in the root of each collection specifies basic info and the "category_menu" layout generates a table of contents.
+
+In the _issue01 folder is a sample issue. Files include a working example of the footnoting system, multiauthor citation, and a sample "special feature" subsection. 
 
 When customizing, create a new collection for each issue. Write your yml carefully. If you have weird quotes that you want to put in there, [use the |- method to escape them upfront](https://stackoverflow.com/questions/11301650/how-to-escape-indicator-characters-i-e-or-in-yaml). There's an example in the bios.yml file in the data folder.
 
@@ -116,10 +137,15 @@ media:
 
 - I used bio info from astronauts as an example. Because astronauts are amazing and should be in everything.
 
-## Before you deploy
+## Going live
 
-- remove the file "corner.html" from the "includes" folder and remove the line "{% include corner.html %}" from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that github logo.
-- if you're serving from the root of your directory, comment out the line "baseurl: /jekyll-journal" (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo.
+The "current issue" link is designated in config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
+
+## Where to publish?
+
+If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
+
+If you're publishing somewhere else, you can simply use SFTP and upload the contents of the _site folder to the root of your domain. But if you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/.)
 
 ## Credits
 
