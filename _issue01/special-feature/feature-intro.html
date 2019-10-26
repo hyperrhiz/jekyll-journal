@@ -12,11 +12,14 @@ names:
    role: Curated by
    affiliation: a place
 bio: [tereshkova]
-media_path: "issue01/special-feature/foldername/"
-related_path: "issue01/special-feature/"
-feature_menu: feature1
 description: "tweetable sentence for metadata."
-meta_image: "filename.jpg"
+feature:
+ - menu: feature1
+   home: feature-intro.html
+   path: "issue01/special-feature/"
+media:
+ - path: "issue01/special-feature/foldername/"
+   default: filename.jpg
 ---
 
 <p><strong>Abstract</strong>: your abstract here.</p>
@@ -30,5 +33,7 @@ meta_image: "filename.jpg"
 
 <p>An intro to the special feature. A special feature is a kind of "subsection" that has its own menu of individual essays or other items. The curator or feature editor is credited and cited here and on the issue table of contents; individual authors are credited and cited in each sub=page and receive their own DOI.</p>
 
+<hr>
+<h3>Contents</h3>
 {% include feature_menu.html %}
 

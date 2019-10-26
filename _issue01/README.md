@@ -11,11 +11,11 @@ The yml for a typical article looks like this:
 ```
 ---
 layout: page <-- standard
-category: name of the section within the issue
+category: name of the section within the issue. must exactly match the name in the index list
 type: name of the folder containing the issue, minus the underscore
 issue: a number
 year: a year
-DOI: xxx.xxx <-- the parts of the doi unique to this article. leave off the base journal doi
+DOI: xxx.xxx <-- the parts of the doi unique to this issue and article. leave off the base journal doi
 title: title of the essay as it will appear in the TOC
 names:
  - firstname: author1
@@ -25,8 +25,9 @@ names:
    lastname: author2 surname
    affiliation: institution or company
 bio: [author1, author2] <-- these should match the entry in the bio.yml file
-media_path: pathname to media files on media server. leave off the base url specified in config.yml
 description: short description for metadata and twitter
-meta_image: the filename of an image you want to appear on facebook. it should be put in the media folder specificed in media_path
+media:
+ - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in config.yml
+   default: <-- default image for social media. it should be in the media folder specified in media_path
 ---
 ```

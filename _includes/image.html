@@ -6,21 +6,21 @@
 
 {% if include.href %}
 <figure>
-<a href="{{site.media_server}}{{page.media_path}}{{include.href}}">
-	<img src="{{site.media_server}}{{page.media_path}}{{include.url}}" border="0" alt="{{include.alt}}" class="img-responsive center-block" />
+<a href="{{site.media_server}}{{page.media[0].path}}{{include.href}}">
+	<img src="{{site.media_server}}{{page.media[0].path}}{{include.url}}" border="0" alt="{{include.alt}}" class="img-responsive center-block" />
 </a>
 <figcaption>{{include.caption}}</figcaption>
 </figure>
 {% elsif include.exturl %}
 <figure>
 <a href="{{page.external_path}}{{include.exturl}}">
-	<img src="{{site.media_server}}{{page.media_path}}{{include.url}}" border="0" alt="{{include.alt}}" class="img-responsive center-block" />
+	<img src="{{site.media_server}}{{page.media[0].path}}{{include.url}}" border="0" alt="{{include.alt}}" class="img-responsive center-block" />
 </a>
 <figcaption>{{include.caption}}</figcaption>
 </figure>
 {% else %}
 <figure>
-<img src="{{site.media_server}}{{page.media_path}}{{include.url}}" border="0" alt="{{ include.alt }}" class="img-responsive center-block" />
+<img src="{{site.media_server}}{{page.media[0].path}}{{include.url}}" border="0" alt="{{ include.alt }}" class="img-responsive center-block" />
 <figcaption>{{include.caption}}</figcaption>
 </figure>
 {% endif %}

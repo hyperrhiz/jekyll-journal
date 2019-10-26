@@ -7,7 +7,7 @@ layout: default
 		
 		
 			{% for page in site[page.collection] %} 
-				{% if page.category == lucie %}	
+				{% if page.category == lucie %}	<!-- variable lucie is declared in the default layout -->
 					<h1>{{ site.name }} {{page.issue}}</h1>     				
 					<h2 class="category">{{ page.topic }}
 					{% if page.subtopic %}
@@ -24,7 +24,7 @@ layout: default
      
 <div class="container">
 <section class="content">
-<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 {% for name in page.names %}
 <h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
 {% endfor %}

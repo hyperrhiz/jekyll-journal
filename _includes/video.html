@@ -3,9 +3,9 @@
  -->
 
 <div class="vid">
-	<video id="{{include.id}}" class="video-js vjs-default-skin" controls preload="auto" width="auto" height="auto" poster="{{site.media_server}}{{page.media_path}}{{include.poster}}" data-setup='{}'>
-  <source src="{{site.media_server}}{{page.media_path}}{{include.url}}.mp4" type='video/mp4'>
-  <source src="{{site.media_server}}{{page.media_path}}{{include.url}}.webm" type='video/webm'>
+	<video id="{{include.id}}" class="video-js vjs-default-skin" controls preload="auto" width="auto" height="auto" poster="{{site.media_server}}{{page.media[0].path}}{{include.poster}}" data-setup='{}'>
+  <source src="{{site.media_server}}{{page.media[0].path}}{{include.url}}.mp4" type='video/mp4'>
+  <source src="{{site.media_server}}{{page.media[0].path}}{{include.url}}.webm" type='video/webm'>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser
     that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>

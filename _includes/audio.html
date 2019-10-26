@@ -4,9 +4,9 @@
 
 <div class="audio" id="{{include.url}}">        
         <audio controls>
-          <source src="{{site.media_server}}{{page.media_path}}{{include.url}}.ogg" type="audio/ogg" />
-          <source src="{{site.media_server}}{{page.media_path}}{{include.url}}.mp3" type="audio/mpeg" />
-          <a href="{{site.media_server}}{{page.media_path}}{{include.url}}.mp3">{{include.title}}</a>
+          <source src="{{site.media_server}}{{page.media[0].path}}{{include.url}}.ogg" type="audio/ogg" />
+          <source src="{{site.media_server}}{{page.media[0].path}}{{include.url}}.mp3" type="audio/mpeg" />
+          <a href="{{site.media_server}}{{page.media[0].path}}{{include.url}}.mp3">{{include.title}}</a>
           An html5-capable browser is required to play this audio. 
         </audio>
         <figcaption>{{include.caption}}</figcaption>

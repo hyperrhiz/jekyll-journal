@@ -1,18 +1,20 @@
 <!-- data retrieved from yml file in data directory -->
-
-
 <hr>
 
+{% assign contents = page.feature[0].menu %}
+{% for entry in site.data.feature[contents] %}
 
-<h3>Title of collection</h3>
-<hr>
-
-{% for entry in site.data.feature[page.feature_menu] %}
-
-<div style="padding-bottom:40px;border:1px solid #fff;font-weight:bold;">
-<div style="float:left;"><a href="{{site.baseurl}}/{{page.related_path}}{{entry.url}}"><img src="{{site.media_server}}{{page.related_path}}{{entry.fullicon}}" style="padding-top:5px;padding-right:20px;"/></a></div>
-<div><p><a href="{{site.baseurl}}/{{page.related_path}}{{entry.url}}">{{entry.fulltitle}}</a><br>{{entry.author}}</p></div>
-<div><p>{{entry.abstract}}</p></div>
+<div>
+<!-- if you want an icon image as defined in the feature yml 
+<div style="float:left;">
+<a href="{{site.baseurl}}/{{page.feature[0].path}}{{entry.url}}"><img src="{{site.media_server}}{{page.feature[0].path}}{{entry.fullicon}}" style="padding-top:5px;padding-right:20px;"/></a>
+</div>
+-->
+	<div>
+		<h4><a href="{{site.baseurl}}/{{page.feature[0].path}}{{entry.url}}">{{entry.fulltitle}}</a>
+		<br>{{entry.author}}</h4>
+	</div>
+	<div><p>{{entry.abstract}}</p></div>
 </div>
 
 {% endfor %}

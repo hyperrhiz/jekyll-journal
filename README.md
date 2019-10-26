@@ -56,7 +56,7 @@ In the _issue01 folder is a sample issue. Files include a working example of the
 
 Each issue is based on the Jekyll "collections" system. The index file in the root of each collection specifies basic info and the "category_menu" layout generates a table of contents.
 
-When customizing, create a new collection for each issue. Write your yml carefully. If you have weird quotes that you want to put in there, use the |- method to escape them upfront. There's an example in the bios.yml file in the data folder.
+When customizing, create a new collection for each issue. Write your yml carefully. If you have weird quotes that you want to put in there, [use the |- method to escape them upfront](https://stackoverflow.com/questions/11301650/how-to-escape-indicator-characters-i-e-or-in-yaml). There's an example in the bios.yml file in the data folder.
 
 First off you'll need an index page with the following info in the root of the issue folder.
 
@@ -73,8 +73,10 @@ topic: Issue topic <-- appears in the header
 subtopic:        <-- optional
 editor: [nameofeditor] <-- match this to a bio entry in bios.yml in the data folder (see below)
 categories: [section1, section2, section3] <-- labels for each part of the issue
-description: "Tweetable description for metadata."
-meta_image: issue01/foldername/filename.jpg <-- media server pathname to a default image for facebook
+description: short description for metadata and twitter
+media:
+ - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in config.yml
+   default: filename.jpg <-- default image for social media. it should be in the media folder specified in media_path
 ---
 ```
 
@@ -83,7 +85,7 @@ Next, individual articles. The yml for a typical article looks like this:
 ```
 ---
 layout: page <-- standard
-category: name of the section within the issue
+category: name of the section within the issue. must exactly match the name in the index list
 type: name of the folder containing the issue, minus the underscore
 issue: a number
 year: a year
@@ -97,9 +99,10 @@ names:
    lastname: author2 surname
    affiliation: institution or company
 bio: [author1, author2] <-- these should match the entry in the bio.yml file
-media_path: pathname to media files on media server. leave off the base url specified in config.yml
 description: short description for metadata and twitter
-meta_image: the filename of an image you want to appear on facebook. it should be put in the media folder specificed in media_path
+media:
+ - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in config.yml
+   default: <-- default image for social media. it should be in the media folder specified in media_path
 ---
 ```
 

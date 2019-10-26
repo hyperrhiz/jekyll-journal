@@ -14,14 +14,13 @@ layout: default
 					<br>{{ page.season }} {{page.year}}</h2>
 				{% endif %}
 			{% endfor %}
-				
     </div> 
      </div>
      
      <div class="container">
 <section class="content">
 
-<!--<img src="{{ site.media_server }}{{ page.media_path }}thum.jpg">-->
+<!--<img src="{{ site.media_server }}{{ page.media[0].path }}thum.jpg">-->
 <h1>{{ page.title }}</h1>
 {% for name in page.names %}
 <h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
@@ -33,7 +32,7 @@ layout: default
 
 	{{ content }}
 <hr>
-    <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.related_path }}{{ page.feature_home }}">Introduction</a></h4>
+    <h4><span class="genericon genericon-previous"></span> <a href="{{ site.baseurl }}/{{ page.feature[0].path }}{{ page.feature[0].home }}">Introduction</a></h4>
 
 
 </section>

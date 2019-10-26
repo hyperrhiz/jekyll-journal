@@ -13,7 +13,6 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
 	        	  <li><a href="{{site.baseurl}}/{{ site.current }}/">Current issue</a></li>
-
 {% for page in site.pages %}
     {% if page.category contains 'meta' %}
     <li><a href="{{site.baseurl}}{{ page.url }}">{{ page.menuitem }}</a></li>
