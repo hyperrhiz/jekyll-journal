@@ -21,7 +21,7 @@ J-j is *not* a journal management system for editorial processes. We got that ha
 
 ## Idiosyncracies
 
-- This thing is the result of my brain negotiating with the strangeness of Jekyll and Liquid. So there will be things that make no logical sense but still somehow work. Trust me, I'm aware of this.
+- This thing is the result of my brain negotiating with the strangeness of Jekyll and Liquid. You might ask "why didn't you do it this much more efficient way?" Keep asking, good buddy.
 - J-j assumes you have media files you want to serve that are not best stored in git repositories. It includes a link to a "media server" that you can specify in order to include files directly. You could use storage on your own server; Amazon s3 is a good alternative.
 
 ## Installing
@@ -34,13 +34,13 @@ Before you start you'll need:
 
 To get and run the site files: 
 
-- git clone https://github.com/hyperrhiz/jekyll-journal.git
-- cd jekyll-journal
-- gem install jekyll bundler
-- bundle init
+- `git clone https://github.com/hyperrhiz/jekyll-journal.git`
+- `cd jekyll-journal`
+- `gem install jekyll bundler`
+- `bundle init`
 - edit the Gemfile with the line gem "jekyll"
-- bundle
-- bundle exec jekyll serve
+- `bundle`
+- `bundle exec jekyll serve`
 - Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/
 
 ## Customizing
