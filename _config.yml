@@ -41,7 +41,7 @@ media_server: "http://your.media.server/"
 icon_path: "/assets/img/elegant_font/images/png/"
 
 # auto-generated sitemap. install gem to activate
-gems:
+plugins:
   - jekyll-sitemap
   
 # force inclusion of dot files for folder password protection

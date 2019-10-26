@@ -15,8 +15,7 @@ J-j is *not* a journal management system for editorial processes. We got that ha
 
 ## Dependencies
 
-- J-j uses Bootstrap and JQuery via CDN. Keep an eye out for updates! Sometimes things break.
-- Use the jekyll-sitemap Gem for good Googling.
+- J-j includes Bootstrap, Video-js and JQuery via CDN. Keep an eye out for updates! Sometimes things break.
 - auto footnotes are built using footnoted.js, which is installed in the js folder.
 
 ## Idiosyncracies
@@ -45,10 +44,16 @@ To get and run the site files:
 
 ## Customizing
 
-- Edit the config.yml file to suit your own environment. It should all be self evident in the file.
-- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from "config.yml". This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
+- Edit the _config.yml file to suit your own environment. It should all be self evident in the file.
+- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from _config.yml. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
 - ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
-- remove the file "corner.html" from the "includes" folder and remove the line `{% include corner.html %}` from "page.html" in the "layouts" folder. Otherwise you'll be stuck with that Github logo.
+- remove the file "corner.html" from the _includes folder and remove the line `{% include corner.html %}` from "page.html" in the _layouts folder. Otherwise you'll be stuck with that Github logo.
+- I recommend using the jekyll-sitemap gem for good Googling. Here's how:
+-- gem install jekyll-sitemap
+-- edit the Gemfile and add the line `gem "jekyll-sitemap"`
+-- bundle
+-- list as a plugin in _config.yml. You'll see I've already added it in at line 45.
+-- when you regenerate the site it will create a file "sitemap.xml" and place it into your _site folder.
 
 ## Top level pages
 
@@ -56,7 +61,7 @@ All the sidebar/topbar pages are in the folder named "meta". You can rename or r
 
 ## Previewing as you go
 
-Individual articles in each issue will only generate if the issue folder is listed as "output:true" in config.yml. I've put in a commented out "issue02" so you can see how it will work after the first one.
+Individual articles in each issue will only generate if the issue folder is listed as `output:true` in _config.yml. I've put in a commented out "issue02" so you can see how it will work after the first one.
 
 ## Workflow
 
@@ -66,7 +71,7 @@ My workflow looks something like this:
 - Inside the folder, create an index.html file that uses the yml listed below.
 - create individual issue entries. For neatness I create folders for each section. See below for the yml.
 - put all the media files on the media server so they can be linked to using snippets from the includes folder
-- once everything looks good, edit config.yml to designate the current issue and ensure the new issue files are published.
+- once everything looks good, edit _config.yml to designate the current issue and ensure the new issue files are published.
 - git push everything for galley checks and corrections.
 - check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
 - file DOI assignments with Crossref, notify other indexing services.
@@ -96,7 +101,7 @@ editor: [nameofeditor] <-- match this to a bio entry in bios.yml in the data fol
 categories: [section1, section2, section3] <-- labels for each part of the issue
 description: short description for metadata and twitter
 media:
- - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in config.yml
+ - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in _config.yml
    default: filename.jpg <-- default image for social media. it should be in the media folder specified in media_path
 ---
 ```
@@ -122,7 +127,7 @@ names:
 bio: [author1, author2] <-- these should match the entry in the bio.yml file
 description: short description for metadata and twitter
 media:
- - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in config.yml
+ - path: path/foldername/ <-- media server pathname for this issue. leave off the base url specified in _config.yml
    default: <-- default image for social media. it should be in the media folder specified in media_path
 ---
 ```
@@ -139,7 +144,7 @@ media:
 
 ## Going live
 
-The "current issue" link is designated in config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
+The "current issue" link is designated in _config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
 
 ## Where to publish?
 
@@ -149,8 +154,9 @@ If you're publishing somewhere else, you can simply use SFTP and upload the cont
 
 ## Credits
 
-- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun system
-- thanks to [Jacob Heftmann](https://github.com/jheftmann/footnoted) for footnoted.js
-- thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners
+- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun system.
+- thanks to [Jacob Heftmann](https://github.com/jheftmann/footnoted) for footnoted.js.
+- thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners.
+- thanks to [@ncstate_english](https://twitter.com/ncstate_english?lang=en) for summer funding for this project in 2015.
 
 
