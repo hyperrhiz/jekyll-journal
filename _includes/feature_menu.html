@@ -5,11 +5,6 @@
 {% for entry in site.data.feature[contents] %}
 
 <div>
-<!-- if you want an icon image as defined in the feature yml 
-<div style="float:left;">
-<a href="{{site.baseurl}}/{{page.feature[0].path}}{{entry.url}}"><img src="{{site.media_server}}{{page.feature[0].path}}{{entry.fullicon}}" style="padding-top:5px;padding-right:20px;"/></a>
-</div>
--->
 	<div>
 		<h4><a href="{{site.baseurl}}/{{page.feature[0].path}}{{entry.url}}">{{entry.fulltitle}}</a>
 		<br>{{entry.author}}</h4>
