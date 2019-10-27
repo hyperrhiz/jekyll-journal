@@ -2,7 +2,7 @@
 
 Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I developed it to template [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
 
-J-j is built to include some of the things necessary for responsible journal display and admin:
+J-j is built to include some of the things useful for journal organization and display:
 
 - auto generated table of contents for each issue
 - auto citation (in MLA format rn; will extend to others later)
@@ -42,7 +42,7 @@ To get and run the site files:
 - `bundle exec jekyll serve`
 - Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/
 
-## Customizing
+## Customizing setup
 
 - Edit the _config.yml file to suit your own environment. It should all be self evident in the file.
 - if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from _config.yml. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
@@ -54,6 +54,13 @@ To get and run the site files:
   * `bundle`
   * list as a plugin in _config.yml. You'll see I've already added it in at line 45.
   * when you regenerate the site it will create a file "sitemap.xml" and place it into your _site folder.
+
+## How Jekyll works
+
+Jekyll builds sites from templates, so you can use it to layout visual elements. But it's also a way of organizing (and reporganizing) information: regeneration means you can do important things like make sitewide content or menu changes and only have to do it in one place.
+
+- On the macro level, Jekyll takes content that you write and wraps it in templates that live in the "layouts" folder. You can use it to put layouts inside of layouts, so it's turtles all the way down. At the head of each file you create, you place a bunch of declarations in YML format, which give information about the file and determine what template is used.
+- On the micro level, you can build templated snippets of HTML and put them inside the "includes" folder, and then call them in your content wherever you want as shortcuts. You do this using the "liquid" language.
 
 ## Top level pages
 
@@ -161,6 +168,6 @@ If you're publishing somewhere else, you can simply use SFTP and upload the cont
 
 ## To do
 
-- more citation formats
+- more citation formats.
 - do I really need all that yml in all those places? If I stuck it all in Data instead would I regret it later?
-- autogenerate Crossref and DOAJ deposit files using their schema would be nice
+- autogenerate Crossref and DOAJ deposit files using their schema would be nice.
