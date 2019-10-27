@@ -1,6 +1,6 @@
 # Journals for everyone
 
-Jekyll-journal is a set of handrolled extensions to Jekyll, for use as an academic journal templating system. I built them to template [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
+Jekyll-journal is a set of handrolled extensions to Jekyll, customized for use as an academic journal templating system. I built it to help manage [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
 
 J-j is built to include some of the things useful for journal organization and display:
 
@@ -20,7 +20,7 @@ J-j is *not* a journal management system for editorial processes. We got that ha
 
 ## Idiosyncracies
 
-- This thing is the result of my brain negotiating with the strangeness of Jekyll and Liquid. You might ask "why didn't you do it this much more efficient way?" Keep asking, good buddy.
+- This is the result of my brain negotiating with the strangeness of Jekyll and Liquid. You might ask "why didn't you do it this much more efficient way?" Keep asking, good buddy.
 - J-j assumes you have media files you want to serve that are not best stored in git repositories. It includes a link to a "media server" that you can specify in order to include files directly. You could use storage on your own server; Amazon s3 is a good alternative.
 
 ## Installing
