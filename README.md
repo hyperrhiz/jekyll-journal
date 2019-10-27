@@ -57,7 +57,7 @@ To get and run the site files:
 
 ## How Jekyll works
 
-Jekyll builds sites from templates, so you can use it to layout visual elements. But it's also a way of organizing (and reporganizing) information: regeneration means you can do important things like make sitewide content or menu changes and only have to do it in one place.
+Jekyll builds sites from templates, so you can use it to layout visual elements. But it's also a way of organizing (and reorganizing) information: regeneration means you can do important things like make sitewide content or settings changes and only have to do it in one place.
 
 - On the macro level, Jekyll takes content that you write and wraps it in templates that live in the "layouts" folder. You can use it to put layouts inside of layouts, so it's turtles all the way down. At the head of each file you create, you place a bunch of declarations in YML format, which give information about the file and determine what template is used.
 - On the micro level, you can build templated snippets of HTML and put them inside the "includes" folder, and then call them in your content wherever you want as shortcuts. You do this using the "liquid" language.
