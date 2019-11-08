@@ -8,7 +8,7 @@ J-j is built to include some of the things useful for journal organization and d
 - auto citation (in MLA format rn; will extend to others later)
 - auto metadata for Highwire Press, Twitter and Facebook
 - quick centralized bio updating file
-- DOI inclusion
+- DOI and ORCID inclusion
 - separate templating for sub-sections, e.g. when you have a multi-part or multi-author project
 
 J-j is *not* a journal management system for editorial processes. We got that handled already, kthxbye.

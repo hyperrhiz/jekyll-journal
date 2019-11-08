@@ -38,15 +38,7 @@ layout: default
 
 </section>
 
-<aside>
+ {% include bio.html %}
 
-	<h4>Bio</h4>
-
-{% for author in page.bio %}
-{% assign name = site.data.bios[author] %}
-<p>{{name.bio}}</p>
-{% endfor %}
-
-</aside>
 
 </div>
