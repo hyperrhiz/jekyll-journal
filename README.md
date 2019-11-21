@@ -40,7 +40,7 @@ To get and run the site files:
 - edit the Gemfile and add the line `gem "jekyll"`
 - `bundle`
 - `bundle exec jekyll serve`
-- Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/
+- Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/; see below on "previewing as you go"
 
 ## Customizing setup
 
@@ -68,7 +68,11 @@ All the sidebar/topbar pages are in the folder named "meta". You can rename or r
 
 ## Previewing as you go
 
+As you save your files, they'll automatically regenerate; so you can preview the entire site using your browser. You might want to keep your terminal window open too, since this will tell you when the site has completed. Sometimes it can take a few seconds.
+
 Individual articles in each issue will only generate if the issue folder is listed as `output:true` in _config.yml. I've put in a commented out "issue02" so you can see how it will work after the first one.
+
+!important! _config.yml does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
 
 ## Workflow
 
