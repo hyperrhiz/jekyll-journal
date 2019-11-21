@@ -1,0 +1,23 @@
+- name: tag1
+  url: item4.html
+  author: "An author"
+  title: "Short title"
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>
+  
+- name: tag2
+  url: item5.html
+  author: "Another author"
+  title: "Short title"
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>
+     
+- name: tag3
+  url: item6.html
+  author: "Yet another author"
+  title: "Short title"
+  fulltitle: "Long title"
+  abstract:  |-
+    <p>Put an abstract here.</p>

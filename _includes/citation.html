@@ -1,3 +1,34 @@
 <!-- page citation, mla format -->
 
-<p><strong>Citation</strong>: {{page.names[0].lastname}}, {{page.names[0].firstname}}{% if page.names.size == 2 %} and {{page.names[1].firstname}} {{page.names[1].lastname}}{% elsif page.names.size == 3 %}, {{page.names[1].firstname}} {{page.names[1].lastname}} and {{page.names[2].firstname}} {{page.names[2].lastname}}{% elsif page.names.size > 3 %}, et. al{% endif %}. “{{page.title}}.” <em>{{site.name}}: {{site.description}}</em>, no. {{page.issue}}, {{page.year}}.<br><i class="ai ai-doi ai-1x"></i> <a href="https://doi.org/{{site.DOI}}{{page.DOI}}">https://doi.org/{{ site.DOI }}{{ page.DOI }}</a></p>
+<p><strong>Citation</strong>: 
+
+{{page.bio.size}}<br>
+
+{% for author in page.bio %}
+
+	{% assign name = site.data.bios[author] %}
+
+	{% if author == page.bio.first %}
+		<strong>{{name.lastname}}, {{name.firstname}}</strong>
+
+	{% else %}
+
+	{% if page.bio.size < 4 %}
+
+		{% if page.bio.size == 2 %} and 
+
+{% elsif page.bio.size == 3 and author != page.bio.last %},{% elsif page.bio.size == 3 and author == page.bio.last %}, and 
+	
+		{% endif %}
+
+		{{name.firstname}} {{name.lastname}}
+
+		{% endif %}
+
+	{% endif %}
+
+{% endfor %}
+
+{% if page.bio.size > 3 %}, et. al{% endif %}. “{{page.title}}.” <em>{{site.name}}: {{site.description}}</em>, no. {{page.issue}}, {{page.year}}.<br><i class="ai ai-doi ai-1x"></i> <a href="https://doi.org/{{site.DOI}}{{page.DOI}}">https://doi.org/{{ site.DOI }}{{ page.DOI }}</a></p>
+
+

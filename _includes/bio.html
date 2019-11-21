@@ -4,7 +4,8 @@
 
 {% for author in page.bio %}
 {% assign name = site.data.bios[author] %}
-<p>{{name.firstname}} {{name.lastname}}
+
+<p><strong>{{name.firstname}} {{name.lastname}}</strong>
 
 {%if name.orcid %}
 	<br><a href="name.orcid"><i class="ai ai-orcid ai-1x" style="color:#A6CE39"></i> {{name.orcid}}</a>

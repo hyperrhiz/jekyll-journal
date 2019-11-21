@@ -34,18 +34,32 @@ layout: default
 		{% if page.category == lucie %}	
 		<li class="catmenu"><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a><br>
 
-		{% if page.names.size == 1 %}
-		{{page.names[0].role}} {{page.names[0].firstname}} {{page.names[0].lastname}}
-		{% else %}
-			{% for name in page.names %}
-					{% if name != page.names.first and name != page.names.last %}
-					,
-					{% elsif name == page.names.last %}
-					and
-					{% endif %}
-					{{name.firstname}} {{name.lastname}}
-			{% endfor %}
+
+{% for author in page.bio %}
+	{% assign names = site.data.bios[author] %}
+
+	{% if page.bio.size == 1 %}
+		{{names.role}} {{names.firstname}} {{names.lastname}}
+	{% else %}
+			{% if author == page.bio.first %}
+			{% elsif author != page.bio.first and author != page.bio.last %}
+				, 
+			{% elsif author == page.bio.last %}
+				and 
 			{% endif %}
+		{{names.role}} {{names.firstname}} {{names.lastname}}
+	{% endif %}
+	
+{% endfor %}
+		
+		
+
+
+
+
+
+
+
 
 
 
@@ -61,7 +75,9 @@ layout: default
  <hr>
 {% endfor %}
 
-	
+
+
+
 <h3 class="section">Issue Citation</h3>
 
 <p><strong>Citation</strong>: <em>{{site.name}}: {{site.description}}</em>, no. {{page.issue}}, {{page.year}}. <a href="https://doi.org/{{ site.DOI }}{{ page.DOI }}">doi:{{ site.DOI }}{{ page.DOI }}</a></p>

@@ -25,8 +25,16 @@ layout: default
 <div class="container">
 <section class="content">
 <h2>{{ page.title }}</h2>
-{% for name in page.names %}
+<!--{% for name in page.names %}
 <h4>{{name.role}} {{name.firstname}} {{name.lastname}}<br>{{name.affiliation}}</h4>
+{% endfor %}-->
+
+{% for author in page.bio %}
+{% assign name = site.data.bios[author] %}
+
+<h4>{{name.role}} {{name.firstname}} {{name.lastname}}</strong>
+<br>{{name.affiliation}}
+</h4>
 {% endfor %}
 <hr>
 

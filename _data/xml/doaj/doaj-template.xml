@@ -4,14 +4,14 @@
 <!-- repeat for each entry -->
   <record>
     <language>eng</language>
-    <publisher>Hyperrhiz</publisher>
-    <journalTitle>Hyperrhiz: New Media Cultures</journalTitle>
-    <issn>15559351</issn>
+    <publisher>publisher</publisher>
+    <journalTitle>full title</journalTitle>
+    <issn>issn number</issn>
     <publicationDate>yyyy-mm-dd</publicationDate>
     <issue>xx</issue>
     <startPage>1</startPage>
     <endPage>1</endPage>
-    <doi>10.20415/hyp/xxxx</doi>
+    <doi>article doi - no url</doi>
     <publisherRecordId>xxxx</publisherRecordId>
     <documentType>article</documentType>
     <title language="eng">title</title>

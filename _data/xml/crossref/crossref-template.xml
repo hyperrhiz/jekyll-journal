@@ -2,69 +2,71 @@
 <doi_batch version="4.4.0" xmlns="http://www.crossref.org/schema/4.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schema/deposit/crossref4.4.0.xsd">
 
 <head>
-<doi_batch_id>unique-id</doi_batch_id>
-<timestamp>yyyymmddtttt</timestamp> <!-- use military time -->
-<depositor>
-  <depositor_name>ctri</depositor_name> 
-  <email_address>hyperrhiz@gmail.com</email_address>
-</depositor>
-<registrant>electric</registrant> 
+	<doi_batch_id>unique-id</doi_batch_id>
+	<timestamp>yyyymmddtttt</timestamp> <!-- use military time -->
+	<depositor>
+		<depositor_name>username</depositor_name> 
+		<email_address>email@email.com</email_address>
+	</depositor>
+	<registrant>publishername</registrant> 
 </head>
 
 <body>
 <journal>
 
 <journal_metadata>
-   <full_title>Hyperrhiz: New Media Cultures</full_title>   
-   <abbrev_title>Hyperrhiz</abbrev_title>   
-   <issn media_type='electronic'>15559351</issn>   
-   <doi_data>     
-   <doi>10.20415/hyp/</doi>     
-   <resource>http://hyperrhiz.io/</resource>   
-   </doi_data> 
+	<full_title>full journal name here</full_title>   
+	<abbrev_title>short name here</abbrev_title>   
+	<issn media_type='electronic'>enter your issn here</issn>   
+	<doi_data>     
+			<doi>enter your base doi here - just the doi, no url</doi>     
+			<resource>enter your full base url here</resource>   
+	</doi_data> 
 </journal_metadata> 
-   <journal_issue>  
-   <publication_date media_type='online'>     
-   <month>mm</month>     
-   <day>dd</day>     
-   <year>yyyy</year>   
-   </publication_date>   
-   <issue>xx</issue>   
-   <doi_data>     
-   <doi>10.20415/hyp/0xx/</doi>     
-   <resource>http://hyperrhiz.io/hyperrhizxx/</resource>   
-   </doi_data> 
+
+<journal_issue>  
+	<publication_date media_type='online'>     
+		<month>mm</month>     
+		<day>dd</day>     
+		<year>yyyy</year>   
+	</publication_date>   
+	<issue>xx</issue>   
+	<doi_data>     
+		<doi>issue doi here - just the doi, no url</doi>     
+		<resource>full issue url here</resource>   
+	</doi_data> 
 </journal_issue> 
 
 <!-- repeat for each article --> 
 <journal_article publication_type='full_text'>   
-   <titles>     
-   <title>title</title> 
-   </titles>   
-   <contributors>    
-   <person_name sequence='first' contributor_role='author'>      
-   <given_name>firstname</given_name>      
-   <surname>surname</surname>
-   <affiliation></affiliation>
-   <ORCID authenticated="true">http://orcid.org/xxxx</ORCID>
-</person_name>    
-   <person_name sequence='additional' contributor_role='author'>       
-   <given_name>firstname</given_name>       
-   <surname>surname</surname>     
-   </person_name>   
-   </contributors>  
-   <publication_date media_type='online'>     
-   <month>mm</month>     
-   <day>dd</day>     
-   <year>yyyy</year>   
-   </publication_date>   
-   <doi_data>     
-   <doi>10.20415/hyp/0xx.xxx</doi>     
-   <resource>http://hyperrhiz.io/xxx</resource>   
-   </doi_data> 
+	<titles>     
+		<title>title</title> 
+	</titles>   
+	<contributors>    
+		<organization sequence='first' contributor_role='author'>org</organization>
+		<person_name sequence='first' contributor_role='author'>      
+			<given_name>firstname</given_name>      
+			<surname>surname</surname>
+			<affiliation></affiliation>
+			<ORCID authenticated="true">https://orcid.org/xxxx</ORCID>
+		</person_name>    
+		<person_name sequence='additional' contributor_role='author'>       
+			<given_name>firstname</given_name>       
+			<surname>surname</surname>     
+		</person_name>   
+	</contributors>  
+	<publication_date media_type='online'>     
+		<month>mm</month>     
+		<day>dd</day>     
+		<year>yyyy</year>   
+	</publication_date>   
+	<doi_data>     
+		<doi>article doi here - no url</doi>     
+		<resource>full article url</resource>   
+	</doi_data> 
 </journal_article> 
 <!-- end repeat --> 
 
 </journal>
 </body>
-</doi_batch>
+</doi_batch> 
