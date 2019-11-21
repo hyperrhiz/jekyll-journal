@@ -147,15 +147,20 @@ media:
 - I used bio info from astronauts as an example. Because astronauts are amazing and should be in everything.
 
 - these data are also used to generate individual citations for each page. Still working on getting a selective "role" working (eg "edited by" or "curated by" since there is a case problem if the author appears in more than one place in the same issue.)
+
 ## Going live
 
 The "current issue" link is designated in _config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
 
+Once you're ready, push all the files to your server (see below on choices - either use git to keep it all together, or just upload the _site file using SFTP).
+
 ## Where to publish?
 
-If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
+If you have your own server and don't want to mess with git, you can simply use SFTP and upload the contents of the _site folder to the root of your domain, remembering to back up your local files regularly.
 
-If you're publishing somewhere else, you can simply use SFTP and upload the contents of the _site folder to the root of your domain. But if you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost.](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/)
+If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
+
+If you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost.](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/)
 
 ## Credits
 
