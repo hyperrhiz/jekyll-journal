@@ -36,21 +36,20 @@ layout: default
 
 
 {% for author in page.bio %}
-	{% assign names = site.data.bios[author] %}
+	{%- assign names = site.data.bios[author] -%}
 
-	{% if page.bio.size == 1 %}
+	{%- if page.bio.size == 1 -%}
 		{{names.role}} {{names.firstname}} {{names.lastname}}
-	{% else %}
-			{% if author == page.bio.first %}
-			{% elsif author != page.bio.first and author != page.bio.last %}
-				, 
+	{%- else -%}
+			{%- if author == page.bio.first -%}
+			{% elsif author != page.bio.first and author != page.bio.last %}, 
 			{% elsif author == page.bio.last %}
 				and 
-			{% endif %}
+			{%- endif -%}
 		{{names.role}} {{names.firstname}} {{names.lastname}}
-	{% endif %}
+	{%- endif -%}
 	
-{% endfor %}
+{%- endfor -%}
 		
 		
 
