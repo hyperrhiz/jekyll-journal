@@ -7,3 +7,5 @@
 - xml is a place to put your data stuff like crossref and doaj deposit files.
 
 - I used bio info from astronauts as an example. Because astronauts are amazing and should be in everything.
+
+- these data are also used to generate citations. Still working on getting a selective "role" working (eg "edited by" or "curated by" since there is a case problem if the author appears in more than one place in the same issue.)

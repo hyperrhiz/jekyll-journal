@@ -124,13 +124,6 @@ issue: a number
 year: a year
 DOI: xxx.xxx <-- the parts of the doi unique to this issue and article. leave off the base journal doi
 title: title of the essay as it will appear in the TOC
-names:
- - firstname: author1
-   lastname: author1 surname
-   affiliation: institution or company
- - firstname: author2
-   lastname: author2 surname
-   affiliation: institution or company
 bio: [author1, author2] <-- these should match the entry in the bio.yml file
 description: short description for metadata and twitter
 media:
@@ -149,6 +142,7 @@ media:
 
 - I used bio info from astronauts as an example. Because astronauts are amazing and should be in everything.
 
+- these data are also used to generate individual citations for each page. Still working on getting a selective "role" working (eg "edited by" or "curated by" since there is a case problem if the author appears in more than one place in the same issue.)
 ## Going live
 
 The "current issue" link is designated in _config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
@@ -161,13 +155,15 @@ If you're publishing somewhere else, you can simply use SFTP and upload the cont
 
 ## Credits
 
-- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun system.
+- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun base system.
 - thanks to [Jacob Heftmann](https://github.com/jheftmann/footnoted) for footnoted.js.
 - thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners.
 - thanks to [@ncstate_english](https://twitter.com/ncstate_english?lang=en) for summer funding for this project in 2015.
 
 ## To do
 
-- more citation formats.
-- do I really need all that yml in all those places? If I stuck it all in Data instead would I regret it later?
-- autogenerate Crossref and DOAJ deposit files using their schema would be nice.
+- more citation formats
+- assign roles for editors etc without getting messed up with multiple entries in the same issue
+- autogenerate Crossref and DOAJ deposit files
+- separate bios page for those journals that might want all that info in one place instead of in the sidebar
+- should each issue have its own bio data file so that bios remain historical?
