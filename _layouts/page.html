@@ -7,7 +7,7 @@ layout: default
 		
 		
 			{% for page in site[page.collection] %} 
-				{% if page.category == lucie %}	<!-- variable lucie is declared in the default layout -->
+				{% if page.index == true %}	<!-- finds the index file in that collection to get info about the issue -->
 					<h1>{{ site.name }} {{page.issue}}</h1>     				
 					<h2 class="category">{{ page.topic }}
 					{% if page.subtopic %}
