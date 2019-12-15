@@ -32,7 +32,7 @@
 	</publication_date>   
 	<issue>xx</issue>   
 	<doi_data>     
-		<doi>issue doi here - just the doi, no url</doi>     
+		<doi>just the issue doi, no url. be consistent with trailing slashes</doi>     
 		<resource>full issue url here</resource>   
 	</doi_data> 
 </journal_issue> 
@@ -43,7 +43,6 @@
 		<title>title</title> 
 	</titles>   
 	<contributors>    
-		<organization sequence='first' contributor_role='author'>org</organization>
 		<person_name sequence='first' contributor_role='author'>      
 			<given_name>firstname</given_name>      
 			<surname>surname</surname>
@@ -53,6 +52,8 @@
 		<person_name sequence='additional' contributor_role='author'>       
 			<given_name>firstname</given_name>       
 			<surname>surname</surname>     
+			<affiliation></affiliation>
+			<ORCID authenticated="true">https://orcid.org/xxxx</ORCID>
 		</person_name>   
 	</contributors>  
 	<publication_date media_type='online'>     
