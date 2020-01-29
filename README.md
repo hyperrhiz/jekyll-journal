@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/217636672.svg)](https://zenodo.org/badge/latestdoi/217636672)
+
 # Journals for everyone
 
 Jekyll-journal is a set of handrolled extensions to Jekyll, customized for use as an academic journal templating system. I built it to help manage [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
