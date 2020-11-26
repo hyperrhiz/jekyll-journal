@@ -1,61 +1,38 @@
-[![DOI](https://zenodo.org/badge/217636672.svg)](https://zenodo.org/badge/latestdoi/217636672)
+# JSys Website
 
-# Journals for everyone
+Code behind the <https://jsys.org> website.
 
-Jekyll-journal is a set of handrolled extensions to Jekyll, customized for use as an academic journal templating system. I built it to help manage [Hyperrhiz](http://hyperrhiz.io/) and (shortly) [Rhizomes](http://rhizomes.net/). You can use Jekyll-journal for whatever, but I am not available for tech support because I have to, you know, run a journal.
+## Run locally
 
-J-j is built to include some of the things useful for journal organization and display:
+First clone the repository:
 
-- auto generated table of contents for each issue
-- auto citation (in MLA format rn; will extend to others later)
-- auto metadata for Highwire Press, Twitter and Facebook
-- quick centralized bio updating file
-- DOI and ORCID inclusion
-- separate templating for sub-sections, e.g. when you have a multi-part or multi-author project
+```bash
+git clone git@github.com:jsysresearch/website.git
+```
 
-J-j is *not* a journal management system for editorial processes. We got that handled already, kthxbye.
+Now run it:
 
-## Dependencies
+```bash
+cd website/
 
-- J-j includes Bootstrap, Video-js and JQuery via CDN. Keep an eye out for updates! Sometimes things break.
-- auto footnotes are built using footnoted.js, which is installed in the js folder.
+docker run -p 4000:4000 --rm -ti -v "$PWD:/srv/jekyll" jekyll/builder:3.8.5 jekyll serve --watch
+```
 
-## Idiosyncracies
-
-- This is the result of my brain negotiating with the strangeness of Jekyll and Liquid. You might ask "why didn't you do it this much more efficient way?" Keep asking, good buddy.
-- J-j assumes you have media files you want to serve that are not best stored in git repositories. It includes a link to a "media server" that you can specify in order to include files directly. You could use storage on your own server; Amazon s3 is a good alternative.
-
-## Installing
-
-Before you start you'll need:
-
-- a working Ruby environment. If you have a Mac this could (ugggh) take a while.
-- server space to store media separately from your Jekyll-journal install, unless you have no plans to use more than a few images or other media objects.
-- you might want to read the [Jekyll quickstart](https://jekyllrb.com/docs/step-by-step/01-setup/) to give you a sense of what's going on. Theirs is assuming a new local install, so I've included below a quickstart specifically for J-j.
-
-To get and run the site files: 
-
-- `git clone https://github.com/hyperrhiz/jekyll-journal.git`
-- `cd jekyll-journal`
-- `gem install jekyll bundler`
-- `bundle init`
-- edit the Gemfile and add the line `gem "jekyll"`
-- `bundle`
-- `bundle exec jekyll serve`
-- Your site should now be previewable in-browser at http://localhost:4000/jekyll-journal/; see below on "previewing as you go"
+Go to <https://localhost:4000> and you should be able to see the website being served from your machine. 
+The `--watch` flag serves the website in "hot-reload" mode, meaning that any change done to a file will be processed and published immediately.
 
 ## Customizing setup
 
-- Edit the _config.yml file to suit your own environment. It should all be self evident in the file.
-- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from _config.yml. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
+- Edit the `_config.yml` file to suit your own environment. It should all be self evident in the file.
+- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from `_config.yml`. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
 - ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
-- remove the file "corner.html" from the _includes folder and remove the line `{% include corner.html %}` from "page.html" in the _layouts folder. Otherwise you'll be stuck with that Github logo.
+- remove the file "corner.html" from the `_includes/` folder and remove the line `{% include corner.html %}` from "page.html" in the `_layouts/`folder. Otherwise you'll be stuck with that Github logo.
 - I recommend using the [jekyll-sitemap gem](https://github.com/jekyll/jekyll-sitemap) for good Googling. Here's how:
   * `gem install jekyll-sitemap`
   * edit the Gemfile and add the line `gem "jekyll-sitemap"`
   * `bundle`
-  * list as a plugin in _config.yml. You'll see I've already added it in at line 45.
-  * when you regenerate the site it will create a file "sitemap.xml" and place it into your _site folder.
+  * list as a plugin in `_config.yml`. You'll see I've already added it in at line 45.
+  * when you regenerate the site it will create a file "sitemap.xml" and place it into your `_site/` folder.
 
 ## How Jekyll works
 
@@ -72,19 +49,19 @@ All the sidebar/topbar pages are in the folder named "meta". You can rename or r
 
 As you save your files, they'll automatically regenerate; so you can preview the entire site using your browser. You might want to keep your terminal window open too, since this will tell you when the site has completed. Sometimes it can take a few seconds.
 
-Individual articles in each issue will only generate if the issue folder is listed as `output:true` in _config.yml. I've put in a commented out "issue02" so you can see how it will work after the first one.
+Individual articles in each issue will only generate if the issue folder is listed as `output:true` in `_config.yml`. I've put in a commented out "issue02" so you can see how it will work after the first one.
 
-!important! _config.yml does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
+!important! `_config.yml` does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
 
 ## Workflow
 
 My workflow looks something like this:
 
-- Create a new collections folder at the root, with an underscore (eg "_issue01").
+- Create a new collections folder at the root, with an underscore (eg `_issue01/`).
 - Inside the folder, create an index.html file that uses the yml listed below.
 - create individual issue entries. For neatness I create folders for each section. See below for the yml.
 - put all the media files on the media server so they can be linked to using snippets from the includes folder
-- once everything looks good, edit _config.yml to designate the current issue and ensure the new issue files are published.
+- once everything looks good, edit `_config.yml` to designate the current issue and ensure the new issue files are published.
 - git push everything for galley checks and corrections.
 - check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
 - file DOI assignments with Crossref, notify other indexing services.
@@ -93,7 +70,7 @@ My workflow looks something like this:
 
 Each issue is based on the Jekyll "collections" system. The index file in the root of each collection specifies basic info and the "category_menu" layout generates a table of contents.
 
-In the _issue01 folder is a sample issue. Files include a working example of the footnoting system, multiauthor citation, and a sample "special feature" subsection. 
+In the `_issue01/` folder is a sample issue. Files include a working example of the footnoting system, multiauthor citation, and a sample "special feature" subsection. 
 
 When customizing, create a new collection for each issue. Write your yml carefully. If you have weird quotes that you want to put in there, [use the |- method to escape them upfront](https://stackoverflow.com/questions/11301650/how-to-escape-indicator-characters-i-e-or-in-yaml). There's an example in the bios.yml file in the data folder.
 
@@ -152,29 +129,14 @@ media:
 
 ## Going live
 
-The "current issue" link is designated in _config.yml on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
+The "current issue" link is designated in `_config.yml` on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
 
-Once you're ready, push all the files to your server (see below on choices - either use git to keep it all together, or just upload the _site file using SFTP).
+Once you're ready, push all the files to your server (see below on choices - either use git to keep it all together, or just upload the `_site/` file using SFTP).
 
 ## Where to publish?
 
-If you have your own server and don't want to mess with git, you can simply use SFTP and upload the contents of the _site folder to the root of your domain, remembering to back up your local files regularly.
+If you have your own server and don't want to mess with git, you can simply use SFTP and upload the contents of the `_site/` folder to the root of your domain, remembering to back up your local files regularly.
 
 If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
 
 If you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost.](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/)
-
-## Credits
-
-- thanks to [Jekyll](https://github.com/jekyll/jekyll) for creating such a fun base system.
-- thanks to [Jacob Heftmann](https://github.com/jheftmann/footnoted) for footnoted.js.
-- thanks to [Tim Holman](https://github.com/tholman/github-corners) for github-corners.
-- thanks to [@ncstate_english](https://twitter.com/ncstate_english?lang=en) for summer funding for this project in 2015.
-
-## To do
-
-- more citation formats
-- assign roles for editors etc without getting messed up with multiple entries in the same issue
-- autogenerate Crossref and DOAJ deposit files
-- separate bios page for those journals that might want all that info in one place instead of in the sidebar
-- should each issue have its own bio data file so that bios remain historical?
