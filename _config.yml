@@ -1,11 +1,11 @@
 # Name of your site (this will show up at the top of your page)
-name: 'journal name'
+name: 'JSys'
 
 # Short description (goes below the title)
-description: 'subtitle of journal'
+description: 'The Journal of Systems Research'
 
 # Journal ISSN
-ISSN: 'your e-issn'
+ISSN: 'NOTYET'
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: 'editor'
@@ -14,11 +14,11 @@ author: 'editor'
 address: 'street address'
 
 # social media
-github: 'your-username'
-twitter: 'your-handle'
+github: 'jsysresearch'
+twitter: 'jsysresearch'
 
 # email
-author_email: 'youremail@whatever.com'
+author_email: 'editor@jsys.org'
 
 # Base url for DOI assignments. don't forget the slash
 DOI: 'xxxx.xxx/'
@@ -33,11 +33,10 @@ DOI: 'xxxx.xxx/'
 # Uncomment if you are planning to run the journal in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/journal
-#baseurl: /path/to/journal 
-baseurl: /jekyll-journal
+#baseurl: /path/to/journal
 
 # Media server - to store your big media files outside this repo if you need to
-media_server: "http://your.media.server/"
+media_server: "https://escholarship.org/uc/jsys/"
 icon_path: "/assets/img/elegant_font/images/png/"
 
 # auto-generated sitemap. install gem to activate
@@ -56,9 +55,9 @@ collections:
     output: true
   #issue02:
     #output:true
-                                              
+
 # The URL of your actual domain
-url: http://your.site.url
+url: https://jsys.org
 
 #### Under the Hood Stuff #####
 
