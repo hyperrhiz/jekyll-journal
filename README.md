@@ -10,7 +10,7 @@ First clone the repository:
 git clone git@github.com:jsysresearch/website.git
 ```
 
-Now run it:
+Then run it:
 
 ```bash
 cd website/
@@ -20,19 +20,17 @@ docker run -p 4000:4000 --rm -ti -v "$PWD:/srv/jekyll" jekyll/builder:3.8.5 jeky
 
 Go to <https://localhost:4000> and you should be able to see the website being served from your machine. 
 The `--watch` flag serves the website in "hot-reload" mode, meaning that any change done to a file will be processed and published immediately.
+!Important! `_config.yml` does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
 
-## Customizing setup
+## Contributing
 
-- Edit the `_config.yml` file to suit your own environment. It should all be self evident in the file.
-- if you're planning on serving your journal from the root of your site, comment out the line `baseurl: /jekyll-journal` (line 37) from `_config.yml`. This is just in there so that Github Pages can figure out pathnames in the demo site. Once you do this, you'll be previewable directly at http://localhost:4000/.
-- ditto if you're serving from a sub-folder with a different name, make sure that the baseurl is renamed appropriately.
-- remove the file "corner.html" from the `_includes/` folder and remove the line `{% include corner.html %}` from "page.html" in the `_layouts/`folder. Otherwise you'll be stuck with that Github logo.
-- I recommend using the [jekyll-sitemap gem](https://github.com/jekyll/jekyll-sitemap) for good Googling. Here's how:
-  * `gem install jekyll-sitemap`
-  * edit the Gemfile and add the line `gem "jekyll-sitemap"`
-  * `bundle`
-  * list as a plugin in `_config.yml`. You'll see I've already added it in at line 45.
-  * when you regenerate the site it will create a file "sitemap.xml" and place it into your `_site/` folder.
+We follow the pull request model for accepting contributions. 
+To contribute:
+
+ 1. First [fork the repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
+ 2. Create a branch.
+ 3. Modify one or more files and check locally by following the steps in the ["Run locally"](#run-locally).
+ 4. Once ready, [open a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 ## How Jekyll works
 
@@ -45,26 +43,16 @@ Jekyll builds sites from templates, so you can use it to layout visual elements.
 
 All the sidebar/topbar pages are in the folder named "meta". You can rename or remove them as you see fit and they will update automatically. You'll want to keep the "archive" page, though, so you can see previous issues.
 
-## Previewing as you go
-
-As you save your files, they'll automatically regenerate; so you can preview the entire site using your browser. You might want to keep your terminal window open too, since this will tell you when the site has completed. Sometimes it can take a few seconds.
-
-Individual articles in each issue will only generate if the issue folder is listed as `output:true` in `_config.yml`. I've put in a commented out "issue02" so you can see how it will work after the first one.
-
-!important! `_config.yml` does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
-
-## Workflow
+# Publishing Workflow
 
 My workflow looks something like this:
 
-- Create a new collections folder at the root, with an underscore (eg `_issue01/`).
-- Inside the folder, create an index.html file that uses the yml listed below.
-- create individual issue entries. For neatness I create folders for each section. See below for the yml.
-- put all the media files on the media server so they can be linked to using snippets from the includes folder
-- once everything looks good, edit `_config.yml` to designate the current issue and ensure the new issue files are published.
-- git push everything for galley checks and corrections.
-- check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
-- file DOI assignments with Crossref, notify other indexing services.
+  - Create a new collections folder at the root, with an underscore (eg `_issue01/`).
+  - Inside the folder, create an `index.md` file that uses the YAML structured listed in the "Sample issue".
+  - Create individual issue entries. For neatness one folder for each section can be created. See below for the YAML structure.
+  - Ensure all the media files on the media server can be linked to using the snippets from the `_includes/` folder.
+  - Once everything looks good, edit `_config.yml` to designate the current issue and ensure the new issue files are published.
+  - Check everything is scraping correctly on Facebook using the [Debugger](https://developers.facebook.com/tools/debug/sharing/)
 
 ## Sample issue
 
@@ -76,7 +64,7 @@ When customizing, create a new collection for each issue. Write your yml careful
 
 First off you'll need an index page with the following info in the root of the issue folder.
 
-```
+```yaml
 ---
 layout: category_index <-- leave this as is
 index: true <-- leave this as is
@@ -96,9 +84,9 @@ media:
 ---
 ```
 
-Next, individual articles. The yml for a typical article looks like this:
+Next, individual articles. The YAML for a typical article looks like this:
 
-```
+```yaml
 ---
 layout: page <-- standard
 category: name of the section within the issue. must exactly match the name in the index list
@@ -132,11 +120,3 @@ media:
 The "current issue" link is designated in `_config.yml` on line 51 - so every time you publish a new issue, you'll need to make sure the folder name is correct on line 51.
 
 Once you're ready, push all the files to your server (see below on choices - either use git to keep it all together, or just upload the `_site/` file using SFTP).
-
-## Where to publish?
-
-If you have your own server and don't want to mess with git, you can simply use SFTP and upload the contents of the `_site/` folder to the root of your domain, remembering to back up your local files regularly.
-
-If your site is relatively small and uncomplicated, you can keep it on Github Pages [following their instructions here](https://pages.github.com/) (they even have automatic Jekyll support). There are some things that this prevents, though, such as plugins and .htaccess. I use my own server so that authors have their files kept private and I can maintain embargoes for proofing during the production process.
-
-If you want to keep the Jekyll files all tracked offsite, you should set up a git repo in the root of your user folder. It's tricky to set up (or at least it was for me), but could save you from disaster if your laptop dies and you don't have your Jekyll install backed up elsewhere. I used [these instructions for Dreamhost.](http://www.geekymartian.com/articles/pushing-jekyll-blog-content-to-dreamhost-using-git/)
