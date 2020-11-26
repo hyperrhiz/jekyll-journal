@@ -5,13 +5,13 @@ name: 'JSys'
 description: 'The Journal of Systems Research'
 
 # Journal ISSN
-ISSN: 'NOTYET'
+ISSN: ''
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: 'editor'
 
 # Journal address
-address: 'street address'
+address: ''
 
 # social media
 github: 'jsysresearch'
