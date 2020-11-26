@@ -20,7 +20,7 @@ docker run -p 4000:4000 --rm -ti -v "$PWD:/srv/jekyll" jekyll/builder:3.8.5 jeky
 
 Go to <https://localhost:4000> and you should be able to see the website being served from your machine. 
 The `--watch` flag serves the website in "hot-reload" mode, meaning that any change done to a file will be processed and published immediately.
-!Important! `_config.yml` does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it again using bundle exec jekyll serve.
+!Important! `_config.yml` does not update while your local server is running. So, if you make changes to that file, you'll need to interrupt the web server (ctrl-c) in Terminal and restart it by executing the `docker run` command again.
 
 ## Contributing
 
