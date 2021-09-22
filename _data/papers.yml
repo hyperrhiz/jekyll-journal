@@ -2,16 +2,16 @@ type:
 
 - title: Systemization of Knowledge (SoK)
   active: 1
-  url: #
+  url: /type_SoK
 
 - title: Tools/benchmark
   active: 1
-  url: #
+  url: /type_ToolBench
 
 - title: Problem
   active: 1
-  url: #
+  url: /type_problem
 
 - title: Solution
   active: 1
-  url: #
+  url: /type_solution

@@ -3,34 +3,44 @@ area:
 
 - title: Configuration Management for Systems
   active: 1
-  url: #
+  url: https://escholarship.org/uc/jsys/cfpconfig
 
 - title: Real-time and Cyber-physical Systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpRTCPS
 
 - title: Streaming Systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpStreaming
 
 - title: Systems for ML and ML for systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpsysml
 
 - title: Distributed Consensus
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpDistConsensus
 
 - title: Data Science and Reproducibility
   active: 1
+  url: 
 
 - title: Serverless Systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpServerless
 
 - title: Networking
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpNetworking
 
 - title: Active Storage
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpActiveStorage
 
 - title: Wireless Embedded Systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpWES
 
 - title: Decentralized Systems
   active: 1
+  url: https://escholarship.org/uc/jsys/cfpDecentralized
