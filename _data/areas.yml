@@ -1,0 +1,36 @@
+area_list_title: JSys Areas
+area:
+
+- title: Configuration Management for Systems
+  active: 1
+  url: #
+
+- title: Real-time and Cyber-physical Systems
+  active: 1
+
+- title: Streaming Systems
+  active: 1
+
+- title: Systems for ML and ML for systems
+  active: 1
+
+- title: Distributed Consensus
+  active: 1
+
+- title: Data Science and Reproducibility
+  active: 1
+
+- title: Serverless Systems
+  active: 1
+
+- title: Networking
+  active: 1
+
+- title: Active Storage
+  active: 1
+
+- title: Wireless Embedded Systems
+  active: 1
+
+- title: Decentralized Systems
+  active: 1

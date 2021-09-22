@@ -1,0 +1,66 @@
+---
+---
+
+<!-- Actual entry -->
+<!-- <a href="{{ details }}">{{reference}}</a> -->
+<a href="{{entry.url}}">{{reference}}</a>
+<br/>
+
+
+<!-- Shields -->
+<table>
+  <tr>
+    <td class="column-short">
+      
+      <!-- Collapsed bibtex entry (button)-->
+      <a data-toggle="collapse"
+          href="javascript:toggleDiv('{{entry.key}}-bibtex')">
+         <img src="https://img.shields.io/badge/-BibTeX-lightgrey"></a>
+
+    </td>
+    <td>
+      <!-- Article DOI (mandatory) -->
+      {% if entry.doi %} 
+      <a href="http://dx.doi.org/{{entry.doi}}">
+        <img src="https://img.shields.io/badge/DOI-{{entry.doi}}-blue"></a>
+      {% endif %}
+      
+      &nbsp;
+      
+      <!-- Article reviews (mandatory) -->
+      {% if entry.review_url %}
+      <a href="{{entry.review_url}}">
+        <img src="https://img.shields.io/badge/-Reviews-red"></a>
+      {% endif %}
+      
+      &nbsp;
+      
+      <!-- Artifacts -->
+      {% if entry.artifacts_url %}
+        <a href="{{entry.artifacts_url}}">
+          <img src="https://img.shields.io/badge/-Artifacts-green"></a>
+      {% endif %}
+    </td>
+  </tr>
+<!-- </table> -->
+
+<!-- Type and area(s) -->
+<!-- <br/> -->
+<!-- <table> -->
+  <tr>
+    <td class="text-muted column-short">Area(s)</td>
+    <td>{{entry.area}}</td>
+  </tr>
+  <tr>
+    <td class="text-muted column-short">Type</td>
+    <td>{{entry.type}}</td>
+  </tr>
+</table>
+
+
+<!-- Collapsed bibtex entry (data)-->
+<div id="{{entry.key}}-bibtex" style="display:none;">
+  <pre class="collapse">{{entry.bibtex}}</pre>
+</div>
+
+<br/>

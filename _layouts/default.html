@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	       {% include analytics.html %}
-			{% include metadata.html %}
-			{% include head.html %}
-    </head>
-    
-    <body>	  
-	    
-	    <div id="wrap">
-      	
-      	<!-- navbar -->
-      	{% include navbar.html %}
 
-                {{content}}
+  {% include head.html %}
 
-	    <!-- close wrapper-->
-	    </div>
-	    
-	    
-       {% include footer.html %}
-	    
-</body>
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>

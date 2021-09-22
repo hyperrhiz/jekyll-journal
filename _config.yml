@@ -1,79 +1,48 @@
-# Name of your site (this will show up at the top of your page)
-name: 'JSys'
+# Site settings
+title: JSys
+email: editor@jsys.org
+description: Journal of Systems Research
+baseurl: ""                           # the subpath of your site, e.g. /blog/
+url: "http://jsys.org/" # the base hostname & protocol for your site
+twitter_username: jsysresearch
+github_username:  jsysresearch
 
-# Short description (goes below the title)
-description: 'The Journal of Systems Research'
-
-# Journal ISSN
-ISSN: ''
-
-# Your name, as you want it to appear underneath each post and in the footer
-author: 'editor'
-
-# Journal address
-address: ''
-
-# social media
-github: 'jsysresearch'
-twitter: 'jsysresearch'
-
-# email
-author_email: 'editor@jsys.org'
-
-# Base url for DOI assignments. don't forget the slash
-DOI: 'xxxx.xxx/'
-
-# The directory for category index pages. Change it to something else if
-# for example you want links like /categories/category1 instead of /category1
-# category_dir: /
-
-# list of potential sections in each issue. if they're not listed here, they won't render
-# category-list: []
-
-# Uncomment if you are planning to run the journal in a subdirectory
-# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
-# Example, you must use http://localhost:4000/path/to/journal
-baseurl: /website
-
-# Media server - to store your big media files outside this repo if you need to
-media_server: "https://escholarship.org/uc/jsys/"
-icon_path: "/assets/img/elegant_font/images/png/"
-
-# auto-generated sitemap. install gem to activate
-plugins:
-  - jekyll-sitemap
-  
-# force inclusion of dot files for folder password protection
-include: ['.htaccess', '.htpasswd']
-
-# folder containing the current issue. used in main menu
-current: issue01
-
-# collections. list all your issue folders here. output: true is required for the pages to publish
-collections:
-  issue01:
-    output: true
-  #issue02:
-    #output:true
-
-# The URL of your actual domain
-url: https://jsys.org
-
-#### Under the Hood Stuff #####
-
-# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
-# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
-# If you don't have it install it via gem install rdiscount
+# Build settings
 markdown: kramdown
 
-# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: none
+# Exclude:
+exclude: ["README.md"]
 
-# Make sure all your pages are encoded right or you'll get gremlins.
-encoding: utf-8
+# Jekyll scholar
+plugins: ['jekyll/scholar']
 
-# How many articles do you wish to appear on the front page, if you have a front page
-#paginate: 20
+scholar:
+  style: acm-siggraph
+  # style: chicago-fullnote-bibliography
+  locale: en
 
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+  bibliography_list_tag: ul
+  sort_by: year, month, type, area
+  order: descending, descending, descending, area
+
+  # group_by: type
+  # group_order: ascending
+
+  source: ./_bibliography
+  bibliography: jsys.bib
+  bibliography_template: bib
+  repository: _papers
+
+  replace_strings: true
+  join_strings:    true
+
+  # use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   ""
+
+  query: "@*"

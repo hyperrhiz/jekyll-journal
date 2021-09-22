@@ -1,9 +1,7 @@
-*.sw?
 _site
 .sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_Store
-vendor
-Gemfile
 Gemfile.lock
+.jekyll-metadata
+.jekyll-cache
+.vscode
+.DS_Store
