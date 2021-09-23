@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign area = site.data.areas.area | where: "id", page.id | first %}
+{% assign chairs  = site.data[area.board].chairs %}
+{% assign members = site.data[area.board].board | sort: "name" %}
+
+<div class="post">
+
+  <article class="post-content">
+
+    <h1>Call for Papers: {{area.title}}</h1>
+  
+    {{ content }}
+  
+    <h2>Area Board</h2>
+
+    <div>
+      The {{area.title}} area is chaired by
+      <ul>
+        {% for chair in chairs %}
+        <li>
+          <a href="{{chair.webpage }}">{{ chair.name }}</a>, {{chair.affiliation}}  <br />
+          {% if chair.email %}
+            <i class="fas fa-envelope"></i>&nbsp; 
+            <a href="mailto{{chair.email}}">{{ chair.email }}</a>
+          {% endif %}
+        </li>{% endfor %}
+      </ul>
+      
+      and its editorial board is composed of
+      <ul>
+        {% for member in members %}
+        <li>
+          <a href="{{member.webpage }}">{{ member.name }}</a>, {{member.affiliation}} 
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </article>
+
+</div>

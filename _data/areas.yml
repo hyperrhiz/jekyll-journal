@@ -1,46 +1,77 @@
 area_list_title: JSys Areas
 area:
 
+# ============ #
+# Active areas #
+# ============ #
+
 - title: Configuration Management for Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpconfig
+  board: board_confManagement # file with the board data
 
 - title: Real-time and Cyber-physical Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpRTCPS
+  board: board_RTCPS
 
 - title: Streaming Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpStreaming
+  board: board_streaming
 
 - title: Systems for ML and ML for systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpsysml
+  board: board_SysML_MLSys
 
 - title: Distributed Consensus
   active: 1
   url: https://escholarship.org/uc/jsys/cfpDistConsensus
+  board: board_distConsensus
 
 - title: Data Science and Reproducibility
   active: 1
   url: 
+  board: board_DataRepro
 
 - title: Serverless Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpServerless
+  board: board_serverless
 
 - title: Networking
   active: 1
   url: https://escholarship.org/uc/jsys/cfpNetworking
+  board: board_networking
 
 - title: Active Storage
   active: 1
   url: https://escholarship.org/uc/jsys/cfpActiveStorage
+  board: board_activeStorage
 
 - title: Wireless Embedded Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpWES
+  board: board_WES  # file with the board data
+  cfp: cfp_WES      # cfp permalink
+  id: WES
 
 - title: Decentralized Systems
   active: 1
   url: https://escholarship.org/uc/jsys/cfpDecentralized
+  board: board_decentralized
+
+# ======================== #
+# Areas under construction #
+# ======================== #
+
+- title: Edge Systems
+  active: 0
+  url: 
+  board: board_edge
+
+- title: Micro-services and Cloud Systems
+  active: 0
+  url: 
+  board: board_cloud
