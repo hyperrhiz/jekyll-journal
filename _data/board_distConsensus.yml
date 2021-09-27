@@ -3,16 +3,18 @@ area: Distributed Consensus
 chairs:
 
 - name: Heidi Howard
-  affiliation: 
+  affiliation: University of Cambridge
   webpage: https://hh360.user.srcf.net/blog/
-  orcid: 
-  twitter: 
+  email: heidi.howard@cl.cam.ac.uk
+  orcid: 0000-0001-5256-7664
+  twitter: heidiann360
 
 - name: Roberto Palmieri
-  affiliation: 
+  affiliation: Lehigh University
   webpage: http://www.cse.lehigh.edu/~palmieri/
-  orcid: 
-  twitter: 
+  email: palmieri@lehigh.edu"
+  orcid: 0000-0002-1530-4088
+  twitter: palmierirobe
 
 board:
 

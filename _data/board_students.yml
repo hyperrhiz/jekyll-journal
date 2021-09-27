@@ -5,14 +5,16 @@ chairs:
 - name: Aishwarya Ganesan
   affiliation: VMware Research Group
   webpage: http://pages.cs.wisc.edu/~ag/
+  email: ag@cs.wisc.edu
   orcid: 
-  twitter: 
+  twitter: AishwaryaGanlat
 
 - name: Ramnatthan Alagappan
   affiliation: VMware Research Group
   webpage: http://pages.cs.wisc.edu/~ra/
+  email: ralagappan@vmware.com
   orcid: 
-  twitter: 
+  twitter: ramnatthan
 
 board:
 

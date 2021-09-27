@@ -5,29 +5,34 @@ list:
 - name: Vijay Chidambaram
   affiliation: University of Texas at Austin and VMware Research
   webpage: https://www.cs.utexas.edu/~vijay/
+  email: vijayc@utexas.edu
   orcid: 0000-0003-4915-6738
-  twitter: '@vj_chidambaram'
+  twitter: vj_chidambaram
 
 - name: Romain Jacob
   affiliation: ETH Zurich
   webpage: https://www.romainjacob.net/
+  email: jacobr@ethz.ch
   orcid: 0000-0002-2218-5750
-  twitter: '@RJacobPartner'
+  twitter: RJacobPartner
 
 - name: Neeraja J. Yadwadkar
-  affiliation: 
+  affiliation: Stanford University
   webpage: https://cs.stanford.edu/~neeraja/  
+  emmail: neeraja@cs.stanford.edu
   orcid: 
-  twitter: 
+  twitter: NeerajaJY
 
 - name: Pooyan Jamshidi
   affiliation: University of South Carolina
   webpage: https://pooyanjamshidi.github.io/
-  orcid: 
-  twitter: '@PooyanJamshidi'
+  orcid: 0000-0002-9342-0703
+  twitter: PooyanJamshidi
+  email: pjamshid@cse.sc.edu
 
 - name: Ivo Jimenez
-  affiliation: 
+  affiliation: UC Santa Cruz
   webpage: https://ivotron.me/
-  orcid: 
-  twitter: 
+  email: ivotron@ucsc.edu
+  orcid: 0000-0002-2222-1985
+  twitter: ivotron

@@ -3,16 +3,18 @@ area: Serverless Systems
 chairs:
 
 - name: Mohammad Shahrad
-  affiliation: 
+  affiliation: University of British Columbia
   webpage: https://mshahrad.github.io/
-  orcid: 
-  twitter: 
+  email: mshahrad@ece.ubc.ca
+  orcid: 0000-0002-8214-9583
+  twitter: MShahrad
 
 - name: Neeraja J. Yadwadkar
-  affiliation: 
-  webpage: https://cs.stanford.edu/~neeraja/
+  affiliation: Stanford University
+  webpage: https://cs.stanford.edu/~neeraja/  
+  emmail: neeraja@cs.stanford.edu
   orcid: 
-  twitter: 
+  twitter: NeerajaJY
 
 board:
 

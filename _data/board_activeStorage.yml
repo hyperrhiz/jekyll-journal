@@ -3,15 +3,17 @@ area: Active Storage
 chairs:
 
 - name: Sudarsun Kannan
-  affiliation: 
+  affiliation: Rutgers University
   webpage: https://www.cs.rutgers.edu/~sk2113/
-  orcid: 
-  twitter: 
+  email: sudarsun.kannan@rutgers.edu
+  orcid: 0000-0003-4009-8586
+  twitter: SudarsunKannan
 
 - name: Antonio Barbalace
-  affiliation: 
+  affiliation: University of Edinburgh
   webpage: http://www.barbalace.it/antonio/
-  orcid: 
+  email: abarbala@ed.ac.uk
+  orcid: 0000-0003-1641-0779
   twitter: 
 
 board:

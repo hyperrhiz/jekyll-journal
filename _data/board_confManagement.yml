@@ -5,14 +5,16 @@ chairs:
 - name: Tianyin Xu
   affiliation: University of Illinois at Urbana-Champaign
   webpage: https://tianyin.github.io/
-  orcid: 
-  twitter: '@tianyin_xu'
+  email: mgarvey@illinois.edu
+  orcid: 0000-0003-4443-8170
+  twitter: tianyin_xu
 
 - name: Pooyan Jamshidi
   affiliation: University of South Carolina
   webpage: https://pooyanjamshidi.github.io/
-  orcid: 
-  twitter: '@PooyanJamshidi'
+  email: pjamshid@cse.sc.edu
+  orcid: 0000-0002-9342-0703
+  twitter: PooyanJamshidi
 
 board:
 
