@@ -1,0 +1,22 @@
+
+introduction:
+
+  - paragraph: 
+
+topics:
+
+  - text: Blockchain Systems
+  - text: Byzantine Fault Tolerant Consensus protocols
+  - text: Permissioned blockchains
+  - text: Decentralised anonymity and privacy
+  - text: Systems using Secure Multiparty Computation
+  - text: Decentralised Randomness Beacons
+  - text: Censorship resistance
+  - text: Peer to Peer Systems
+  - text: Decentralised Storage
+  - text: E-voting
+  - text: Byzantine Fault Tolerant Distributed Systems
+  - text: Transparency Solutions
+  - text: Applications of Threshold Cryptography
+  - text: Cross-Chain Communication Protocols
+  - text: Blockchain Layer-2 Solutions

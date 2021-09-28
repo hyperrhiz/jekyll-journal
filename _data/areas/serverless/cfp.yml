@@ -1,0 +1,14 @@
+
+introduction:
+
+  - paragraph: Serverless computing is getting widely adopted and is considered the next phase of the cloud. Serverless computing has seen rapid growth due to the ease of use and cost-efficiency it provides. There is increasing effort to go from monolithic applications to functions and thereby migrate applications to serverless computing given these benefits. However, as indicated by recent research, current offerings of serverless systems need a lot of work to be able to bring the benefits of serverless computing to existing dominant as well as emerging new applications, such as inference serving or video pipelines. Within this context, the “Serverless Systems” area of JSys welcomes research contributions describing the architecture, design, and implementation of such systems.
+
+topics:
+
+  - text: Characterization of serverless systems, applications, or infrastructure
+  - text: Benchmarking tools or methodologies for serverless systems
+  - text: New mechanisms for scheduling and resource management for serverless frameworks
+  - text: New virtualization/containerization techniques for serverless settings
+  - text: Security and/or privacy of serverless systems
+  - text: Novel pricing models for serverless platforms
+  - text: Mechanisms to specify and meet SLOs (Service Level Objectives)/QoS (Quality of Service) for serverless systems

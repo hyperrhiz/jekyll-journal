@@ -1,0 +1,16 @@
+
+introduction:
+
+  - paragraph: The increasing need to process data closer to the storage as well as the growing demand for enhancing data privacy and protection raises new challenges and opportunities for near-data processing across various computing domains. Within this context, the “active storage” area of JSys welcomes a wide range of research contributions in all aspects of designing, implementing, and evaluating near-storage data processing architectures, system software, storage systems, programming abstractions, security, privacy, and data reduction and processing techniques.
+
+topics:
+
+  - text: New algorithms and data reduction techniques for near-storage data processing
+  - text: Novel hardware architectures (e.g., FPGA-based) support for near-data processing in memory, storage, network, and accelerators
+  - text: System software and application software including but-not-limited to key-value stores, databases, and file-system
+  - text: Topics related to the design and development of Computational Storage devices and architectures
+  - text: Security and privacy techniques focused on enhancing active storage
+  - text: Techniques for handling data reliability
+  - text: Experimental evaluations and benchmarks for active storage systems
+  - text: Experiences, observations, and lessons learned from real-world deployments
+  - text: Design and development of new programming abstractions and compilers

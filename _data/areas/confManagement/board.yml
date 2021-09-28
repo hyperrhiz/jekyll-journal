@@ -1,0 +1,73 @@
+area: Configuration Management for Systems 
+
+chairs:
+
+- name: Tianyin Xu
+  affiliation: University of Illinois at Urbana-Champaign
+  webpage: https://tianyin.github.io/
+  email: mgarvey@illinois.edu
+  orcid: 0000-0003-4443-8170
+  twitter: tianyin_xu
+
+- name: Pooyan Jamshidi
+  affiliation: University of South Carolina
+  webpage: https://pooyanjamshidi.github.io/
+  email: pjamshid@cse.sc.edu
+  orcid: 0000-0002-9342-0703
+  twitter: PooyanJamshidi
+
+members:
+
+- name: Ranjita Bhagwan
+  affiliation: Microsoft Research India
+  webpage: https://www.microsoft.com/en-us/research/people/bhagwan/
+  orcid: 
+  twitter: 
+
+- name: Jürgen Cito
+  affiliation: Tu Wien
+  webpage: https://people.csail.mit.edu/jcito/
+  orcid: 
+  twitter: 
+
+- name: Ting Dai
+  affiliation: IBM Research
+  webpage: https://tingdai.github.io/
+  orcid: 
+  twitter: 
+
+- name: Yi Ding
+  affiliation: MIT
+  webpage: https://y-ding.github.io/
+  orcid: 
+  twitter: 
+
+- name: Christian Kästner
+  affiliation: CMU
+  webpage: https://www.cs.cmu.edu/~ckaestne/
+  orcid: 
+  twitter: 
+
+- name: Rahul Krishna
+  affiliation: Columbia
+  webpage: http://rkrsn.us/
+  orcid: 
+  twitter: 
+
+- name: Sam Larsen
+  affiliation: Facebook
+  webpage: https://research.fb.com/people/larsen-sam/
+  orcid: 
+  twitter: 
+
+- name: Ennan Zhai
+  affiliation: Alibaba
+  webpage: https://ennanzhai.github.io/
+  orcid: 
+  twitter: 
+
+- name: Sai Zhang
+  affiliation: Google Cloud
+  webpage: https://zhang-sai.github.io/
+  orcid: 
+  twitter: 

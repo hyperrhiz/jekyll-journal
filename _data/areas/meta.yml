@@ -1,0 +1,74 @@
+area_list_title: JSys Areas
+area:
+
+# ============ #
+# Active areas #
+# ============ #
+
+- title: Configuration Management for Systems
+  id: confManagement
+  active: 1
+
+- title: Real-time and Cyber-physical Systems
+  id: rt_cps
+  active: 1
+
+- title: Streaming Systems
+  id: streaming
+  active: 1
+
+- title: Systems for ML and ML for systems
+  id: sysML_MLsys
+  active: 1
+
+- title: Distributed Consensus
+  id: distConsensus
+  active: 1
+
+- title: Data Science and Reproducibility
+  id: dataRepro
+  active: 1
+
+- title: Serverless Systems
+  id: serverless
+  active: 1
+
+- title: Networking
+  id: networking
+  active: 1
+
+- title: Active Storage
+  id: activeStorage
+  active: 1
+
+- title: Wireless Embedded Systems
+  id: wes
+  active: 1
+  
+- title: Decentralized Systems
+  id: decentralized
+  active: 1
+
+# ============= #
+# Special Areas #
+# ============= #
+
+- title: Artifact Evaluation Board
+  id: artifacts
+  active: 0 # Keep that to 0, otherwise will appreas as a regular area
+
+- title: Student Editorial Board
+  id: students
+  active: 0 # Keep that to 0, otherwise will appreas as a regular area
+
+# ======================== #
+# Areas under construction #
+# ======================== #
+
+- title: Edge Systems
+  id: edge
+  active: 0
+
+- title: Micro-services and Cloud Systems
+  id: cloud
+  active: 0

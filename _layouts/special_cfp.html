@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign area    = site.data.areas.meta.area | where: "id", page.id | first %}
+{% assign area = site.data.areas.meta.area | where: "id", page.id | first %}
 {% assign chairs  = site.data.areas[page.id].board.chairs %}
 {% assign members = site.data.areas[page.id].board.members | sort: "name" %}
 {% assign cfp     = site.data.areas[page.id].cfp %}
@@ -12,23 +12,25 @@ layout: default
 
   <article class="post-content">
 
-    <h1>Call for Papers: {{area.title}}</h1>
+    <h1>{{area.title}}</h1>
   
     {% for item in cfp.introduction %}
-    <p> {{item.paragraph}} </p>
+    <p> 
+      {{item.paragraph}} 
+      {% if item.link %}
+      <i class="fas fa-hand-point-right"></i> <a href="{{item.link}}">Nomination form</a>
+      {% endif%}
+    </p>
     {% endfor %}
-
-    <h2>Topics of Interests</h2>
-
+  
+    <h2>{{cfp.responsibilities.title}}</h2>
+  
+    <p>{{cfp.responsibilities.text}}</p>
     <ul>
-      {% for item in cfp.topics %}
-      <li> {{item.text}} </li>
+      {% for item in cfp.responsibilities.items %}
+      <li> {{item}} </li>
       {% endfor %}
     </ul>
-
-    <blockquote>
-    If you are unsure whether your work is a good fit for this area, please send a short abstract or description to the area chair(s); they will be happy to give some initial feedback.
-    </blockquote>
 
     <h2>Area Board</h2>
 

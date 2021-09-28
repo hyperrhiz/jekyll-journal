@@ -19,6 +19,14 @@
 
     </td>
     <td>
+      <!-- Article PDF (mandatory) -->
+      {% if entry.url %} 
+      <a href="{{entry.url}}">
+        <img src="https://img.shields.io/badge/-PDF-blueviolet?logo=adobeacrobatreader&labelColor=grey"></a>
+      {% endif %}
+      
+      &nbsp;
+
       <!-- Article DOI (mandatory) -->
       {% if entry.doi %} 
       <a href="http://dx.doi.org/{{entry.doi}}">
@@ -30,7 +38,7 @@
       <!-- Article reviews (mandatory) -->
       {% if entry.review_url %}
       <a href="{{entry.review_url}}">
-        <img src="https://img.shields.io/badge/-Reviews-red"></a>
+        <img src="https://img.shields.io/badge/-Reviews-red?logo=openaccess&labelColor=grey"></a>
       {% endif %}
       
       &nbsp;
@@ -38,7 +46,7 @@
       <!-- Artifacts -->
       {% if entry.artifacts_url %}
         <a href="{{entry.artifacts_url}}">
-          <img src="https://img.shields.io/badge/-Artifacts-green"></a>
+          <img src="https://img.shields.io/badge/-Artifacts-green?logo=github&labelColor=grey"></a>
       {% endif %}
     </td>
   </tr>

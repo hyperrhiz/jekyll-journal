@@ -1,0 +1,21 @@
+
+introduction:
+
+  - paragraph: Distributed consensus is a foundational primitive in the engineering of resilient and consistent distributed systems. As society increasingly depends upon distributed systems in every facet of life, it is vital that systems are both highly available and consistent, even in the face of failures. Within this context, the “distributed consensus” area of JSys welcomes research contributions on all aspects of the design, implementation, and evaluation of distributed consensus protocols, as well as the closely related topics of atomic broadcast, leader election, and state machine replication.
+
+  - paragraph: The “distributed consensus” area of JSys focuses on non-byzantine consensus. Papers on byzantine agreement and blockchains should be submitted to the “decentralized systems” area of JSys.
+
+topics:
+
+  - text: New algorithms for and approaches to distributed consensus
+  - text: Novel variants of existing protocols such as Multi-Paxos, Raft, and Zab
+  - text: Systemization of Knowledge (SoK) papers and taxonomies of approaches to consensus or consistency models
+  - text: Design and implementation of state machine replication, distributed logs, atomic/totally ordered reliable broadcast, and distributed transactions
+  - text: Approaches to the migration, group membership, fault detection, and reconfiguration of strongly consistent distributed systems
+  - text: Techniques for improving the scalability and performance of consensus in production
+  - text: Experimental evaluations and benchmarks of the performance of consensus systems
+  - text: Implementations of distributed consensus using new hardware and technologies such as Non-Volatile Memory (NVM), Remote Direct Memory Access (RDMA), and Software-Defined Networking (SDN)
+  - text: Experiences, observations, and lessons learned from real-world deployments of distributed systems which include consensus protocols
+  - text: Pragmatic solutions to the challenges of deploying consensus in the wild such as snapshotting, efficient reads, and recovering from data corruption
+  - text: Formal and informal approaches to verifying the correctness of consensus protocols and their implementations
+  - text: New approaches to distributed consensus targeting WANs, geo-distributed systems, multi-cloud or the edge

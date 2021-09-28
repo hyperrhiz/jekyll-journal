@@ -1,0 +1,32 @@
+
+introduction:
+
+  - paragraph: Recent advances in wireless technologies and the advent of the Internet of Things have shaped the evolution of embedded systems towards networks of low-power or battery-less wireless devices often incorporating sensors, actuators, data processing, decision-making, as well as lightweight networking stacks. Such wirelessly-networked embedded systems already represent a cornerstone of today's digital society, due to their omnipresence in a variety of application domains with high societal relevance, such as smart homes, smart cities, smart grids, connected healthcare, precision agriculture, civil infrastructure monitoring, and cyber-manufacturing.
+
+  - paragraph: Within this context, the "wireless embedded systems" area of JSys welcomes research contributions describing the architecture, design, implementation, and performance of innovative wirelessly-networked embedded systems, as well as works exploring specific communication, computing, and sensing aspects. Particularly relevant are results and insights substantiated by a strong experimental component on real-world devices, as well as contributions describing practical deployments and implementation experiences.
+
+topics:
+
+  - text: Communication protocols and networking architectures for wireless embedded systems (including design, specification, verification, implementation, measurement, testing, and analysis)
+  - text: Enhancements and solutions for low-power personal area networks and wide area networks, including enhancements and design of media access control and routing protocols
+  - text: Communication protocols and networking architectures for wireless embedded systems (including design, specification, verification, implementation, measurement, testing, and analysis)
+  - text: Enhancements and solutions for low-power personal area networks and wide area networks, including enhancements and design of media access control and routing protocols
+  - text: Technical assessment of emerging wireless standards
+  - text: Design and implementation of innovative applications and systems
+  - text: Experiences from (successful or unsuccessful) real-world deployments
+  - text: Experiences with harsh environmental conditions and with the programming and debugging of wireless embedded systems in the field
+  - text: Coexistence mechanisms as well as radio interference identification and mitigation techniques
+  - text: Benchmarking methodologies, testbed infrastructures, and tools for wireless embedded systems
+  - text: New platforms and hardware design for wireless embedded systems
+  - text: Adaptable, fault-tolerant, and dependable wireless embedded systems
+  - text: Location- and context-awareness
+  - text: System services such as localization, synchronization, and RF sensing
+  - text: Low-power operations, energy harvesting, and energy management
+  - text: Energy-neutral, and intermittent sensing systems
+  - text: Programming models, languages, and operating systems for networked embedded systems
+  - text: Resource-efficient machine learning for embedded and mobile platforms
+  - text: Mobile and pervasive wireless embedded systems with elements of networked/collaborative sensing, actuation, and control
+  - text: Signal processing for resource-constrained embedded devices and IoT applications
+  - text: Non-traditional communication technologies, such as visible light communication, backscatter, or other novel wireless techniques
+  - text: Replication studies which validate (or refute) prior results, particularly studies with improved scale, additional metrics, or new comparisons
+  - text: Fairness, equity, and transparency issues in IoT and CPS

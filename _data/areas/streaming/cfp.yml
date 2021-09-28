@@ -1,0 +1,22 @@
+
+introduction:
+
+  - paragraph: The rate at which we are producing data today is increasing with such speed that digital information might soon exceed the available storage capacity of our physical systems. This forthcoming discrepancy demands for algorithms and systems capable of extracting knowledge from unbounded data streams. Stream processing -viewing data as sequences of events and providing continuous analysis results- improves the effectiveness of established data analysis tasks and facilitates novel applications by shortening the lag between receiving information and acting on it. Streaming applications are numerous and include real-time anomaly detection, online recommendations, financial fraud detection, continuous monitoring and fault diagnosis in large data centers, IoT analytics for smart cities and smart homes, monitoring health and activity signals, and controlling autonomous cars.
+
+  - paragraph: Within this context, the "Streaming Systems" area of JSys welcomes research contributions describing the architecture, design, implementation, and performance of innovative stream processing systems, as well as works exploring stream ingestion, indexing, and computing aspects. Particularly relevant are results and insights substantiated by a strong experimental study, as well as contributions describing practical deployments and implementation experiences.
+
+topics:
+
+  - text: Scalable stream processing systems
+  - text: Autonomous stream processing
+  - text: Streaming query optimization
+  - text: Federated stream processing systems
+  - text: Systems for online Machine Learning
+  - text: Stream processing for modern hardware
+  - text: Security and privacy in stream processing
+  - text: Complex event processing systems
+  - text: Event-driven architectures
+  - text: Streaming systems for the Edge and IoT
+  - text: Benchmarking methodologies and tools for streaming systems
+  - text: Experimental surveys that compare streaming systems of wide interest
+  - text: Reproducibility studies that verify or refute past results in stream processing

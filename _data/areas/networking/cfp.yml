@@ -1,0 +1,20 @@
+
+introduction:
+
+  - paragraph: 
+
+topics:
+
+  - text: Big Data platforms with applications to network management, security, measurements
+  - text: Content distribution and caching, e.g., CDN, peer-to-peer, overlays
+  - text: Design, analysis, and evaluation of network architectures
+  - text: Experience and lessons learned by deploying large-scale networked systems
+  - text: Internet measurement and modeling
+  - text: Innovative uses of network data beyond communication
+  - text: Mobile and wireless network protocols and applications
+  - text: Network aspects of datacenters, cloud computing, operating systems, virtualization architectures, applications (e.g., web, video, and virtual reality), and ubiquitous computing (e.g., internet-of-things, smart cities)
+  - text: Network control and management, including SDN, NFV and network programmability
+  - text: Network, transport, and application-layer protocols
+  - text: Reliability and availability of networks, protocols, and applications
+  - text: Routing and traffic engineering
+  - text: Reproducibility

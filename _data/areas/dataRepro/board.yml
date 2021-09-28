@@ -1,0 +1,54 @@
+area: Data Science and Reproducibility 
+
+chairs:
+
+- name: Ivo Jimenez
+  affiliation: UC Santa Cruz
+  webpage: https://ivotron.me/
+  email: ivotron@ucsc.edu
+  orcid: 0000-0002-2222-1985
+  twitter: ivotron
+
+members:
+
+- name: Mohammad Akhlaghi
+  affiliation: Instituto de Astrofísica de Canarias
+  webpage: http://www.akhlaghi.org/
+  orcid: 
+  twitter: 
+
+- name: Tanu Malik
+  affiliation: DePaul University
+  webpage: https://facsrv.cs.depaul.edu/~tmalik1/
+  orcid: 
+  twitter: 
+
+- name: Lukas Rupprecht
+  affiliation: IBM Almaden
+  webpage: https://lukasrupprecht.github.io/
+  orcid: 
+  twitter: 
+
+- name: Sebastian Schelter
+  affiliation: University of Amsterdam
+  webpage: https://ssc.io/
+  orcid: 
+  twitter: 
+
+- name: George K. Thiruvathukal
+  affiliation: Loyola University Chicago
+  webpage: https://thiruvathukal.com/ 
+  orcid: 
+  twitter: 
+
+- name: Ana Trisovic
+  affiliation: Harvard
+  webpage: https://anatrisovic.com/
+  orcid: 
+  twitter: 
+
+- name: Alex Uta
+  affiliation: Leiden University and Amazon
+  webpage: https://alexandru-uta.github.io/
+  orcid: 
+  twitter: 

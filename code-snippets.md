@@ -16,3 +16,10 @@
   {% endif %}
   {% endfor %}
 </ul>
+
+
+<!-- Loop through all members of one area -->
+<!-- {% assign members = site.data.areas.students.board | sort: "name" %} -->
+<!-- {% for member in members %} -->
+<!-- - [{{member.name}}]({{member.webpage}}), {{member.affiliation}}{% endfor %} -->
+

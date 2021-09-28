@@ -1,0 +1,14 @@
+
+introduction:
+
+  - paragraph: Systems for ML and ML for Systems area of JSys focuses on research at the intersection of Computer Systems and Machine Learning. The aim of this area is to bring researchers from these fields together to (a) build systems that make efficient access to ML applications and workloads to users, (b) leverage existing ML techniques and develop new statistical learning algorithms for optimizing various aspects of systems.
+
+topics:
+
+  - text: ML for systemic and/or architectural optimizations
+  - text: ML for compilers and automatic code optimization
+  - text: Systems for efficient model training, inference, and serving
+  - text: Distributed systems for emerging ML models and workloads
+  - text: Secure systems for running ML applications
+  - text: Architecture and accelerator design informed by ML models
+  - text: Programming models for learning systems

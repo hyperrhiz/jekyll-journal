@@ -24,9 +24,9 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 JSys currently welcomes submissions in the following areas.  
 The links below will take you to the specific call for papers per area.
 
-{% for item in site.data.areas.area %}{% if item.active == 1 %}{% if item.url %}
-- [{{ item.title}}]({{item.url}}){% else %}
-- {{ item.title}} (TBA){% endif %}{% endif %}{% endfor %}
+{% assign areas = site.data.areas.meta.area | sort: "id" %}
+{% for area in areas %}{% if area.active == 1 %}
+- [{{ area.title}}](/cfp_{{area.id}}/){% endif %}{% endfor %}
 
 The rest of this page describes generic rules that apply to all JSys areas.
 

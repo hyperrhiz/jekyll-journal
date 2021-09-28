@@ -1,0 +1,23 @@
+
+introduction:
+
+  - paragraph: Configuration management is a keystone of computer system management. Modern computer systems are highly configurable, with hundreds to thousands of knobs controlling a wide variety of aspects of the systems and determining their correctness, performance, security, etc. Without effective, practice techniques for analyzing, testing, and verifying their configurations, it is prohibitively difficult to manage highly-configurable, large-scale, and heterogeneous systems. Today, faulty configurations have long been known as major causes of system failures, performance degradation, and security incidents in many different types of computer systems. For example, it is reported that misconfigurations are among the dominating root causes of service-level incidents at Google, Facebook, Microsoft, etc.
+
+  - paragraph: Within this context, the “Configuration Management for Systems” area welcomes research contributions that present innovative techniques, practices, systems, and tools for configuration management. We take a broader definition of “configuration” and “systems”.
+
+topics:
+
+  - text: Configuration management for cloud and datacenter systems
+  - text: Configuration management for ML systems
+  - text: Configuration management of composed systems (systems of configurable systems such as data analytics pipelines composed on heterogeneous configurable components)
+  - text: Configuration management for edge and IoT systems
+  - text: Security configuration management
+  - text: Hardware configuration management
+  - text: Performance modeling, learning, and optimization of highly configurable systems
+  - text: Human factors and visualization for configuration management
+  - text: Configuration design and implementation
+  - text: Programming language for system configuration
+  - text: AI/ML for system configuration
+  - text: Configuration testing and verification
+  - text: Misconfiguration troubleshooting
+  - text: Self-* (*=healing, adaptation, resilience) of highly configurable systems

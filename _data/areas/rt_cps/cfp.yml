@@ -1,0 +1,27 @@
+
+introduction:
+
+  - paragraph: A cyber-physical system (CPS) is a system of collaborating computational elements controlling physical entities. Many such systems have real-time (RT) requirements and find use in safety-critical domains such as power plants, automobiles, avionics, medical devices, power grids and other infrastructures, space vehicles, etc. The increasing complexity and inter-connectivity of such systems along with proliferation of newer architectures, commoditized components and the Internet-of-Things (IoT) require new research to be carried out. The advent of autonomous vehicles, implantable medical devices and smart cities puts the area of real-time computing front and center in society.
+
+  - paragraph: JSys welcomes high-quality, original research papers in the real-time and cyber-physical systems domain that includes, but is not limited to new foundational methodologies, novel architectures and designs, better analyses methods as well as security and resiliency frameworks. Papers could be of a theoretical or experimental nature but discussions of real world applications and insights will be welcome.
+
+  - paragraph: We also welcome industry experience papers and "systemization of knowledge" style papers in this domain. Papers are welcome from a wide variety of CPS domains such as Avionics;  Manufacturing Systems;  Industrial Control Systems; Automotive systems (manual as well as autonomous);  Unmanned vehicles (air, sea and ground);  Medical devices and healthcare systems;  Power grid/Smart grid, water distribution systems, oil and gas systems, other critical infrastructures;  Disaster management and recovery systems;  Robotics and other control systems;  Smart cities and transportation systems;  Other emerging CPS/RT/IoT areas.
+
+topics:
+
+  - text: time-sensitive systems (IoT/cloud/edge/mobile systems/distributed systems/fog etc.)
+  - text: real-time and CPS applications
+  - text: scheduling, resource management and analysis of real-time systems and CPS
+  - text: real-time and embedded operating systems
+  - text: languages, compilers, tools, middleware frameworks and runtime systems for real-time, embedded and cyber-physical systems
+  - text: verification, analysis and validation methodologies
+  - text: security for real-time and cyber-physical systems
+  - text: privacy for CPS, embedded and RT systems
+  - text: resiliency and fault tolerance -- for systems, networks, distributed RT and CPS among others
+  - text: real-time control -- centralized and distributed
+  - text: hardware and/or software architectures such as SoCs, FPGA simulation/prototyping, specialized memory structures, special functional units, multi-core chips and communication aspects among others
+  - text: machine learning in or for cyber-physical and real-time systems
+  - text: performance analysis, system experimentation and deployment experiences
+  - text: simulation/emulation frameworks
+  - text: Internet-of-Things -- scalability, interoperability, uncertainty, security, power management, communication, operating systems, abstractions, protocols, modeling
+  - text: game theoretic analysis for CPS
