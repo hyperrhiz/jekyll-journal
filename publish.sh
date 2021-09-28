@@ -1,7 +1,7 @@
 #! /bin/bash
 
-TGT_BRANCH=master  # Branch containing the static website
-SRC_BRANCH=sources # Branch containing source files for the website
+TGT_BRANCH=website  # Branch containing the static website
+SRC_BRANCH=master # Branch containing source files for the website
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 BUILD_DIR=$(mktemp -d)
 
@@ -55,7 +55,7 @@ ls | xargs rm -r
 mv $BUILD_DIR/* .
 git add . 
 git commit -q -m "Publishing from sources branch, commit $COMMIT_HASH ($COMMIT_DATE)"
-if git push -q origin master; then
+if git push -q origin $TGT_BRANCH; then
     echo "success"
 else
     echo "failed"
