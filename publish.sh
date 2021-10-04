@@ -54,7 +54,7 @@ echo -n "Publishing... "
 ls | xargs rm -r 
 mv $BUILD_DIR/* .
 git add . 
-git commit -q -m "Publishing from sources branch, commit $COMMIT_HASH ($COMMIT_DATE)"
+git commit -q -m "Publishing from $SRC_BRANCH branch, commit $COMMIT_HASH ($COMMIT_DATE)"
 if git push -q origin $TGT_BRANCH; then
     echo "success"
 else
