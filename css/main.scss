@@ -13,11 +13,12 @@ $base-line-height: 1.35;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       rgb(70, 70, 70);
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #058316;
+$brand-color-light:#baefb6;
 
-$grey-color:       #828282;
+$grey-color:       rgb(85, 85, 85);
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -53,18 +54,23 @@ $on-laptop:        800px;
 
 
 
-/*****************************/
-/* ReScience custom settings */
-/*****************************/
+/************************/
+/* JSys custom settings */
+/************************/
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ce232b;
+    color: $brand-color;
     padding-top: 1em;
     font-weight: 500;
 }
 
+// h3, h4, h5, h6 {
+//     padding-top: 1em;
+//     font-weight: 500;
+// }
+
 .site-header strong {
-    color: #ce232b;
+    color: $brand-color;
     font-weight: 600;
 }
 
@@ -76,13 +82,14 @@ a:hover {
 .site-header {
     border: none;
     min-height: 150px;
+    // background-color: $brand-color-light;
 }
 
 .site-title a {
     /* padding: .5em .75em .25em 1em;
-    background-color:  #ce232b;
+    background-color:  $brand-color;
     color:  white; */
-    color:  #ce232b;
+    color:  $brand-color;
     /*font-size: 80%;*/
     font-weight: 100;
     margin: auto;
@@ -98,13 +105,13 @@ a:hover {
 
 .site-nav a {
     font-size: 14px;
-    color: #ce232b;
+    color: $brand-color;
     font-weight: 400;
 }
 
 .site-nav a:hover {
     text-decoration: none;
-    color: #ce232b;
+    color: $brand-color;
 }
 
 .post-content {
@@ -132,7 +139,7 @@ a:hover {
 
 a.bibtag {
     padding: .25em .5em .1em .5em;
-    background-color:  #ce232b;
+    background-color:  $brand-color;
     color:  white;
     border-radius: 2px;
 }
@@ -140,9 +147,9 @@ a.bibtag {
 
 .collapse {
     font-size: 90%;
-    color: black;
-    background-color: #fff0f0;
-    border: 1px solid black;
+    color: $text-color;
+    background-color: $brand-color-light;
+    border: 1px solid $text-color;
 }
 
 
@@ -179,7 +186,7 @@ pre,code {
 }
 
 .highlight {
-    background: #f0f0ff;
+    background: $brand-color-light;
 }
 
 li p small {
@@ -227,7 +234,7 @@ div.bib-entry-highlight {
     width: 100%;
     padding: 1.5em;
     color: white;
-    background-color: #ce232b;
+    background-color: $brand-color;
     // border: 1px solid black;
 }
 
@@ -235,4 +242,13 @@ img.ten-years-challenge {
 /*    float: right;
     width: 25%; */
     border: 1px solid black;
+}
+
+
+/**
+ * FontAwesome
+ */
+
+.fas, .fa, .fab {
+    color: $brand-color;
 }

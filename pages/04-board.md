@@ -25,8 +25,8 @@ The editorial board of JSys is made of people committed to open access for all, 
 - [{{ item.name}}]({{item.webpage}})  
   <small>
     {{item.affiliation}}  
-    <i class="fab fa-orcid"></i>   &nbsp; {{item.orcid}}  
-    <i class="fab fa-twitter"></i> &nbsp; {{item.twitter}}
+    [<i class="fab fa-orcid"></i>   &nbsp; {{item.orcid}}](https://orcid.org/{{item.orcid}})  
+    [<i class="fab fa-twitter"></i> &nbsp; @{{item.twitter}}](https://twitter.com/{{item.twitter}})
   </small>
 {% endfor %}
 
@@ -69,7 +69,7 @@ http://movb.de/jekyll-details-support.html -->
 {% for member in site.data.co-founders.list %}
 - [{{ member.name}}]({{member.webpage}})  
   <small>
-    <i class="fab fa-orcid"></i>   &nbsp; {{member.orcid}}  
-    <i class="fab fa-twitter"></i> &nbsp; {{member.twitter}}
+    [<i class="fab fa-orcid"></i>   &nbsp; {{member.orcid}}](https://orcid.org/{{member.orcid}})  
+    [<i class="fab fa-twitter"></i> &nbsp; @{{member.twitter}}](https://twitter.com/{{member.twitter}})
   </small>
 {% endfor %}
