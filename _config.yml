@@ -24,7 +24,7 @@ scholar:
   # style: chicago-fullnote-bibliography
   locale: en
 
-  bibliography_list_tag: ul
+  bibliography_list_tag: ol
   sort_by: year, month, type, area
   order: descending, descending, descending, area
 
