@@ -52,14 +52,14 @@ http://movb.de/jekyll-details-support.html -->
 
 ## Artifact Evaluation Board
 
-{% for chair in site.data.areas.meta.artifacts.chairs %}
+{% for chair in site.data.areas.artifacts.board.chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
 [Self-nomination and complete board](/cfp_artifacts/)
 
 ## Student Editorial Board
 
-{% for chair in site.data.areas.meta.students.chairs %}
+{% for chair in site.data.areas.students.board.chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
 [Self-nomination and complete board](/cfp_students/)
