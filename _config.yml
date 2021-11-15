@@ -25,8 +25,8 @@ scholar:
   locale: en
 
   bibliography_list_tag: ol
-  sort_by: year, month, type, area
-  order: descending, descending, descending, area
+  sort_by: key #year,month,type,area
+  order: ascending #ascending,ascending,ascending,ascending
 
   # group_by: type
   # group_order: ascending
