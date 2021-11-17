@@ -1,12 +1,12 @@
 forums:
 
 - title: Nov. 2021 - Paper 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2021/Nov_Papers
 
 - title: Nov. 2021 - Aritfact 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2021/Nov_Artifacts
 

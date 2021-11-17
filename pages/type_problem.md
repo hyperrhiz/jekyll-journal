@@ -9,7 +9,7 @@ JSys invites papers that present a new problem to the community. The problem mus
 
 We hope that Problem papers will serve as calls for action for a particular class of problems. Well-motivated, carefully argued Problem papers should prove influential and should drive the community to invest in working on possible solutions.
 
-Problem papers will not rejected for:
+Problem papers will not be rejected for:
 
 - Not presenting solutions to the problems presented in the paper
 - Not building a system

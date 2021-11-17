@@ -14,7 +14,7 @@ Difference with research papers that build systems.A number of research papers a
 1. The tool/benchmark does not need to use novel techniques or advance the state-of-the-art in terms of research
 2. The tool/benchmark needs to pass Artifact Evaluation to be accepted. This is mandatory (it is usually optional for research papers that introduce artifacts).
 
-Tool papers will not rejected for:
+Tool papers will not be rejected for:
 
 - Lack of novelty in the techniques used by the tool (i.e “just engineering”)
 
