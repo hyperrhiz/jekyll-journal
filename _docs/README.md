@@ -84,12 +84,14 @@ TBA
 
 If you don't have edit access to this repository, fork it, push your updates to your fork, and submit a pull request.
 
-> If you are not familiar with the process, don't worry, it's fairly easy. There are tons of tutorials online to walk you through the process; [here is one.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+> If you are not familiar with the process, don't worry, it's fairly easy.  
+There are tons of tutorials online to walk you through the process; [here is one.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 
 If you have edit access to this repository, you can push directly. Please do make sure that you [tested your updates locally](#how-to-test-updates-locally) first.
 
 **Important**  
-After committing updates to the website `master` branch, you **must** run the [publish.sh](publish.sh) script to publish the changes on the live website [jsys.org](https://www.jsys.org/).
+After committing updates to the website's `master` branch,  
+you **must** run the [publish.sh](../publish.sh) script to publish the changes on the live website [jsys.org](https://www.jsys.org/).
 
 ### How to add newly publish papers?
 
@@ -98,5 +100,5 @@ After committing updates to the website `master` branch, you **must** run the [p
 
 ### How to add a page to the navigation menu?
 
-Add a `menutitle: <page-name-in-menu>` tag in the page front matter.  
+Just add `menutitle: <page-name-in-menu>` in the page front matter.  
 The page can be either HTML or MD, and located anywhere in `\pages`.
