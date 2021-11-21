@@ -56,7 +56,7 @@ JSys opens new submission forums for each deadline. Here are the links for recen
 
 JSys has multiple deadlines each year, each set at 23:59 Anywhere on Earth (UTC-12).
 
-- March 1st
+- February 1st
 - May 1st
 - August 1st
 - November 1st
