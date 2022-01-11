@@ -37,8 +37,8 @@ area:
   id: networking
   active: 1
 
-- title: Active Storage
-  id: activeStorage
+- title: Storage
+  id: storage
   active: 1
 
 - title: Wireless Embedded Systems
