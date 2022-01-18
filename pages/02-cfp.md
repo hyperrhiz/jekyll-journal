@@ -16,6 +16,7 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 - [Artifact Evaluation](#artifact-evaluation)
 - [Revisions and Review Process](#revisions-and-review-process)
 - [Open Access](#open-access)
+- [Prices](#prices)
 
 <!-- /TOC -->
 
@@ -228,3 +229,7 @@ Under the CC BY-NC license, authors retain ownership of the
 copyright for their work, but authors allow anyone to download, reuse,
 reprint, modify, distribute, and/or copy articles in JSys, so
 long as the original authors and source are cited and the material is not used for commercial purposes. No permission is required from the authors nor the publisher.
+
+## Prices
+
+JSys does not charge any APCs or submission charges. It is completely free for the authors to publish their work in the journal.
