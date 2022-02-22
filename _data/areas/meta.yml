@@ -49,6 +49,14 @@ area:
   id: decentralized
   active: 1
 
+- title: Computer Architecture
+  id: compArchitecture
+  active: 1
+
+- title: System Security
+  id: security
+  active: 1
+
 # ============= #
 # Special Areas #
 # ============= #

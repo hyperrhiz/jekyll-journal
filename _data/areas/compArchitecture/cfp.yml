@@ -1,0 +1,27 @@
+
+introduction:
+
+  - paragraph: "JSys invites papers on research works that take the expanded view of computer architecture that involves programming languages, system software, software/hardware interface, and microarchitecture. We are, in particular, interested in research that addresses crosscutting qualities that are related to hardware/software interface, such as performance, energy/thermal efficiency, resiliency, security, applications, and environments. The expanded view of computer architecture enables co-design across the hierarchy from algorithms to devices to achieve the highest energy efficiency and performance. In addition, it allows specialization as much as possible within the design goals. The importance of cross-cutting research at the expanded view of architecture became even more prominent more recently by evidence showing the end of Dennard scaling, the explosion of machine learning systems, and issues such as the power demand of training large models such as GPT-3, scales ranging from ultra-low power wearable devices to exascale parallel and cloud computers."
+
+topics:
+
+  - text: Existing and emerging platforms, from resource-constrained to exascale platforms
+  - text: Internet services, cloud computing, and datacenters
+  - text: Multicore architectures and systems
+  - text: Heterogeneous architectures and accelerators
+  - text: Domain-specific hardware accelerator
+  - text: Power, energy, and thermal management
+  - text: Security, reliability, and availability
+  - text: Support for approximations and approximate computing
+  - text: IoT, mobile, embedded architecture
+  - text: Accelerator-based, application-specific, and reconfigurable architecture
+  - text: Architectural support for programming languages or software development
+  - text: Architectural support for interfacing with accelerators
+  - text: Architectural support for security, virtual memory, virtualization, and containerization
+  - text: Instruction-, thread-, and data-level parallelism
+  - text: Dependable processor and system architecture
+  - text: Architecture for emerging technologies and applications, including machine learning, quantum computing, VR/AR.
+  - text: Effects of circuits or technology on architecture
+  - text: Architecture modeling and simulation methodologies
+  - text: Evaluation and measurement of computing systems
+  - text: Benchmarks for evaluating the efficacy and performance of modern architectures

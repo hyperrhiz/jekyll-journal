@@ -1,0 +1,19 @@
+
+introduction:
+
+  - paragraph: System security covers the intersection between systems research and security research in particular around the topics of software security, web security, mobile security, network security, operating system security, and hardware security. These topics inherently involve systems topics as part of their mechanisms, policies, or attacks. While attacks are in scope, the focus of this track is on constructive security, i.e., mitigating and avoiding attacks along with systematizing knowledge.
+
+topics:
+
+  - text: Analysis of network and security protocols
+  - text: Attacks with novel insights, techniques, or results
+  - text: Automated security analysis of source code and binaries
+  - text: Embedded systems security
+  - text: Language-based security
+  - text: Machine learning security
+  - text: Mobile systems security
+  - text: Network security
+  - text: Operating system security
+  - text: Program analysis for security
+  - text: Web security
+

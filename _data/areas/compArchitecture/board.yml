@@ -1,5 +1,4 @@
-area: Micro-services and Cloud Systems
-
+area: Computer Architecture
 
 chairs:
 
@@ -10,4 +9,13 @@ chairs:
   orcid: 0000-0002-9342-0703
   twitter: PooyanJamshidi
 
+- name: Devashree Tripathy
+  affiliation: Harvard University
+  webpage: http://www.cs.ucr.edu/~dtrip003/
+  email: dtrip003@ucr.edu
+  orcid: 
+  twitter: devashreetrip
+
 members:
+
+- name: TBA
