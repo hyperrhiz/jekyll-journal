@@ -34,7 +34,13 @@ members:
   webpage: https://www.unibw.de/code/im-profil/professuren/univ-prof-dr-stefan-brunthaler
   orcid: 0000-0001-9766-4871
   twitter: stbrunthaler
-  
+
+- name: Alessandro Sorniotti
+  affiliation: IBM Research
+  webpage: https://ale.sopit.net/
+  orcid: 
+  twitter: sigusr0
+
 - name: Yanick Fratantonio
   affiliation: Cisco Talos
   webpage: https://reyammer.io/
