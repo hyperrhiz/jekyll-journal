@@ -1,8 +1,18 @@
 
 introduction:
 
-  - paragraph: 
+  - paragraph: Systems researchers increasingly rely on large datasets to carry out their experiments and prove their hypotheses. Whether is data obtained for training ML models, data that comes from monitoring production systems, or data that is produced by large-scale (or long-running) experiments; managing the lifecycle of experiments and their associated data is vital when looking from the point of view of reproducibility. In this context, the "Data Science and Reproducibility" area of JSys welcomes contributions that address a wide variety of topics in the area of reproducibility in the research, design, development, and operation of data-intensive workloads and systems.
 
 topics:
 
-  - text: 
+  - text: Experiment dependency management.
+  - text: Data versioning and preservation.
+  - text: Provenance of data-intensive experiments.
+  - text: Tools and techniques for incorporating provenance into publications.
+  - text: Automated experiment execution and validation.
+  - text: Experiment portability for code, performance, and related metrics.
+  - text: Experiment discoverability for re-use.
+  - text: Cost-benefit analysis frameworks for reproducibility.
+  - text: Usability and adaptability of reproducibility frameworks into already-established domain-specific tools.
+  - text: Long-term artifact archiving for future reproducibility.
+  - text: Reproducibility-aware computational infrastructure.
