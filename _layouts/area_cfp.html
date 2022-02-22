@@ -40,7 +40,7 @@ layout: default
           <a href="{{chair.webpage }}">{{ chair.name }}</a>, {{chair.affiliation}}  <br />
           {% if chair.email %}
             <i class="fas fa-envelope"></i>&nbsp; 
-            <a href="mailto{{chair.email}}">{{ chair.email }}</a>
+            <a href="mailto:{{chair.email}}">{{ chair.email }}</a>
           {% endif %}
         </li>{% endfor %}
       </ul>
