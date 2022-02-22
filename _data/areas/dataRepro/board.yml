@@ -3,9 +3,9 @@ area: Data Science and Reproducibility
 chairs:
 
 - name: Ivo Jimenez
-  affiliation: UC Santa Cruz
+  affiliation: Redpanda Data
   webpage: https://ivotron.me/
-  email: ivotron@ucsc.edu
+  email: ivotron@pm.me
   orcid: 0000-0002-2222-1985
   twitter: ivotron
 
@@ -26,12 +26,6 @@ members:
 - name: Lukas Rupprecht
   affiliation: IBM Almaden
   webpage: https://lukasrupprecht.github.io/
-  orcid: 
-  twitter: 
-
-- name: Sebastian Schelter
-  affiliation: University of Amsterdam
-  webpage: https://ssc.io/
   orcid: 
   twitter: 
 
