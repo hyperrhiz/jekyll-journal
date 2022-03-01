@@ -78,6 +78,12 @@ There is no page limit.
 
 **However**, we strongly encourage authors to make their paper as brief as possible. Reviewer time and attention are limited; a compelling case for the paper must be made in the first 12-14 pages.
 
+### DOI and Bibliography
+
+JSys articles are assigned a Crossref DOI upon publication.
+
+Consequently, every reference in the bibliography must include a DOI whenever available. The [JSys LaTeX template](#template) includes everything necessary to display DOIs according to [Crossref's guidelines](https://www.crossref.org/display-guidelines/). The only thing you have to do is fill in the DOI fields in your `.bib` file.
+
 ### Template
 
 The JSys LaTeX template is available on [GitHub](https://github.com/jsysresearch/template). To get started and build a sample PDF:
