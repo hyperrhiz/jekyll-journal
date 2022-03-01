@@ -25,8 +25,8 @@ The editorial board of JSys is made of people committed to open access for all, 
 - [{{ item.name}}]({{item.webpage}})  
   <small>
     {{item.affiliation}}  
-    [<i class="fab fa-orcid"></i>   &nbsp; {{item.orcid}}](https://orcid.org/{{item.orcid}})  
-    [<i class="fab fa-twitter"></i> &nbsp; @{{item.twitter}}](https://twitter.com/{{item.twitter}})
+    <i class="fab fa-orcid"></i>   &nbsp; [{{item.orcid}}](https://orcid.org/{{item.orcid}})  
+    <i class="fab fa-twitter"></i> &nbsp; [@{{item.twitter}}](https://twitter.com/{{item.twitter}})
   </small>
 {% endfor %}
 
