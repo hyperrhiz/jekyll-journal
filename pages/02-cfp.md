@@ -17,6 +17,7 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 - [Revisions and Review Process](#revisions-and-review-process)
 - [Open Access](#open-access)
 - [Prices](#prices)
+- [Plagiarism](#plagiarism)
 
 <!-- /TOC -->
 
@@ -233,3 +234,9 @@ long as the original authors and source are cited and the material is not used f
 ## Prices
 
 JSys does not charge any APCs or submission charges. It is completely free for the authors to publish their work in the journal.
+
+## Plagiarism
+
+Plagiarism is a serious form of dishonesty and fraud. Alike most scientific journals, JSys prohibits plagiarism and may take action against authors who commit them.
+
+That being said, we trust our authors' ethical behavior: JSys does not use any plagiarism checking system, until proven necessary.
