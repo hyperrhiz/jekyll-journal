@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     // color: darken($brand-color, 5%);
     color: black;
-    text-decoration: underline dotted;
+    text-decoration: underline dotted $text-color;
 
     // &:visited {
     //     color: darken($brand-color, 5%);
