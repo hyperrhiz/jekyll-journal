@@ -17,7 +17,7 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 - [Revisions and Review Process](#revisions-and-review-process)
 - [Open Access](#open-access)
 - [Prices](#prices)
-- [Plagiarism](#plagiarism)
+- [Policies](#policies)
 
 <!-- /TOC -->
 
@@ -229,14 +229,40 @@ JSys applies the Creative Commons Attribution-NonCommercial (CC BY-NC) license t
 Under the CC BY-NC license, authors retain ownership of the
 copyright for their work, but authors allow anyone to download, reuse,
 reprint, modify, distribute, and/or copy articles in JSys, so
-long as the original authors and source are cited and the material is not used for commercial purposes. No permission is required from the authors nor the publisher.
+long as the original authors and source are cited, and the material is not used for commercial purposes. No permission is required from the authors nor the publisher.
 
 ## Prices
 
 JSys does not charge any APCs or submission charges. It is completely free for the authors to publish their work in the journal.
 
-## Plagiarism
+## Policies
+
+### Plagiarism
 
 Plagiarism is a serious form of dishonesty and fraud. Alike most scientific journals, JSys prohibits plagiarism and may take action against authors who commit them.
 
 That being said, we trust our authors' ethical behavior: JSys does not use any plagiarism checking system, until proven necessary.
+
+### Removal
+
+Once published, an article cannot generally be revised or removed.
+
+We believe it is important to provide perpetual access to materials published whenever possible and appropriate. However, we will remove publications under special circumstances, including in the case of submission errors, rights violations, or inappropriate content. Please be aware, however, that even after the removal of a work, a citation to the work will remain in our system, along with a URL.
+
+If you would like your work removed from JSys, please [contact the editors](/contact/).
+
+### Revising Work
+
+Once articles are published, we are generally unable to revise them. 
+
+If a significant error or omission is discovered, please [contact the editors](/contact/).
+
+### Rights and Permissions
+
+JSys does not require copyright transfer, only a non-exclusive permission to publish and archive the article. 
+
+Copyright holders retain copyright ownership, granting a non-exclusive license to the JSys and eScholarship to publish the article, meaning that the author may also publish it elsewhere. Before submitting an article to the journal, please be sure that all necessary permissions have been cleared in any third party material. All articles published in JSys are subject to the journal’s author agreement, which is available [upon request](/contact/).
+
+### Long-term preservation policy
+
+All materials submitted to JSys are automatically deposited in CDL's [Merritt Preservation Repository](http://www.cdlib.org/services/uc3/merritt/) for long-term preservation.
