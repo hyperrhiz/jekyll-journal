@@ -35,14 +35,21 @@ members:
   orcid: 0000-0001-9766-4871
   twitter: stbrunthaler
 
+- name: Yanick Fratantonio
+  affiliation: Cisco Talos
+  webpage: https://reyammer.io/
+  orcid: 
+  twitter: reyammer
+
+- name: Aastha Mehta
+  affiliation: University of British Columbia
+  webpage: https://aasthakm.github.io/
+  orcid: 
+  twitter:
+
 - name: Alessandro Sorniotti
   affiliation: IBM Research
   webpage: https://ale.sopit.net/
   orcid: 
   twitter: sigusr0
 
-- name: Yanick Fratantonio
-  affiliation: Cisco Talos
-  webpage: https://reyammer.io/
-  orcid: 
-  twitter: reyammer
