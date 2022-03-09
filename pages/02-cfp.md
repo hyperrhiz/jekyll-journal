@@ -267,7 +267,7 @@ If a significant error or omission is discovered, please [contact the editors](/
 
 JSys does not require copyright transfer, only a non-exclusive permission to publish and archive the article. 
 
-Copyright holders retain copyright ownership, granting a non-exclusive license to the JSys and eScholarship to publish the article, meaning that the author may also publish it elsewhere. Before submitting an article to the journal, please be sure that all necessary permissions have been cleared in any third party material. All articles published in JSys are subject to the journal’s author agreement, which is available [upon request](/contact/).
+Copyright holders retain copyright ownership, granting a non-exclusive license to the JSys and eScholarship to publish the article, meaning that the author may also publish it elsewhere. Before submitting an article to the journal, please be sure that all necessary permissions have been cleared in any third party material. All articles published in JSys are subject to the [journal’s author agreement](https://github.com/jsysresearch/community/blob/main/agreement.pdf).
 
 ### Long-term preservation policy
 
