@@ -2,30 +2,32 @@ area: Networking
 
 chairs:
 
-- name: Junchen Jiang
-  affiliation: University of Chicago
-  webpage: https://people.cs.uchicago.edu/~junchenj/
-  email: junchenj@uchicago.edu
-  orcid: 
-  twitter: 
-
-members:
-
 - name: Francis Yan
   affiliation: Microsoft Research
   webpage: https://francisyyan.org/
-  orcid: 
-  twitter: 
-
-- name: Arpit Gupta
-  affiliation: UC Santa Barbara
-  webpage: https://sites.cs.ucsb.edu/~arpitgupta/
+  email: francisy@microsoft.com
   orcid: 
   twitter: 
 
 - name: Sangeetha Abdu Jyothi
   affiliation: UC Irvine
   webpage: https://www.ics.uci.edu/~sabdujyo/
+  email: sangeetha.aj@uci.edu
+  orcid: 
+  twitter: 
+
+- name: (outgoing) Junchen Jiang
+  affiliation: University of Chicago
+  webpage: https://people.cs.uchicago.edu/~junchenj/
+  # email: junchenj@uchicago.edu
+  orcid: 
+  twitter: 
+
+members:
+
+- name: Arpit Gupta
+  affiliation: UC Santa Barbara
+  webpage: https://sites.cs.ucsb.edu/~arpitgupta/
   orcid: 
   twitter: 
 
