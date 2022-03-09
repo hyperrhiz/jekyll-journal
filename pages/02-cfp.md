@@ -56,12 +56,13 @@ JSys opens new submission forums for each deadline. Here are the links for recen
 
 ### Deadlines
 
-JSys has multiple deadlines each year, each set at 23:59 Anywhere on Earth (UTC-12).
+JSys has multiple deadlines each year, each set at 11:59 PM GMT
+~~23:59 Anywhere on Earth (UTC-12)~~.
 
-- February 1st
+- March 1st ~~February 1st~~
 - May 1st
 - August 1st
-- November 1st
+- October 1st ~~November 1st~~
 
 For each deadline, reviews will be available within 1.5 month.
 For example, for a work submitted by March 1st, JSys commits to provide initial reviews by April 15th.
