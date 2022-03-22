@@ -1,0 +1,251 @@
+Country,ISO-1,ISO-2,ISO-3,Geoname ID,Region,Sub-region
+Taiwan,158,TW,TWN,1668284,,
+Afghanistan,4,AF,AFG,1149361,Asia,Southern Asia
+Albania,8,AL,ALB,783754,Europe,Southern Europe
+Algeria,12,DZ,DZA,2589581,Africa,Northern Africa
+American Samoa,16,AS,ASM,5880801,Oceania,Polynesia
+Andorra,20,AD,AND,3041565,Europe,Southern Europe
+Angola,24,AO,AGO,3351879,Africa,Sub-Saharan Africa
+Anguilla,660,AI,AIA,3573511,Americas,Latin America and the Caribbean
+Antarctica,10,AQ,ATA,6697173,,
+Antigua & Barbuda,28,AG,ATG,3576396,Americas,Latin America and the Caribbean
+Argentina,32,AR,ARG,3865483,Americas,Latin America and the Caribbean
+Armenia,51,AM,ARM,174982,Asia,Western Asia
+Aruba,533,AW,ABW,3577279,Americas,Latin America and the Caribbean
+Australia,36,AU,AUS,2077456,Oceania,Australia and New Zealand
+Austria,40,AT,AUT,2782113,Europe,Western Europe
+Azerbaijan,31,AZ,AZE,587116,Asia,Western Asia
+Bahamas,44,BS,BHS,3572887,Americas,Latin America and the Caribbean
+Bahrain,48,BH,BHR,290291,Asia,Western Asia
+Bangladesh,50,BD,BGD,1210997,Asia,Southern Asia
+Barbados,52,BB,BRB,3374084,Americas,Latin America and the Caribbean
+Belarus,112,BY,BLR,630336,Europe,Eastern Europe
+Belgium,56,BE,BEL,2802361,Europe,Western Europe
+Belize,84,BZ,BLZ,3582678,Americas,Latin America and the Caribbean
+Benin,204,BJ,BEN,2395170,Africa,Sub-Saharan Africa
+Bermuda,60,BM,BMU,3573345,Americas,Northern America
+Bhutan,64,BT,BTN,1252634,Asia,Southern Asia
+Bolivia,68,BO,BOL,3923057,Americas,Latin America and the Caribbean
+Caribbean Netherlands,535,BQ,BES,7626844,Americas,Latin America and the Caribbean
+Bosnia,70,BA,BIH,3277605,Europe,Southern Europe
+Botswana,72,BW,BWA,933860,Africa,Sub-Saharan Africa
+Bouvet Island,74,BV,BVT,3371123,Americas,Latin America and the Caribbean
+Brazil,76,BR,BRA,3469034,Americas,Latin America and the Caribbean
+British Indian Ocean Territory,86,IO,IOT,1282588,Africa,Sub-Saharan Africa
+British Virgin Islands,92,VG,VGB,3577718,Americas,Latin America and the Caribbean
+Brunei,96,BN,BRN,1820814,Asia,South-eastern Asia
+Bulgaria,100,BG,BGR,732800,Europe,Eastern Europe
+Burkina Faso,854,BF,BFA,2361809,Africa,Sub-Saharan Africa
+Burundi,108,BI,BDI,433561,Africa,Sub-Saharan Africa
+Cape Verde,132,CV,CPV,3374766,Africa,Sub-Saharan Africa
+Cambodia,116,KH,KHM,1831722,Asia,South-eastern Asia
+Cameroon,120,CM,CMR,2233387,Africa,Sub-Saharan Africa
+Canada,124,CA,CAN,6251999,Americas,Northern America
+Cayman Islands,136,KY,CYM,3580718,Americas,Latin America and the Caribbean
+Central African Republic,140,CF,CAF,239880,Africa,Sub-Saharan Africa
+Chad,148,TD,TCD,2434508,Africa,Sub-Saharan Africa
+Chile,152,CL,CHL,3895114,Americas,Latin America and the Caribbean
+China,156,CN,CHN,1814991,Asia,Eastern Asia
+Hong Kong,344,HK,HKG,1819730,Asia,Eastern Asia
+Macau,446,MO,MAC,1821275,Asia,Eastern Asia
+Christmas Island,162,CX,CXR,2078138,Oceania,Australia and New Zealand
+Cocos (Keeling) Islands,166,CC,CCK,1547376,Oceania,Australia and New Zealand
+Colombia,170,CO,COL,3686110,Americas,Latin America and the Caribbean
+Comoros,174,KM,COM,921929,Africa,Sub-Saharan Africa
+Congo - Brazzaville,178,CG,COG,2260494,Africa,Sub-Saharan Africa
+Cook Islands,184,CK,COK,1899402,Oceania,Polynesia
+Costa Rica,188,CR,CRI,3624060,Americas,Latin America and the Caribbean
+Croatia,191,HR,HRV,3202326,Europe,Southern Europe
+Cuba,192,CU,CUB,3562981,Americas,Latin America and the Caribbean
+Curaçao,531,CW,CUW,7626836,Americas,Latin America and the Caribbean
+Cyprus,196,CY,CYP,146669,Asia,Western Asia
+Czechia,203,CZ,CZE,3077311,Europe,Eastern Europe
+Côte d’Ivoire,384,CI,CIV,2287781,Africa,Sub-Saharan Africa
+North Korea,408,KP,PRK,1873107,Asia,Eastern Asia
+Congo - Kinshasa,180,CD,COD,203312,Africa,Sub-Saharan Africa
+Denmark,208,DK,DNK,2623032,Europe,Northern Europe
+Djibouti,262,DJ,DJI,223816,Africa,Sub-Saharan Africa
+Dominica,212,DM,DMA,3575830,Americas,Latin America and the Caribbean
+Dominican Republic,214,DO,DOM,3508796,Americas,Latin America and the Caribbean
+Ecuador,218,EC,ECU,3658394,Americas,Latin America and the Caribbean
+Egypt,818,EG,EGY,357994,Africa,Northern Africa
+El Salvador,222,SV,SLV,3585968,Americas,Latin America and the Caribbean
+Equatorial Guinea,226,GQ,GNQ,2309096,Africa,Sub-Saharan Africa
+Eritrea,232,ER,ERI,338010,Africa,Sub-Saharan Africa
+Estonia,233,EE,EST,453733,Europe,Northern Europe
+Eswatini,748,SZ,SWZ,934841,Africa,Sub-Saharan Africa
+Ethiopia,231,ET,ETH,337996,Africa,Sub-Saharan Africa
+Falkland Islands,238,FK,FLK,3474414,Americas,Latin America and the Caribbean
+Faroe Islands,234,FO,FRO,2622320,Europe,Northern Europe
+Fiji,242,FJ,FJI,2205218,Oceania,Melanesia
+Finland,246,FI,FIN,660013,Europe,Northern Europe
+France,250,FR,FRA,3017382,Europe,Western Europe
+French Guiana,254,GF,GUF,3381670,Americas,Latin America and the Caribbean
+French Polynesia,258,PF,PYF,4030656,Oceania,Polynesia
+French Southern Territories,260,TF,ATF,1546748,Africa,Sub-Saharan Africa
+Gabon,266,GA,GAB,2400553,Africa,Sub-Saharan Africa
+Gambia,270,GM,GMB,2413451,Africa,Sub-Saharan Africa
+Georgia,268,GE,GEO,614540,Asia,Western Asia
+Germany,276,DE,DEU,2921044,Europe,Western Europe
+Ghana,288,GH,GHA,2300660,Africa,Sub-Saharan Africa
+Gibraltar,292,GI,GIB,2411586,Europe,Southern Europe
+Greece,300,GR,GRC,390903,Europe,Southern Europe
+Greenland,304,GL,GRL,3425505,Americas,Northern America
+Grenada,308,GD,GRD,3580239,Americas,Latin America and the Caribbean
+Guadeloupe,312,GP,GLP,3579143,Americas,Latin America and the Caribbean
+Guam,316,GU,GUM,4043988,Oceania,Micronesia
+Guatemala,320,GT,GTM,3595528,Americas,Latin America and the Caribbean
+Guernsey,831,GG,GGY,3042362,Europe,Northern Europe
+Guinea,324,GN,GIN,2420477,Africa,Sub-Saharan Africa
+Guinea-Bissau,624,GW,GNB,2372248,Africa,Sub-Saharan Africa
+Guyana,328,GY,GUY,3378535,Americas,Latin America and the Caribbean
+Haiti,332,HT,HTI,3723988,Americas,Latin America and the Caribbean
+Heard & McDonald Islands,334,HM,HMD,1547314,Oceania,Australia and New Zealand
+Vatican City,336,VA,VAT,3164670,Europe,Southern Europe
+Honduras,340,HN,HND,3608932,Americas,Latin America and the Caribbean
+Hungary,348,HU,HUN,719819,Europe,Eastern Europe
+Iceland,352,IS,ISL,2629691,Europe,Northern Europe
+India,356,IN,IND,1269750,Asia,Southern Asia
+Indonesia,360,ID,IDN,1643084,Asia,South-eastern Asia
+Iran,364,IR,IRN,130758,Asia,Southern Asia
+Iraq,368,IQ,IRQ,99237,Asia,Western Asia
+Ireland,372,IE,IRL,2963597,Europe,Northern Europe
+Isle of Man,833,IM,IMN,3042225,Europe,Northern Europe
+Israel,376,IL,ISR,294640,Asia,Western Asia
+Italy,380,IT,ITA,3175395,Europe,Southern Europe
+Jamaica,388,JM,JAM,3489940,Americas,Latin America and the Caribbean
+Japan,392,JP,JPN,1861060,Asia,Eastern Asia
+Jersey,832,JE,JEY,3042142,Europe,Northern Europe
+Jordan,400,JO,JOR,248816,Asia,Western Asia
+Kazakhstan,398,KZ,KAZ,1522867,Asia,Central Asia
+Kenya,404,KE,KEN,192950,Africa,Sub-Saharan Africa
+Kiribati,296,KI,KIR,4030945,Oceania,Micronesia
+Kuwait,414,KW,KWT,285570,Asia,Western Asia
+Kyrgyzstan,417,KG,KGZ,1527747,Asia,Central Asia
+Laos,418,LA,LAO,1655842,Asia,South-eastern Asia
+Latvia,428,LV,LVA,458258,Europe,Northern Europe
+Lebanon,422,LB,LBN,272103,Asia,Western Asia
+Lesotho,426,LS,LSO,932692,Africa,Sub-Saharan Africa
+Liberia,430,LR,LBR,2275384,Africa,Sub-Saharan Africa
+Libya,434,LY,LBY,2215636,Africa,Northern Africa
+Liechtenstein,438,LI,LIE,3042058,Europe,Western Europe
+Lithuania,440,LT,LTU,597427,Europe,Northern Europe
+Luxembourg,442,LU,LUX,2960313,Europe,Western Europe
+Madagascar,450,MG,MDG,1062947,Africa,Sub-Saharan Africa
+Malawi,454,MW,MWI,927384,Africa,Sub-Saharan Africa
+Malaysia,458,MY,MYS,1733045,Asia,South-eastern Asia
+Maldives,462,MV,MDV,1282028,Asia,Southern Asia
+Mali,466,ML,MLI,2453866,Africa,Sub-Saharan Africa
+Malta,470,MT,MLT,2562770,Europe,Southern Europe
+Marshall Islands,584,MH,MHL,2080185,Oceania,Micronesia
+Martinique,474,MQ,MTQ,3570311,Americas,Latin America and the Caribbean
+Mauritania,478,MR,MRT,2378080,Africa,Sub-Saharan Africa
+Mauritius,480,MU,MUS,934292,Africa,Sub-Saharan Africa
+Mayotte,175,YT,MYT,1024031,Africa,Sub-Saharan Africa
+Mexico,484,MX,MEX,3996063,Americas,Latin America and the Caribbean
+Micronesia,583,FM,FSM,2081918,Oceania,Micronesia
+Monaco,492,MC,MCO,2993457,Europe,Western Europe
+Mongolia,496,MN,MNG,2029969,Asia,Eastern Asia
+Montenegro,499,ME,MNE,3194884,Europe,Southern Europe
+Montserrat,500,MS,MSR,3578097,Americas,Latin America and the Caribbean
+Morocco,504,MA,MAR,2542007,Africa,Northern Africa
+Mozambique,508,MZ,MOZ,1036973,Africa,Sub-Saharan Africa
+Myanmar,104,MM,MMR,1327865,Asia,South-eastern Asia
+Namibia,516,NA,NAM,3355338,Africa,Sub-Saharan Africa
+Nauru,520,NR,NRU,2110425,Oceania,Micronesia
+Nepal,524,NP,NPL,1282988,Asia,Southern Asia
+Netherlands,528,NL,NLD,2750405,Europe,Western Europe
+New Caledonia,540,NC,NCL,2139685,Oceania,Melanesia
+New Zealand,554,NZ,NZL,2186224,Oceania,Australia and New Zealand
+Nicaragua,558,NI,NIC,3617476,Americas,Latin America and the Caribbean
+Niger,562,NE,NER,2440476,Africa,Sub-Saharan Africa
+Nigeria,566,NG,NGA,2328926,Africa,Sub-Saharan Africa
+Niue,570,NU,NIU,4036232,Oceania,Polynesia
+Norfolk Island,574,NF,NFK,2155115,Oceania,Australia and New Zealand
+Northern Mariana Islands,580,MP,MNP,4041468,Oceania,Micronesia
+Norway,578,NO,NOR,3144096,Europe,Northern Europe
+Oman,512,OM,OMN,286963,Asia,Western Asia
+Pakistan,586,PK,PAK,1168579,Asia,Southern Asia
+Palau,585,PW,PLW,1559582,Oceania,Micronesia
+Panama,591,PA,PAN,3703430,Americas,Latin America and the Caribbean
+Papua New Guinea,598,PG,PNG,2088628,Oceania,Melanesia
+Paraguay,600,PY,PRY,3437598,Americas,Latin America and the Caribbean
+Peru,604,PE,PER,3932488,Americas,Latin America and the Caribbean
+Philippines,608,PH,PHL,1694008,Asia,South-eastern Asia
+Pitcairn Islands,612,PN,PCN,4030699,Oceania,Polynesia
+Poland,616,PL,POL,798544,Europe,Eastern Europe
+Portugal,620,PT,PRT,2264397,Europe,Southern Europe
+Puerto Rico,630,PR,PRI,4566966,Americas,Latin America and the Caribbean
+Qatar,634,QA,QAT,289688,Asia,Western Asia
+South Korea,410,KR,KOR,1835841,Asia,Eastern Asia
+Moldova,498,MD,MDA,617790,Europe,Eastern Europe
+Romania,642,RO,ROU,798549,Europe,Eastern Europe
+Russia,643,RU,RUS,2017370,Europe,Eastern Europe
+Rwanda,646,RW,RWA,49518,Africa,Sub-Saharan Africa
+Réunion,638,RE,REU,935317,Africa,Sub-Saharan Africa
+St. Barthélemy,652,BL,BLM,3578476,Americas,Latin America and the Caribbean
+St. Helena,654,SH,SHN,3370751,Africa,Sub-Saharan Africa
+St. Kitts & Nevis,659,KN,KNA,3575174,Americas,Latin America and the Caribbean
+St. Lucia,662,LC,LCA,3576468,Americas,Latin America and the Caribbean
+St. Martin,663,MF,MAF,3578421,Americas,Latin America and the Caribbean
+St. Pierre & Miquelon,666,PM,SPM,3424932,Americas,Northern America
+St. Vincent & Grenadines,670,VC,VCT,3577815,Americas,Latin America and the Caribbean
+Samoa,882,WS,WSM,4034894,Oceania,Polynesia
+San Marino,674,SM,SMR,3168068,Europe,Southern Europe
+São Tomé & Príncipe,678,ST,STP,2410758,Africa,Sub-Saharan Africa
+,,,,,Europe,Northern Europe
+Saudi Arabia,682,SA,SAU,102358,Asia,Western Asia
+Senegal,686,SN,SEN,2245662,Africa,Sub-Saharan Africa
+Serbia,688,RS,SRB,6290252,Europe,Southern Europe
+Seychelles,690,SC,SYC,241170,Africa,Sub-Saharan Africa
+Sierra Leone,694,SL,SLE,2403846,Africa,Sub-Saharan Africa
+Singapore,702,SG,SGP,1880251,Asia,South-eastern Asia
+Sint Maarten,534,SX,SXM,7609695,Americas,Latin America and the Caribbean
+Slovakia,703,SK,SVK,3057568,Europe,Eastern Europe
+Slovenia,705,SI,SVN,3190538,Europe,Southern Europe
+Solomon Islands,90,SB,SLB,2103350,Oceania,Melanesia
+Somalia,706,SO,SOM,51537,Africa,Sub-Saharan Africa
+South Africa,710,ZA,ZAF,953987,Africa,Sub-Saharan Africa
+South Georgia & South Sandwich Islands,239,GS,SGS,3474415,Americas,Latin America and the Caribbean
+South Sudan,728,SS,SSD,7909807,Africa,Sub-Saharan Africa
+Spain,724,ES,ESP,2510769,Europe,Southern Europe
+Sri Lanka,144,LK,LKA,1227603,Asia,Southern Asia
+Palestine,275,PS,PSE,6254930,Asia,Western Asia
+Sudan,729,SD,SDN,366755,Africa,Northern Africa
+Suriname,740,SR,SUR,3382998,Americas,Latin America and the Caribbean
+Svalbard & Jan Mayen,744,SJ,SJM,607072,Europe,Northern Europe
+Sweden,752,SE,SWE,2661886,Europe,Northern Europe
+Switzerland,756,CH,CHE,2658434,Europe,Western Europe
+Syria,760,SY,SYR,163843,Asia,Western Asia
+Tajikistan,762,TJ,TJK,1220409,Asia,Central Asia
+Thailand,764,TH,THA,1605651,Asia,South-eastern Asia
+North Macedonia,807,MK,MKD,718075,Europe,Southern Europe
+Timor-Leste,626,TL,TLS,1966436,Asia,South-eastern Asia
+Togo,768,TG,TGO,2363686,Africa,Sub-Saharan Africa
+Tokelau,772,TK,TKL,4031074,Oceania,Polynesia
+Tonga,776,TO,TON,4032283,Oceania,Polynesia
+Trinidad & Tobago,780,TT,TTO,3573591,Americas,Latin America and the Caribbean
+Tunisia,788,TN,TUN,2464461,Africa,Northern Africa
+Turkey,792,TR,TUR,298795,Asia,Western Asia
+Turkmenistan,795,TM,TKM,1218197,Asia,Central Asia
+Turks & Caicos Islands,796,TC,TCA,3576916,Americas,Latin America and the Caribbean
+Tuvalu,798,TV,TUV,2110297,Oceania,Polynesia
+Uganda,800,UG,UGA,226074,Africa,Sub-Saharan Africa
+Ukraine,804,UA,UKR,690791,Europe,Eastern Europe
+United Arab Emirates,784,AE,ARE,290557,Asia,Western Asia
+UK,826,GB,GBR,2635167,Europe,Northern Europe
+Tanzania,834,TZ,TZA,149590,Africa,Sub-Saharan Africa
+U.S. Outlying Islands,581,UM,UMI,5854968,Oceania,Micronesia
+U.S. Virgin Islands,850,VI,VIR,4796775,Americas,Latin America and the Caribbean
+US,840,US,USA,6252001,Americas,Northern America
+Uruguay,858,UY,URY,3439705,Americas,Latin America and the Caribbean
+Uzbekistan,860,UZ,UZB,1512440,Asia,Central Asia
+Vanuatu,548,VU,VUT,2134431,Oceania,Melanesia
+Venezuela,862,VE,VEN,3625428,Americas,Latin America and the Caribbean
+Vietnam,704,VN,VNM,1562822,Asia,South-eastern Asia
+Wallis & Futuna,876,WF,WLF,4034749,Oceania,Polynesia
+Western Sahara,732,EH,ESH,2461445,Africa,Northern Africa
+Yemen,887,YE,YEM,69543,Asia,Western Asia
+Zambia,894,ZM,ZMB,895949,Africa,Sub-Saharan Africa
+Zimbabwe,716,ZW,ZWE,878675,Africa,Sub-Saharan Africa
+Åland Islands,248,AX,ALA,661882,Europe,Northern Europe

@@ -1,0 +1,12 @@
+name: jsys
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - notebook[version='>=5.3']
+  - ipywidgets[version='>=7.5']
+  - plotly
+  - jupyter
+  - python-kaleido
+  - pandas
+prefix: /home/user/miniconda3/envs/jsys
