@@ -103,7 +103,12 @@
 
     a{
         text-decoration: none;
-    }
+
+        &:hover {
+            background-color:  transparent;
+        }
+    }    
+    
 }
 
 .footer-heading {

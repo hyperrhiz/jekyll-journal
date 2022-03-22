@@ -87,8 +87,8 @@ a:hover {
 
 .site-title a {
     /* padding: .5em .75em .25em 1em;
-    background-color:  $brand-color;
     color:  white; */
+    background-color:  none;
     color:  $brand-color;
     /*font-size: 80%;*/
     font-weight: 100;
@@ -100,6 +100,7 @@ a:hover {
 
 .site-title a:hover {
     text-decoration: none;
+    background-color:  transparent;
 /*    color: white;*/
 }
 
@@ -112,6 +113,7 @@ a:hover {
 .site-nav a:hover {
     text-decoration: none;
     color: $brand-color;
+    background-color:  transparent;
 }
 
 .post-content {
