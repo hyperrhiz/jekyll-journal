@@ -8,6 +8,8 @@ chairs:
   email: pjamshid@cse.sc.edu
   orcid: 0000-0002-9342-0703
   twitter: PooyanJamshidi
+  from: 2022
+  until: 0
 
 - name: Devashree Tripathy
   affiliation: Harvard University
@@ -15,7 +17,11 @@ chairs:
   email: dtrip003@ucr.edu
   orcid: 
   twitter: devashreetrip
+  from: 2022
+  until: 0
 
 members:
 
 - name: TBA
+  from: 2022
+  until: 0

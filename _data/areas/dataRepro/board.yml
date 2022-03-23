@@ -8,6 +8,8 @@ chairs:
   email: ivotron@pm.me
   orcid: 0000-0002-2222-1985
   twitter: ivotron
+  from: 2021
+  until: 0
 
 members:
 
@@ -16,11 +18,15 @@ members:
   webpage: http://www.akhlaghi.org/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Tanu Malik
   affiliation: DePaul University
   webpage: https://facsrv.cs.depaul.edu/~tmalik1/
   orcid: 
+  from: 2021
+  until: 0
   twitter: 
 
 - name: Lukas Rupprecht
@@ -28,21 +34,29 @@ members:
   webpage: https://lukasrupprecht.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: George K. Thiruvathukal
   affiliation: Loyola University Chicago
   webpage: https://thiruvathukal.com/ 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ana Trisovic
   affiliation: Harvard
   webpage: https://anatrisovic.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Alex Uta
   affiliation: Leiden University and Amazon
   webpage: https://alexandru-uta.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

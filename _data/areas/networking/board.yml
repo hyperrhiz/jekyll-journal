@@ -8,6 +8,8 @@ chairs:
   email: francisy@microsoft.com
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Sangeetha Abdu Jyothi
   affiliation: UC Irvine
@@ -15,13 +17,17 @@ chairs:
   email: sangeetha.aj@uci.edu
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
-- name: (outgoing) Junchen Jiang
+- name: Junchen Jiang
   affiliation: University of Chicago
   webpage: https://people.cs.uchicago.edu/~junchenj/
   # email: junchenj@uchicago.edu
   orcid: 
   twitter: 
+  from: 2021
+  until: 2022
 
 members:
 
@@ -30,21 +36,29 @@ members:
   webpage: https://sites.cs.ucsb.edu/~arpitgupta/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Wei Bai
   affiliation: Microsoft Research
   webpage: http://baiwei0427.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Srinivas Narayana
   affiliation: Rugters Univ.
   webpage: https://www.cs.rutgers.edu/~sn624/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Xin Jin
   affiliation: Peking Univ.
   webpage: https://xinjin.github.io/index.html
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

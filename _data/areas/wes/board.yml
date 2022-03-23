@@ -8,6 +8,8 @@ chairs:
   email: cboano@tugraz.at
   orcid: 0000-0001-7647-3734
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Pat Pannuto
   affiliation: University of California San Diego
@@ -15,6 +17,8 @@ chairs:
   email: ppannuto@ucsd.edu
   orcid: 0000-0001-7720-6267
   twitter: PatPannuto
+  from: 2021
+  until: 0
 
 members:
 
@@ -23,51 +27,69 @@ members:
   webpage: https://michaelbaddeley.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Matteo Ceriotti Zella
   affiliation: University of Duisburg-Essen
   webpage: https://matteo.furuns.eu/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ambuj Varshney
   affiliation: University of California, Berkeley
   webpage: http://ambuj.se/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Andres Gomez
   affiliation: Hochschule St Gallen
   webpage: http://andresgomez.ch/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Bernd-Christian Renner
   affiliation: University of Koblenz
   webpage: http://www.bcrenner.de/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Shijia Pan
   affiliation: University of California, Merced
   webpage: https://www.pans-lab.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Longfei Shangguan
   affiliation: Microsoft Research
   webpage: https://shanggdlk.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Bhuvana Krishnaswamy
   affiliation: University of Wisconsin, Madison
   webpage: https://bhuvanakrishnaswamy.wordpress.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Josiah Hester
   affiliation: Northwestern University
   webpage: https://josiahhester.com/cv/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

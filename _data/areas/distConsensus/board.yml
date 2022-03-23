@@ -8,6 +8,8 @@ chairs:
   email: heidi.howard@cl.cam.ac.uk
   orcid: 0000-0001-5256-7664
   twitter: heidiann360
+  from: 2021
+  until: 0
 
 - name: Roberto Palmieri
   affiliation: Lehigh University
@@ -15,6 +17,8 @@ chairs:
   email: palmieri@lehigh.edu"
   orcid: 0000-0002-1530-4088
   twitter: palmierirobe
+  from: 2021
+  until: 0
 
 members:
 
@@ -23,39 +27,53 @@ members:
   webpage: https://scholar.google.com/citations?user=D6PWsuwAAAAJ&hl=en
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Aleksey Charapko
   affiliation:  University of New Hampshire
   webpage: http://charap.co/about-me/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Faisal Nawab
   affiliation: University of California-Irvine
   webpage: https://nawab.me/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Seo Jin Park
   affiliation: MIT
   webpage: http://seojinpark.net/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ling Ren
   affiliation: UIUC
   webpage: https://sites.google.com/view/renling
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Denis Rystsov
   affiliation: Vectorized, Inc
   webpage: http://rystsov.info/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Isaac Sheff
   affiliation: MPI
   webpage: https://isaacsheff.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

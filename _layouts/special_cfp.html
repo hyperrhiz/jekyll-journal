@@ -3,10 +3,15 @@ layout: default
 ---
 
 {% assign area = site.data.areas.meta.area | where: "id", page.id | first %}
-{% assign chairs  = site.data.areas[page.id].board.chairs %}
-{% assign members = site.data.areas[page.id].board.members | sort: "name" %}
 {% assign cfp     = site.data.areas[page.id].cfp %}
 
+{% assign chairs  = site.data.areas[page.id].board.chairs %}
+{% assign active_chairs = site.data.areas[page.id].board.chairs | where_exp: "person", "person.until==0" | sort: "name" %}
+{% assign former_chairs = site.data.areas[page.id].board.chairs | where_exp: "person", "person.until!=0" | sort: "until" | reverse %}
+
+{% assign members = site.data.areas[page.id].board.members | sort: "name" %}
+{% assign active_members = site.data.areas[page.id].board.members | where_exp: "person", "person.until==0" | sort: "name" %}
+{% assign former_members = site.data.areas[page.id].board.members | where_exp: "person", "person.until!=0" | sort: "until" | reverse %}
 
 <div class="post">
 
@@ -37,7 +42,7 @@ layout: default
     <div>
       The {{area.title}} area is chaired by
       <ul>
-        {% for chair in chairs %}
+        {% for chair in active_chairs %}
         <li>
           <a href="{{chair.webpage }}">{{ chair.name }}</a>, {{chair.affiliation}}  <br />
           {% if chair.email %}
@@ -49,7 +54,7 @@ layout: default
       
       and its editorial board is composed of
       <ul>
-        {% for member in members %}
+        {% for member in active_members %}
         <li>
           <a href="{{member.webpage }}">{{ member.name }}</a>, {{member.affiliation}} 
         </li>
@@ -57,6 +62,27 @@ layout: default
       </ul>
     </div>
 
+
+    <h2>Former Members</h2>
+    <div>
+      Chairs
+      <ul>
+        {% for chair in former_chairs %}
+        <li>
+          {{ chair.name }}, {{chair.affiliation}}  ({{ chair.from }}-{{ chair.until }})
+        </li>{% endfor %}
+      </ul>
+      
+      Editorial board members
+      <ul>
+        {% for member in former_members %}
+        <li>
+          {{ member.name }}, {{member.affiliation}}  ({{ member.from }}-{{ member.until }})
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
   </article>
 
 </div>

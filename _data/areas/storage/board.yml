@@ -8,6 +8,8 @@ chairs:
   email: sudarsun.kannan@rutgers.edu
   orcid: 0000-0003-4009-8586
   twitter: SudarsunKannan
+  from: 2021
+  until: 0
 
 - name: Antonio Barbalace
   affiliation: University of Edinburgh
@@ -15,6 +17,8 @@ chairs:
   email: abarbala@ed.ac.uk
   orcid: 0000-0003-1641-0779
   twitter: 
+  from: 2021
+  until: 0
 
 members:
 
@@ -23,27 +27,37 @@ members:
   webpage: https://datalab.dgist.ac.kr/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Rajat Kateja
   affiliation: Google
   webpage: https://www.linkedin.com/in/rajatkateja
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Saurabh Kadekodi
   affiliation: Google
   webpage: https://www.cs.cmu.edu/~saukad/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Bryan S. Kim
   affiliation: Syracuse University
   webpage: https://sites.google.com/view/bryansjkim
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ali Butt
   affiliation: Virginia Tech
   webpage: 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

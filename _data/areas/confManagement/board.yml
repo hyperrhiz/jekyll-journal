@@ -8,6 +8,8 @@ chairs:
   email: mgarvey@illinois.edu
   orcid: 0000-0003-4443-8170
   twitter: tianyin_xu
+  from: 2021
+  until: 0
 
 - name: Pooyan Jamshidi
   affiliation: University of South Carolina
@@ -15,6 +17,8 @@ chairs:
   email: pjamshid@cse.sc.edu
   orcid: 0000-0002-9342-0703
   twitter: PooyanJamshidi
+  from: 2021
+  until: 0
 
 members:
 
@@ -23,51 +27,69 @@ members:
   webpage: https://www.microsoft.com/en-us/research/people/bhagwan/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Jürgen Cito
   affiliation: Tu Wien
   webpage: https://people.csail.mit.edu/jcito/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ting Dai
   affiliation: IBM Research
   webpage: https://tingdai.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Yi Ding
   affiliation: MIT
   webpage: https://y-ding.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Christian Kästner
   affiliation: CMU
   webpage: https://www.cs.cmu.edu/~ckaestne/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Rahul Krishna
   affiliation: Columbia
   webpage: http://rkrsn.us/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Sam Larsen
   affiliation: Facebook
   webpage: https://research.fb.com/people/larsen-sam/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ennan Zhai
   affiliation: Alibaba
   webpage: https://ennanzhai.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Sai Zhang
   affiliation: Google Cloud
   webpage: https://zhang-sai.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

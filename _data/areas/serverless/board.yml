@@ -8,6 +8,8 @@ chairs:
   email: mshahrad@ece.ubc.ca
   orcid: 0000-0002-8214-9583
   twitter: MShahrad
+  from: 2021
+  until: 0
 
 - name: Neeraja J. Yadwadkar
   affiliation: Stanford University
@@ -15,6 +17,8 @@ chairs:
   emmail: neeraja@cs.stanford.edu
   orcid: 
   twitter: NeerajaJY
+  from: 2021
+  until: 0
 
 members:
 
@@ -23,45 +27,61 @@ members:
   webpage: https://sites.google.com/fiec.espol.edu.ec/cv-cabad/english
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Rodrigo Fonseca
   affiliation: Brown University and Microsoft Research
   webpage: http://cs.brown.edu/~rfonseca/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Inigo Goiri
   affiliation: Microsoft Research
   webpage: https://www.microsoft.com/en-us/research/people/inigog/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Nikolas Herbst
   affiliation: University of Würzburg
   webpage: https://scholar.google.de/citations?user=QGov3HoAAAAJ&hl=en
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Anurag Khandelwal
   affiliation: Yale University
   webpage: http://anuragkhandelwal.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Bhuvan Urgaonkar
   affiliation: Pennsylvania State University
   webpage: https://www.eecs.psu.edu/departments/directory-detail-g.aspx?q=BUU1
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Wes J. Lloyd
   affiliation: University of Washington - Tacoma
   webpage: https://faculty.washington.edu/wlloyd/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Prateek Sharma
   affiliation: Indiana University
   webpage: http://homes.sice.indiana.edu/prateeks/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

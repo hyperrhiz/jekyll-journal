@@ -8,6 +8,8 @@ chairs:
   email: eeide@cs.utah.edu
   orcid: 0000-0001-7206-8408
   twitter: eeide
+  from: 2021
+  until: 0
 
 members:
 
@@ -16,93 +18,125 @@ members:
   webpage: https://www.linkedin.com/in/elizabeth-ondula-070912103/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Utpal Bora
   affiliation:  IIT Hyderabad
   webpage: https://utpalbora.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Marcus Botacin
   affiliation:  Federal University of Parana (UFPR), Brazil
   webpage: https://scholar.google.com.br/citations?user=Y8JHVbcAAAAJ
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Arsany Guirguis
   affiliation:  EPFL
   webpage: https://aguirguis.netlify.app/ 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Carson Harmon
   affiliation:  Trail of Bits
   webpage: https://www.linkedin.com/in/carson-harmon-401420204
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Daniar Kurniawan
   affiliation:  University of Chicago
   webpage: https://people.cs.uchicago.edu/~daniar/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Jiacheng Ma
   affiliation:  Univeristy of Michigan
   webpage: https://jcma.me/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Sergey Madaminov
   affiliation:  Stony Brook University
   webpage: https://compas.cs.stonybrook.edu/~smadaminov/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Muhammad H. Santriaji
   affiliation:  University of Chicago
   webpage: https://www.linkedin.com/in/muhammad-husni-santriaji-71222b57/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Chunzhi Su
   affiliation:  Google
   webpage: http://suchunzhi.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Dmitrii Ustiugov
   affiliation:  University of Edinburgh
   webpage: https://homepages.inf.ed.ac.uk/s1373190/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Guancheng Wang
   affiliation:  Peking University
   webpage: https://dblp.org/pid/196/5011.html
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Juncheng Yang
   affiliation:  CMU
   webpage: https://jasony.me/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Wenhui Zhang
   affiliation:  Pennsylvania State University
   webpage: https://scholar.google.com/citations?user=lMCFX7IAAAAJ&hl=en
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Fang Zhou
   affiliation:  Ohio State University
   webpage: https://t1mch0w.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Xiangfeng Zhu
   affiliation:  University of Michigan
   webpage: https://xzhu27.me/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

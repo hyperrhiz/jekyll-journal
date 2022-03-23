@@ -8,6 +8,8 @@ chairs:
   emmail: neeraja@cs.stanford.edu
   orcid: 
   twitter: NeerajaJY
+  from: 2021
+  until: 0
 
 members:
 
@@ -16,39 +18,53 @@ members:
   webpage: https://www.cs.utexas.edu/users/akanksha/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
   
 - name: Sangeetha Abdu Jyothi
   affiliation: UC Irvine and VMware Research
   webpage: https://www.ics.uci.edu/~sabdujyo/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Liang Luo
   affiliation: Facebook
   webpage: https://www.linkedin.com/in/liangluo/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Martin Maas
   affiliation: Google Brain
   webpage: https://sites.google.com/view/martinmaas/home
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Amir H. Payberah
   affiliation: KTH Royal Institute of Technology
   webpage: https://payberah.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Amitabha Roy
   affiliation: Google
   webpage: https://sites.google.com/site/amitabharoy/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Eiko Yoneki
   affiliation: University of Cambridge
   webpage: https://www.cl.cam.ac.uk/~ey204/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0

@@ -8,6 +8,8 @@ chairs:
   email: ekokoris@ist.ac.at
   orcid: 0000-0002-8827-3382
   twitter: LefKok
+  from: 2021
+  until: 0
 
 members:
  
@@ -16,39 +18,53 @@ members:
   webpage: https://albertkwon.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Alin Tomescu
   affiliation: VMWare
   webpage: https://alinush.github.io/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Anwar Hithnawi
   affiliation: ETH Zurich
   webpage: https://hithnawi.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Adi Seredischi
   affiliation: Informal Systems
   webpage: 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Matej Pavlovic
   affiliation: IBM Research Zurich
   webpage: 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Ania Piotrowska
   affiliation: Nym Technolgies
   webpage: 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Carlos Baquero
   affiliation: University of Porto
   webpage: https://cbaquero.github.io/web/
   orcid: 
   twitter:
+  from: 2021
+  until: 0

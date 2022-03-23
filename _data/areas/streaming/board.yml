@@ -5,9 +5,11 @@ chairs:
 - name: Vasiliki Kalavri
   affiliation: Boston University
   webpage: https://cs-people.bu.edu/vkalavri/
-  emmail: vkalavri@bu.edu
+  email: vkalavri@bu.edu
   orcid: 
   twitter: vkalavri
+  from: 2021
+  until: 0
 
 members:
 
@@ -16,39 +18,53 @@ members:
   webpage: https://www.kth.se/profile/parisc
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Marios Fragkoulis
   affiliation: TU Delft
   webpage: http://mariosfragkoulis.gr/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Vincenzo Gulisano
   affiliation: Chalmers University of Technology
   webpage: https://vincenzogulisano.com/
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Peter Pietzuch
   affiliation: Imperial College London
   webpage: https://www.imperial.ac.uk/people/prp
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Olga Poppe
   affiliation: Microsoft
   webpage: https://azuredata.microsoft.com/profile/0d03d7b8-d86e-4d8b-8787-4c3218db7ca1
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
 
 - name: Leonardo Querzoni
   affiliation: Sapienza Univeristy of Rome
   webpage: https://sites.google.com/diag.uniroma1.it/querzoni/home-page
   orcid: 
   twitter: 
+  from: 2021
+  until: 2022
 
 - name: Riccardo Tommasini
   affiliation: University of Tartu, Estonia
   webpage: https://riccardotommasini.com/ 
   orcid: 
   twitter: 
+  from: 2021
+  until: 0
