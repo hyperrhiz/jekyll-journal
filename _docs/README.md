@@ -74,7 +74,15 @@ JSys papers are not (and should not be) stored on the website. The `/read` page 
 
 ### How to update area board members or CFP data?
 
-Navigate to `/_data/areas/<area>` and edit the corresponding `board.yml` or `cfp.yml` file, then [push your updates](#how-to-push-updates).
+Navigate to `/_data/areas/<area>` and edit the corresponding `board.yml` or `cfp.yml` file. 
+
+- When you add a new board member, make sure to put 
+    - the current year in the`from` property,
+    - `0` in the `until` property. 
+- To remove a board member, **only** replace the `until` property with the current year (do not actually remove anything).  
+This way, the person will be listed as a "former member."
+
+Then [push your updates](#how-to-push-updates). 
 
 ### How to test updates locally?
 
