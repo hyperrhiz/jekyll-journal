@@ -1,23 +1,33 @@
 forums:
 
-- title: Feb. 2022 - Paper 
+- title: May 2022 - Paper 
   open: 1
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2022/May_Papers
+
+- title: May 2022 - Aritfact 
+  open: 1
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2022/May_Artifacts
+
+- title: Feb. 2022 - Paper 
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2022/Feb_Papers
 
 - title: Feb. 2022 - Aritfact 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2022/Feb_Artifacts
 
 - title: Nov. 2021 - Paper 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2021/Nov_Papers
 
 - title: Nov. 2021 - Aritfact 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2021/Nov_Artifacts
 
 - title: Aug. 2021 - Paper 
