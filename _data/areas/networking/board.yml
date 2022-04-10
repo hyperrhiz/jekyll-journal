@@ -6,8 +6,8 @@ chairs:
   affiliation: Microsoft Research
   webpage: https://francisyyan.org/
   email: francisy@microsoft.com
-  orcid: 
-  twitter: 
+  orcid:
+  twitter:
   from: 2021
   until: 0
 
@@ -15,8 +15,8 @@ chairs:
   affiliation: UC Irvine
   webpage: https://www.ics.uci.edu/~sabdujyo/
   email: sangeetha.aj@uci.edu
-  orcid: 
-  twitter: 
+  orcid:
+  twitter:
   from: 2021
   until: 0
 
@@ -24,41 +24,65 @@ chairs:
   affiliation: University of Chicago
   webpage: https://people.cs.uchicago.edu/~junchenj/
   # email: junchenj@uchicago.edu
-  orcid: 
-  twitter: 
+  orcid:
+  twitter:
   from: 2021
   until: 2022
 
 members:
 
-- name: Arpit Gupta
-  affiliation: UC Santa Barbara
-  webpage: https://sites.cs.ucsb.edu/~arpitgupta/
-  orcid: 
-  twitter: 
-  from: 2021
-  until: 0
-
 - name: Wei Bai
   affiliation: Microsoft Research
   webpage: http://baiwei0427.github.io/
-  orcid: 
-  twitter: 
+  orcid:
+  twitter:
   from: 2021
+  until: 2022
+
+- name: Xin Jin
+  affiliation: Peking University
+  webpage: https://xinjin.github.io/index.html
+  orcid:
+  twitter:
+  from: 2021
+  until: 2022
+
+- name: Arpit Gupta
+  affiliation: UC Santa Barbara
+  webpage: https://sites.cs.ucsb.edu/~arpitgupta/
+  orcid:
+  twitter:
+  from: 2021
+  until: 0
+
+- name: Amreesh Phokeer
+  affiliation: Internet Society
+  webpage: https://amreesh.github.io/
+  orcid:
+  twitter:
+  from: 2022
+  until: 0
+
+- name: Ang Chen
+  affiliation: Rice University
+  webpage: https://www.cs.rice.edu/~angchen/
+  orcid:
+  twitter:
+  from: 2022
+  until: 0
+
+- name: Daehyeok Kim
+  affiliation: Microsoft
+  webpage: https://daehyeok.kim/
+  orcid:
+  twitter:
+  from: 2022
   until: 0
 
 - name: Srinivas Narayana
-  affiliation: Rugters Univ.
+  affiliation: Rutgers University
   webpage: https://www.cs.rutgers.edu/~sn624/
-  orcid: 
-  twitter: 
-  from: 2021
-  until: 0
-
-- name: Xin Jin
-  affiliation: Peking Univ.
-  webpage: https://xinjin.github.io/index.html
-  orcid: 
-  twitter: 
+  orcid:
+  twitter:
   from: 2021
   until: 0
