@@ -71,6 +71,14 @@ members:
   from: 2022
   until: 0
 
+- name: Colin Perkins
+  affiliation: University of Glasgow
+  webpage: https://csperkins.org/
+  orcid:
+  twitter:
+  from: 2022
+  until: 0
+
 - name: Daehyeok Kim
   affiliation: Microsoft
   webpage: https://daehyeok.kim/
