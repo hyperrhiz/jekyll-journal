@@ -1,0 +1,63 @@
+title: JSys Manamagement
+
+eic:
+
+- name: Vijay Chidambaram
+  affiliation: University of Texas at Austin and VMware Research
+  webpage: https://www.cs.utexas.edu/~vijay/
+  email: vijayc@utexas.edu
+  orcid: 0000-0003-4915-6738
+  twitter: vj_chidambaram
+
+- name: Romain Jacob
+  affiliation: ETH Zurich
+  webpage: https://www.romainjacob.net/
+  email: jacobr@ethz.ch
+  orcid: 0000-0002-2218-5750
+  twitter: RJacobPartner
+
+assistants:
+
+- name: Madelon Hulsebos
+  affiliation: University of Amsterdam and Sigma Computing
+  webpage: https://madelonhulsebos.github.io
+  email: madelon.hulsebos@gmail.com
+  orcid: 0000-0002-0949-7290
+  twitter: MadelonHulsebos
+
+- name: Ian Neal
+  affiliation: University of Michigan
+  webpage: https://about.iangneal.io/
+  email: iangneal@umich.edu
+  orcid: 0000-0001-9721-781X
+  twitter: iangneal
+
+- name: Vishwanath Seshagiri
+  affiliation: Emory University
+  webpage: https://vishwanath1306.github.io/
+  email: vseshag@emory.edu
+  orcid: 0000-0001-7466-4369
+  twitter: __vishwanath__
+
+publicity:
+
+- name: Vaastav Anand 
+  affiliation:  Max Planck Institute for Software Systems (MPI-SWS)
+  webpage: https://vaastavanand.com/
+  email: 
+  orcid: 
+  twitter: vaastav05
+
+- name: Roberta De Viti
+  affiliation: Max Planck Institute for Software Systems (MPI-SWS)
+  webpage: https://rdeviti.netlify.app/
+  email: 
+  orcid: 
+  twitter: rdeviti
+
+# - name: 
+#   affiliation: 
+#   webpage: 
+#   email: 
+#   orcid: 
+#   twitter: 

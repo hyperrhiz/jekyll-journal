@@ -11,7 +11,7 @@ The editorial board of JSys is made of people committed to open access for all, 
 
 <!-- TOC depthTo:2 -->
 
-- [Editors-in-Chief](#editors-in-chief)
+- [Journal Management](#journal-management)
 - [Area Chairs](#area-chairs)
 - [Artifact Evaluation Board](#artifact-evaluation-board)
 - [Student Editorial Board](#student-editorial-board)
@@ -19,16 +19,32 @@ The editorial board of JSys is made of people committed to open access for all, 
 
 <!-- /TOC -->
 
-## Editors-in-Chief
+## Journal Management 
 
-{% for item in site.data.eic.list %}
-- [{{ item.name}}]({{item.webpage}})  
+### Editors-in-Chief
+
+{% for person in site.data.management.eic %}
+- [{{ person.name}}]({{person.webpage}})  
   <small>
-    {{item.affiliation}}  
-    <i class="fab fa-orcid"></i>   &nbsp; [{{item.orcid}}](https://orcid.org/{{item.orcid}})  
-    <i class="fab fa-twitter"></i> &nbsp; [@{{item.twitter}}](https://twitter.com/{{item.twitter}})
+    {{person.affiliation}}  
+    <i class="fab fa-orcid"></i>   &nbsp; [{{person.orcid}}](https://orcid.org/{{person.orcid}})  
+    <i class="fab fa-twitter"></i> &nbsp; [@{{person.twitter}}](https://twitter.com/{{person.twitter}})
   </small>
 {% endfor %}
+
+### Assistant Editors
+
+{% assign assistants = site.data.management.assistants | sort: "name" %}
+
+{% for person in assistants %}
+- [{{ person.name}}]({{person.webpage}}), {{person.affiliation}}{% endfor %}
+
+### Publicity Chairs
+
+{% assign publicity = site.data.management.publicity | sort: "name" %}
+
+{% for person in publicity %}
+- [{{ person.name}}]({{person.webpage}}), {{person.affiliation}}{% endfor %}
 
 ## Area Chairs
 
