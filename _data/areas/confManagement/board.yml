@@ -5,7 +5,7 @@ chairs:
 - name: Tianyin Xu
   affiliation: University of Illinois at Urbana-Champaign
   webpage: https://tianyin.github.io/
-  email: mgarvey@illinois.edu
+  email: tyxu@illinois.edu
   orcid: 0000-0003-4443-8170
   twitter: tianyin_xu
   from: 2021
@@ -31,10 +31,10 @@ members:
   until: 0
 
 - name: Jürgen Cito
-  affiliation: Tu Wien
+  affiliation: TU Wien
   webpage: https://people.csail.mit.edu/jcito/
   orcid: 
-  twitter: 
+  twitter: citostyle
   from: 2021
   until: 0
 
@@ -42,7 +42,7 @@ members:
   affiliation: IBM Research
   webpage: https://tingdai.github.io/
   orcid: 
-  twitter: 
+  twitter: DustinDai
   from: 2021
   until: 0
 
@@ -50,7 +50,7 @@ members:
   affiliation: MIT
   webpage: https://y-ding.github.io/
   orcid: 
-  twitter: 
+  twitter: counterfac
   from: 2021
   until: 0
 
@@ -58,7 +58,7 @@ members:
   affiliation: CMU
   webpage: https://www.cs.cmu.edu/~ckaestne/
   orcid: 
-  twitter: 
+  twitter: p0nk
   from: 2021
   until: 0
 
@@ -66,12 +66,12 @@ members:
   affiliation: Columbia
   webpage: http://rkrsn.us/
   orcid: 
-  twitter: 
+  twitter: r_krsn
   from: 2021
   until: 0
 
 - name: Sam Larsen
-  affiliation: Facebook
+  affiliation: Meta
   webpage: https://research.fb.com/people/larsen-sam/
   orcid: 
   twitter: 
@@ -92,4 +92,13 @@ members:
   orcid: 
   twitter: 
   from: 2021
+  until: 0
+
+- name: Anubhavnidhi "Archie" Abhashkumar
+  affiliation: ByteDance
+  webpage: https://anubhavnidhi.github.io/
+  email: archie.nidhi@bytedance.com
+  orcid:
+  twitter:
+  from: 2022
   until: 0
