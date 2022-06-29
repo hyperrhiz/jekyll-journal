@@ -47,7 +47,7 @@ members:
   until: 0
 
 - name: Andres Gomez
-  affiliation: Hochschule St Gallen
+  affiliation: Universität St. Gallen
   webpage: http://andresgomez.ch/
   orcid: 
   twitter: 
