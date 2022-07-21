@@ -97,7 +97,14 @@ members:
 - name: Anubhavnidhi "Archie" Abhashkumar
   affiliation: ByteDance
   webpage: https://anubhavnidhi.github.io/
-  email: archie.nidhi@bytedance.com
+  orcid:
+  twitter:
+  from: 2022
+  until: 0
+
+- name: Qingrong Chen
+  affiliation: ByteDance
+  webpage: https://chenqingrong.github.io/
   orcid:
   twitter:
   from: 2022
