@@ -1,7 +1,14 @@
 area: Systems for ML and ML for systems
 
 chairs:
-
+- name: Amir H. Payberah
+  affiliation: KTH Royal Institute of Technology
+  webpage: https://payberah.github.io/
+  orcid: 
+  twitter: apayberah
+  from: 2022
+  until: 0
+  
 - name: Neeraja J. Yadwadkar
   affiliation: Stanford University
   webpage: https://cs.stanford.edu/~neeraja/  
@@ -9,7 +16,7 @@ chairs:
   orcid: 
   twitter: NeerajaJY
   from: 2021
-  until: 0
+  until: 2022
 
 members:
 
@@ -49,9 +56,9 @@ members:
   affiliation: KTH Royal Institute of Technology
   webpage: https://payberah.github.io/
   orcid: 
-  twitter: 
+  twitter: apayberah
   from: 2021
-  until: 0
+  until: 2022
 
 - name: Amitabha Roy
   affiliation: Google

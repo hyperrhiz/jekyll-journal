@@ -32,7 +32,7 @@ JSys includes several interesting features.
 </dd>
 
     <dt>Multiple paper types  </dt>
-    <dd>Authors can submit one of different types of papers: regular, vision, systematization of knowledge, analysis, experience reports, or replicability studies. Each paper type has its own purpose, goal, and corresponding expectations. Reviewers are provided guidance on how to rightly evaluate each type of paper.
+    <dd>Authors can submit one of different types of papers: Solution, Problem, Systematization of Knowledge, or Tool/Benchmarks. Each paper type has its own purpose, goal, and corresponding expectations. Reviewers are provided guidance on how to rightly evaluate each type of paper.
 </dd>
 
     <dt>Transparency in and credits for reviewing</dt>
