@@ -5,16 +5,16 @@ chairs:
 - name: Heidi Howard
   affiliation: Microsoft
   webpage: http://heidihoward.co.uk/
-  email: heidi.howard@cl.cam.ac.uk
+  email: heidi.howard@microsoft.com
   orcid: 0000-0001-5256-7664
   twitter: heidiann360
   from: 2021
-  until: 0
+  until: 2022
 
 - name: Roberto Palmieri
   affiliation: Lehigh University
   webpage: http://www.cse.lehigh.edu/~palmieri/
-  email: palmieri@lehigh.edu"
+  email: palmieri@lehigh.edu
   orcid: 0000-0002-1530-4088
   twitter: palmierirobe
   from: 2021
