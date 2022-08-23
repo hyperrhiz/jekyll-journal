@@ -47,18 +47,19 @@ The editorial board of JSys is made of people committed to open access for all, 
 - [{{ person.name}}]({{person.webpage}}), {{person.affiliation}}{% endfor %}
 
 ## Area Chairs
-
 <!-- Loop through all areas -->
 {% assign areas = site.data.areas.meta.area | sort: "id" %}
 {% for area in areas %}
 {% if area.active == 1 %} <!-- Disable the areas not yet active -->
+
+{% assign active_chairs = site.data.areas[area.id].board.chairs | where_exp: "person", "person.until==0" | sort: "name"%}
 
 <!-- I tried compacting with <summary> but it is not supported by Jekyll by default. Here is how it can be done if we really want it.:
 http://movb.de/jekyll-details-support.html -->
 
 ### {{area.title}}
 
-{% for chair in site.data.areas[area.id].board.chairs %}
+{% for chair in active_chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
 [Call for paper and complete board](/cfp_{{area.id}}/)
