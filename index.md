@@ -4,7 +4,41 @@ layout: page
 
 # Journal of Systems Research
 
-The Journal of Systems Research (JSys) is a new journal with diamond-access publication model; that is, papers are free to read, submit, review, and publish.
+The Journal of Systems Research (JSys) is a new journal covering the wide area of computer systems. JSys is a scholarly-led initiative aiming to address some limitations of today's publishing outlets in computer science.
+
+<!-- ➡️ The goal of JSys is to lift all barriers that restrict dissemination and access to science. -->
+> The goal of JSys is to lift all barriers that restrict dissemination and access to science.
+
+JSys is founded on its commitment to **inclusiveness**, **transparency**, and **quality**. These values are supported by the following journal policies.
+
+<!-- ## 👐 Inclusiveness  -->
+## <i class="fa-solid fa-hands-holding-circle"> </i> Inclusiveness
+
+- JSys is diamond Open Access. That is, it is free to read and free to publish.
+- JSys explicitly calls for several paper types, including [Tool](https://www.jsys.org/type_ToolBench/), [Problem](https://www.jsys.org/type_problem/), and [SoK](https://www.jsys.org/type_SoK/) papers.
+- JSys papers have no page limit, as system works sometimes need just more than 12 pages.
+- JSys has four deadlines per year; the next one is never too far out!
+
+<!-- ## 🔍 Transparency  -->
+## <i class="fa-solid fa-magnifying-glass"></i> Transparency
+
+- JSys adopts open peer review; reviews are made publicly available and linked to published papers.
+- Reviewers should be both responsible and recognized for their work, therefore JSys publishes the reviewer names together with the papers.
+- Authors should get clear guidance to improve their work based on the review. Thus, JSys has a one-shot revision model where authors get a clear list of points to address to get the work accepted.
+
+<!-- ## 💎 Quality   -->
+## <i class="fa-solid fa-gem"></i>  Quality
+
+- JSys commits to returns reviews within 6 weeks after submission.
+- System works should be usable by others, thus JSys makes passing the Artifact Evaluation compulsory for Tools and Solution papers.
+- Every paper is reviewed by three board members **as well as one student reviewer**. By taking part in reviewing, students get naturally integrated into the community... plus, they tend to have a sharp eye for details <i class="fa-solid fa-face-smile-wink"></i>
+
+If you have works that fall in the scope of the journal areas, we'll be very happy to read about your ideas and help you improve further and disseminate your system works <i class="fa-solid fa-rocket"></i>
+
+
+<!-- Former description -->
+
+<!-- The Journal of Systems Research (JSys) is a new journal with diamond-access publication model; that is, papers are free to read, submit, review, and publish.
 Its design borrows heavily from similar journals recently created in the databases, security, and crypto communities.
 
 JSys includes several interesting features.
@@ -38,4 +72,4 @@ JSys includes several interesting features.
     <dt>Transparency in and credits for reviewing</dt>
     <dd>Each paper will have a “Reviewed by” line containing the names of the JSys editorial board members who reviewed the paper. Prior to publication, the reviewers and authors work together to make the paper as strong as possible. This provides more transparency in the review process as well as fair credit for the work of reviewers.
 </dd>
-</dl>
+</dl> -->
