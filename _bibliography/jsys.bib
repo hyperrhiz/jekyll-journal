@@ -139,3 +139,24 @@
 }
 
 
+@article{2022-08-29-sinhaSolution,
+  type = {Solution},
+  ids = {sinha2022Solution},
+  title = {End-to-end Scheduling of Real-time Task Pipelines on Multiprocessors},
+  author = {Sinha, Soham and West, Richard},
+  year = {2022},
+  month = aug,
+  journal = {Journal of Systems Research},
+  volume = {2},
+  number = {1},
+  doi = {10.5070/SR32158647},
+  url = {https://escholarship.org/uc/item/2h11n6xj},
+  urldate = {2022-08-29},
+  abstract = {
+  Task pipelines are common in today’s embedded systems, as data moves from source to sink in sensing-processing-actuation task chains. A real-time task pipeline is constructed by connecting a series of periodic tasks with data buffers. In a time-critical system, end-to-end timing and data-transfer properties of a task pipeline must be guaranteed. A guarantee could be mathematically expressed by assigning constraints to the tasks of a pipeline. However, deriving task scheduling parameters to meet end-to-end guarantees is an NP-hard constraint optimization problem. Hence, a traditional constraint solver is not a suitable runtime solution. In this paper, we present a heuristic constraint solver algorithm, CoPi, to derive the execution times and periods of pipelined tasks that meet the end-to-end constraints and schedulability requirements. We consider two upper bound constraints on a task pipeline: end-to-end delay and loss-rate. After satisfying these constraints, CoPi schedules a pipeline as a set of asynchronous and data independent periodic tasks, under the rate-monotonic scheduling algorithm. Simulations show that CoPi has a comparable pipeline acceptance ratio and significantly better runtime than open-source MINLPsolvers. Furthermore, we use CoPi to map multiple task pipelines to a multiprocessor system. We demonstrate that a partitioned multiprocessor scheduling algorithm coupled with CoPi accommodates dynamically appearing pipelines, while attempting to minimize task migrations.
+  },
+  area = {Real-time and Cyber-physical Systems},
+  artifacts_url = {https://github.com/sohamm17/pipe_schedule},
+  langid = {english},
+  review_url = {https://openreview.net/forum?id=icP8jy6ayy8}
+}
