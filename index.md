@@ -6,8 +6,7 @@ layout: page
 
 The Journal of Systems Research (JSys) is a new journal covering the wide area of computer systems. JSys is a scholarly-led initiative aiming to address some limitations of today's publishing outlets in computer science.
 
-<!-- ➡️ The goal of JSys is to lift all barriers that restrict dissemination and access to science. -->
-> The goal of JSys is to lift all barriers that restrict dissemination and access to science.
+> The goal of JSys is to lift barriers that restrict the dissemination of and access to science.
 
 JSys is founded on its commitment to inclusiveness, transparency, and quality. These values are supported by the following journal policies.
 
@@ -30,7 +29,7 @@ JSys is founded on its commitment to inclusiveness, transparency, and quality
 ## <i class="fa-solid fa-gem"></i>  Quality
 
 - JSys commits to returns **reviews within 6 weeks** after submission.
-- System works should be usable by others. Passing an **Artifact Evaluation compulsory** in compulsory for JSys' Tools and Solution papers.
+- System works should be usable by others. Passing an **Artifact Evaluation** is mandatory for JSys' Tools and Solution papers.
 - Every paper is reviewed by **three board members as well as one student reviewer**. By taking part in reviewing, students get naturally integrated into the community... plus, they tend to have a sharp eye for details <i class="fa-solid fa-face-smile-wink"></i>
 
 If you have works that fall in the scope of the journal areas, we'll be very happy to read about your ideas and help you improve further and disseminate your system works <i class="fa-solid fa-rocket"></i>
