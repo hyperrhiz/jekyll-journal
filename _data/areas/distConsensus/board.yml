@@ -2,15 +2,6 @@ area: Distributed Consensus
 
 chairs:
 
-- name: Heidi Howard
-  affiliation: Microsoft
-  webpage: http://heidihoward.co.uk/
-  email: heidi.howard@microsoft.com
-  orcid: 0000-0001-5256-7664
-  twitter: heidiann360
-  from: 2021
-  until: 2022
-
 - name: Roberto Palmieri
   affiliation: Lehigh University
   webpage: http://www.cse.lehigh.edu/~palmieri/
@@ -19,6 +10,24 @@ chairs:
   twitter: palmierirobe
   from: 2021
   until: 0
+
+- name: Lewis Tseng
+  affiliation: Boston University
+  webpage: https://www.bc.edu/bc-web/schools/mcas/departments/computer-science/people/faculty-directory/lewis-tseng.html
+  email: lewis.tseng@bc.edu
+  orcid: 0000-0002-4717-4038
+  twitter: 
+  from: 2022
+  until: 0
+
+- name: Heidi Howard
+  affiliation: Microsoft
+  webpage: http://heidihoward.co.uk/
+  email: heidi.howard@microsoft.com
+  orcid: 0000-0001-5256-7664
+  twitter: heidiann360
+  from: 2021
+  until: 2022
 
 members:
 

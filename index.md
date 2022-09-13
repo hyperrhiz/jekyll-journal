@@ -34,6 +34,10 @@ JSys is founded on its commitment to inclusiveness, transparency, and quality
 
 If you have works that fall in the scope of the journal areas, we'll be very happy to read about your ideas and help you improve further and disseminate your system works <i class="fa-solid fa-rocket"></i>
 
+### Memberships
+
+<a href="https://freejournals.org/"><img src="/images/FJN-logo-long.png" alt="Free Journal Network logo" width="200"/></a>
+
 
 <!-- Former description -->
 
