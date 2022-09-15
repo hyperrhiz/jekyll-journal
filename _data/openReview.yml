@@ -1,12 +1,22 @@
 forums:
 
-- title: August 2022 - Paper 
+- title: October 2022 - Paper 
   open: 1
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2022/Oct_Papers
+
+- title: October 2022 - Aritfact 
+  open: 1
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2022/Oct_Artifacts
+
+- title: August 2022 - Paper 
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2022/Aug_Papers
 
 - title: August 2022 - Aritfact 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2022/Aug_Artifacts
 

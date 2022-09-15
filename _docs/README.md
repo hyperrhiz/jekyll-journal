@@ -86,7 +86,10 @@ Then [push your updates](#how-to-push-updates).
 
 ### How to test updates locally?
 
-TBA
+To verify your updates, run `jekyll build .` followed by `jekyll serve .`.
+You should find the jsys.org webiste served on `localhost:4000`. If certain gems are missing, run `bundle install` first.
+
+> Find download instructions for jekyll [here](https://jekyllrb.com/docs/installation/).
 
 ### How to push updates?
 
