@@ -138,25 +138,44 @@
   review_url = {https://openreview.net/forum?id=iUU6Qr3eQd6}
 }
 
-
 @article{2022-08-29-sinhaSolution,
   type = {Solution},
   ids = {sinha2022Solution},
-  title = {End-to-end Scheduling of Real-time Task Pipelines on Multiprocessors},
+  title = {End-to-End Scheduling of Real-Time Task Pipelines on Multiprocessors},
   author = {Sinha, Soham and West, Richard},
   year = {2022},
   month = aug,
   journal = {Journal of Systems Research},
   volume = {2},
   number = {1},
+  issn = {2770-5501},
   doi = {10.5070/SR32158647},
   url = {https://escholarship.org/uc/item/2h11n6xj},
   urldate = {2022-08-29},
-  abstract = {
-  Task pipelines are common in today’s embedded systems, as data moves from source to sink in sensing-processing-actuation task chains. A real-time task pipeline is constructed by connecting a series of periodic tasks with data buffers. In a time-critical system, end-to-end timing and data-transfer properties of a task pipeline must be guaranteed. A guarantee could be mathematically expressed by assigning constraints to the tasks of a pipeline. However, deriving task scheduling parameters to meet end-to-end guarantees is an NP-hard constraint optimization problem. Hence, a traditional constraint solver is not a suitable runtime solution. In this paper, we present a heuristic constraint solver algorithm, CoPi, to derive the execution times and periods of pipelined tasks that meet the end-to-end constraints and schedulability requirements. We consider two upper bound constraints on a task pipeline: end-to-end delay and loss-rate. After satisfying these constraints, CoPi schedules a pipeline as a set of asynchronous and data independent periodic tasks, under the rate-monotonic scheduling algorithm. Simulations show that CoPi has a comparable pipeline acceptance ratio and significantly better runtime than open-source MINLPsolvers. Furthermore, we use CoPi to map multiple task pipelines to a multiprocessor system. We demonstrate that a partitioned multiprocessor scheduling algorithm coupled with CoPi accommodates dynamically appearing pipelines, while attempting to minimize task migrations.
-  },
+  abstract = {Task pipelines are common in today's embedded systems, as data moves from source to sink in sensing-processing-actuation task chains. A real-time task pipeline is constructed by connecting a series of periodic tasks with data buffers. In a time-critical system, end-to-end timing and data-transfer properties of a task pipeline must be guaranteed. A guarantee could be mathematically expressed by assigning constraints to the tasks of a pipeline. However, deriving task scheduling parameters to meet end-to-end guarantees is an NP-hard constraint optimization problem. Hence, a traditional constraint solver is not a suitable runtime solution. In this paper, we present a heuristic constraint solver algorithm, CoPi, to derive the execution times and periods of pipelined tasks that meet the end-to-end constraints and schedulability requirements. We consider two upper bound constraints on a task pipeline: end-to-end delay and loss-rate. After satisfying these constraints, CoPi schedules a pipeline as a set of asynchronous and data independent periodic tasks, under the rate-monotonic scheduling algorithm. Simulations show that CoPi has a comparable pipeline acceptance ratio and significantly better runtime than open-source MINLPsolvers. Furthermore, we use CoPi to map multiple task pipelines to a multiprocessor system. We demonstrate that a partitioned multiprocessor scheduling algorithm coupled with CoPi accommodates dynamically appearing pipelines, while attempting to minimize task migrations.},
   area = {Real-time and Cyber-physical Systems},
-  artifacts_url = {https://github.com/sohamm17/pipe_schedule},
+  artifacts_url = {https://github.com/sohamm17/pipe\textsubscript{s}chedule},
   langid = {english},
   review_url = {https://openreview.net/forum?id=icP8jy6ayy8}
 }
+
+@article{2022-09-28-LeznikSoK,
+  type = {Sok},
+  title = {The {{Great GAN Bake Off}}, {{An Extensive Systematic Evaluation}} of {{Generative Adversarial Network Architectures}} for {{Time Series Synthesis}}},
+  author = {Leznik, Mark and Lochner, Arne and Wesner, Stefan and Domaschka, J{\"o}rg},
+  year = {2022},
+  month = sep,
+  journal = {Journal of Systems Research},
+  volume = {2},
+  number = {1},
+  issn = {2770-5501},
+  doi = {10.5070/SR32159045},
+  url = {https://escholarship.org/uc/item/33h6w78g},
+  urldate = {2022-09-28},
+  abstract = {There is no standard approach to compare the success ofdifferent neural network architectures utilized for time seriessynthesis. This hinders the evaluation and decision process,as to which architecture should be leveraged for an unknowndata set. We propose a combination of metrics, which empiri-cally evaluate the performance of neural network architecturestrained for time series synthesis. With these measurementswe are able to account for temporal correlations, spatial cor-relations and mode collapse issues within the generated timeseries.We further investigate the interaction of different genera-tor and discriminator architectures between each other. Theconsidered architectures include recurrent neural networks,temporal convolutional networks and transformer-based net-works. So far, the application of transformer-based models islimited for time series synthesis. Hence, we propose a newtransformer-based architecture, which is able to synthesisetime series. We evaluate the proposed architectures and theircombinations in over 500 experiments, amounting to over2500 computing hours. We provide results for four data sets,one univariate and three multivariate. The data sets vary withregard to length, as well as patterns in temporal and spatialcorrelations.We use our metrics to compare the performance of genera-tive adversarial network architectures for time series synthesis.To verify our findings we utilize quantitative and qualitativeevaluations. Our results indicate that temporal convolutionalnetworks currently outperform recurrent neural network andtransformer based approaches with regard to fidelity and flex-ibility of the generated time series data. Temporal convolu-tional network architecture are the most stable architecture fora mode collapse prone data set. The performance of the trans-former models strongly depends on the data set characteristics,it struggled to synthesise data sets with high temporal andspatial correlations. Discriminators with recurrent networkarchitectures suffer from vanishing gradients. We also show,that the performance of the generative adversarial networksdepends more on the discriminator rather than the generator.},
+  area = {Systems for ML and ML for Systems},
+  langid = {english},
+  review_url = {https://openreview.net/forum?id=S6fWW0G9t0t}
+}
+
+
