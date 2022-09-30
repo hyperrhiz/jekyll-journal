@@ -163,11 +163,24 @@ The Editor-in-Chief and Area Chairs will review paper conflicts to ensure the in
 
 ## Artifact Evaluation
 
-JSys submissions for the Solution or Tools/Benchmark category must be accompanied by an Artifact.
-The JSys Artifact Evaluation Board evaluates whether
+JSys submissions for the Solution or Tools/Benchmark category must be accompanied by an Artifact. The JSys Artifact Evaluation Board evaluates the artifacts on two main aspects:
 
-- the artifact can be used by a third-party (without author involvement), and
-- whether the results in the paper can be reproduced using the artifact.
+- Usability.  For an artifact to be considered "usable," it should
+  satisfy the expectations set by the paper in terms of functionality
+  (does it basically work?) and relevance (does the artifact match the
+  paper?).  Beyond that minimum level of functionality, consider the
+  documentation, completeness, and exercisability of the artifact.  Is
+  the artifact easy to navigate, install, configure, and execute?
+
+- Reproducibility.  The evaluator is asked to use the submitted
+  artifacts to obtain the main results presented in the paper: i.e.,
+  repeat some or all of the presented experiments in order to obtain
+  the same experimental outcomes.  The goal is *not* to reproduce the
+  results exactly, but instead to generate results independently
+  within an allowed tolerance such that the main claims of the paper
+  are validated.
+
+More details on the criteria and some useful references can be found on [the Artifact Evaluation page](/artifact_evaluation/).
 
 Artifact Evaluation is single-blind and private (neither artifacts nor the reviews are made public); this is to allow authors to share access to their hardware or testing facility, if required.
 
