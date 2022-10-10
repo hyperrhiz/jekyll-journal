@@ -70,14 +70,6 @@ members:
   from: 2021
   until: 0
 
-- name: Chengcheng Xiang
-  affiliation: UC San Diego
-  webpage: https://evonx.github.io/
-  orcid: 
-  twitter: 
-  from: 2021
-  until: 0
-
 - name: Chinmay Kulkarni
   affiliation: University of Utah
   webpage: https://www.chinmayk.net/
@@ -278,3 +270,10 @@ members:
   from: 2021
   until: 0
 
+- name: Jinghao Jia
+  affiliation: University of Illinois at Urbana-Champaign
+  webpage:
+  orcid:
+  twitter:
+  from: 2022
+  until: 0
