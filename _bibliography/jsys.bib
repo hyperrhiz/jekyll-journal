@@ -1,4 +1,3 @@
-
 @article{2021-09-1-razaSOK,
   type = {Systemization of {{Knowledge}} ({{SoK}})},
   title = {Function-as-a-{{Service}}: {{From An Application Developer}}'s {{Perspective}}},
@@ -178,4 +177,25 @@
   review_url = {https://openreview.net/forum?id=S6fWW0G9t0t}
 }
 
+@article{2022-10-24-stathakopoulouSolution,
+  type = {Solution},
+  ids = {Sol_Mir-BFT},
+  title = {Mir-{{BFT}}: {{Scalable}} and {{Robust BFT}} for {{Decentralized Networks}}},
+  shorttitle = {Mir-{{BFT}}},
+  author = {Stathakopoulou, Chrysoula and Tudor, Tudor and Pavlovic, Matej and Vukoli{\'c}, Marko},
+  year = {2022},
+  month = oct,
+  journal = {Journal of Systems Research},
+  volume = {2},
+  number = {1},
+  issn = {2770-5501},
+  doi = {10.5070/SR32159278},
+  url = {https://escholarship.org/uc/item/36g369xq},
+  urldate = {2022-10-24},
+  abstract = {This paper presents Mir-BFT, a robust Byzantine fault-tolerant (BFT) total order broadcast protocol aimed at maxi-mizing throughput on wide-area networks (WANs), targetingdeployments in decentralized networks, such as permissionedand Proof-of-Stake permissionless blockchain systems.Mir-BFT is the first BFT protocol that allows multiple lead-ers to propose request batches independently (i.e., parallelleaders), while effectively precluding performance degrada-tion due to request duplication by rotating the assignmentof a partitioned request hash space to leaders. As this mech-anism removes the single-leader bandwidth bottleneck andexposes a computation bottleneck related to authenticatingclients even on a WAN, our protocol further boosts through-put using a client signature verification sharding optimization.Our evaluation shows that Mir-BFT outperforms state-of-the-art single-leader protocols and orders more than 60000 signedBitcoin-sized (500-byte) transactions per second on a widelydistributed setup (100 nodes, 1 Gbps WAN) with typical la-tencies of few seconds. Moreover, our evaluation exposesthe impact of duplicate requests on parallel leader protocolswhich Mir-BFT eliminates. We also evaluate Mir-BFT un-der different crash and Byzantine faults, demonstrating itsperformance robustness.Mir-BFT relies on classical BFT protocol constructs, whichsimplifies reasoning about its correctness. Specifically, Mir-BFT is a generalization of the celebrated and scrutinizedPBFT protocol. In a nutshell, Mir-BFT follows PBFT ``safety-wise'', with changes needed to accommodate novel featuresrestricted to PBFT liveness.},
+  area = {Distributed Consensus},
+  artifacts_url = {https://github.com/hyperledger-labs/mirbft/tree/research},
+  langid = {english},
+  review_url = {https://openreview.net/forum?id=kCKRUcUGSup}
+}
 
