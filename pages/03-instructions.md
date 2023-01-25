@@ -60,6 +60,10 @@ git clone https://github.com/jsysresearch/template.git
 cd template
 make
 ```
+
+Alternatively, one can download the zip file [here](https://github.com/jsysresearch/template/archive/refs/heads/main.zip) and import the zip in, e.g., Overleaf.
+
+
 ## Artifact Evaluation
 
 JSys submissions for the Solution or Tools/Benchmark category must be accompanied by an Artifact. The JSys Artifact Evaluation Board evaluates the artifacts on two main aspects:
