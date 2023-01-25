@@ -12,7 +12,6 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 
 - [Areas](#areas)
 - [Paper Types](#paper-types)
-- [Submitting a Paper](#submitting-a-paper)
 - [Artifact Evaluation](#artifact-evaluation)
 - [Revisions and Review Process](#revisions-and-review-process)
 - [Open Access](#open-access)
@@ -20,6 +19,8 @@ The Journal of Systems Research (JSys) is a diamond open-access (no fees for aut
 - [Policies](#policies)
 
 <!-- /TOC -->
+
+Please see [here](https://www.jsys.org/instructions) for detailed instructions for authors. 
 
 ## Areas
 
@@ -34,72 +35,32 @@ The rest of this page describes generic rules that apply to all JSys areas.
 
 ## Paper Types
 
-JSys categorizes papers into four types, each with their own publicly-available acceptance criteria.
+JSys categorizes papers into four types, each with their own publicly-available acceptance criteria. Please click on each paper type to view more details about it.
 
 {% for item in site.data.papers.type %}{% if item.active == 1 %}
 - [{{ item.title}}]({{item.url}}){% endif %}{% endfor %}
 
-## Submitting a Paper
-
-JSys uses [OpenReview](https://openreview.net/) for submitting and reviewing papers. Papers should be submitted electronically as PDF. 
-Papers and artifacts area reviewed separately.
-
-|<i class="fas fa-exclamation-triangle"></i>||Please be aware that papers will be publicly visible _upon submission_.|
-|:---|:---|:---|
-|||Artifacts are reviewed privately to allow sharing of sensitive information (e.g., ssh keys).|
-||| 
-
-JSys opens new submission forums for each deadline. Here are the links for recent and upcoming deadlines.
-
-{% for item in site.data.openReview.forums %}{% if item.show == 1 %}
-- [{{ item.title}}]({{item.url}}) {% if item.open == 0 %} <span class="text-muted">(closed)</span>{% endif %} {% endif %}{% endfor %}
-
 ### Deadlines
 
-JSys has multiple deadlines each year, each set at 11:59 PM GMT
-~~23:59 Anywhere on Earth (UTC-12)~~.
+JSys has multiple deadlines each year, each set at 11:59 PM GMT.
 
-- March 1st ~~February 1st~~
+- March 1st
 - May 1st
 - August 1st
-- October 1st ~~November 1st~~
+- October 1st
 
-For each deadline, reviews will be available within 1.5 month.
+For each deadline, reviews will be available within 1.5 months.
 For example, for a work submitted by March 1st, JSys commits to provide initial reviews by April 15th.
 
-### Formatting Instructions
-
-All text and figures must fit within a 7” x 9” text block, centered on the page, using two columns with .33 inches of separation. The paper should be typeset using a 10-point font (Times New Roman or similar) with a 12-point (single-spaced) leading.
-
-The easiest (and recommended) way to follow these formatting instructions is to use the [JSys LaTeX template](#template).
-
-### Page Limits
-
-There is no page limit.
-
-**However**, we strongly encourage authors to make their paper as brief as possible. Reviewer time and attention are limited; a compelling case for the paper must be made in the first 12-14 pages.
+Recent deadlines and their submission portals:
+{% for item in site.data.openReview.forums %}{% if item.show == 1 %}
+- [{{ item.title}}]({{item.url}}) {% if item.open == 0 %} <span class="text-muted">(closed)</span>{% endif %} {% endif %}{% endfor %}
 
 ### DOI and Bibliography
 
 JSys articles are assigned a Crossref DOI upon publication.
 
 Consequently, every reference in the bibliography must include a DOI whenever available. The [JSys LaTeX template](#template) includes everything necessary to display DOIs according to [Crossref's guidelines](https://www.crossref.org/display-guidelines/). The only thing you have to do is fill in the DOI fields in your `.bib` file.
-
-### Template
-
-The JSys LaTeX template is available on [GitHub](https://github.com/jsysresearch/template). To get started and build a sample PDF:
-
-```bash
-git clone https://github.com/jsysresearch/template.git
-cd template
-make
-```
-
-### Double-blind
-
-JSys reviews papers in a double-blind fashion: the reviewers do not know who the authors are, and the authors do not know who the reviewers are (until acceptance). The authors must make a good-faith effort to ensure the submitted document cannot identify the authors or their institution. 
-
-For example, if they build on their own prior work, it should be referred to in the third person (i.e., “The paper by Brown et al.” and not “Our previous paper”).
 
 ### Arxiv
 
@@ -120,14 +81,6 @@ For example,
 
 - Tweeting “We have done some work on FooBar, here’s the Arxiv paper” is fine. 
 - Tweeting “We have just submitted our work on FooBar to JSys! We are submission #42” is not fine.
-
-### Open Source
-
-JSys encourages authors to make their code, data, and other artifacts open source.
-
-However, if the open source repository is _not_ anonymized, it should not be linked directly in the submitted paper, as doing so breaks double-blindness. Instead, one simple way to link an already published repository to your JSys submission is to use services such as [Anonymous GitHub](https://anonymous.4open.science/).
-
-<!-- Making non-anonymized artifacts publicly available is fine as long as the system name in the public repository is different from the JSys submission. A short-hand for remembering this is that the open-source rules are similar to how Arxiv papers are handled. -->
 
 ### Copyright and originality of the work
 
@@ -222,16 +175,6 @@ There are three possible editorial decisions for a paper submitted to JSys: Acce
 ### Contemporary Work
 
 Any peer-reviewed work that was published (PDF available on the publisher’s website) less than two months prior to the initial submission is considered contemporary with the submission. Reviewers will not penalize the submission for not comparing with contemporary work. However, reviewers may ask for a qualitative comparison to be added in the final version of the submitted work.
-
-### Feedback on Reviews
-
-The three reviews will be graded A/B/C by the authors in terms of helpfulness. These grades are only known to the editors and provide useful feedback about the reviewers.
-
-- A means a constructive review,
-- B means an average review, 
-- C means a poor review (i.e., the reviewer didn't understand the paper, made a lot of mistakes, was unnecessarily aggressive, etc).
-
-Reviewers with a history of poor reviews will be removed from the editorial board.
 
 ### Return without Review
 
