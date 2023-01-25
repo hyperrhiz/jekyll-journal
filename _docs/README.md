@@ -100,10 +100,6 @@ There are tons of tutorials online to walk you through the process; [here is one
 
 If you have edit access to this repository, you can push directly. Please do make sure that you [tested your updates locally](#how-to-test-updates-locally) first.
 
-**Important**  
-After committing updates to the website's `master` branch,  
-you **must** run the [publish.sh](../publish.sh) script to publish the changes on the live website [jsys.org](https://www.jsys.org/).
-
 ### How to add newly publish papers?
 
 - Add the new papers' metadata in `/_bibliography/jsys.bib`
