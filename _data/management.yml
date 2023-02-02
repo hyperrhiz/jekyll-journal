@@ -25,13 +25,6 @@ assistants:
   orcid: 0000-0002-0949-7290
   twitter: MadelonHulsebos
 
-- name: Ian Neal
-  affiliation: University of Michigan
-  webpage: https://about.iangneal.io/
-  email: iangneal@umich.edu
-  orcid: 0000-0001-9721-781X
-  twitter: iangneal
-
 - name: Vishwanath Seshagiri
   affiliation: Emory University
   webpage: https://vishwanath1306.github.io/
