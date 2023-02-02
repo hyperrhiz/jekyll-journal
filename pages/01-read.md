@@ -4,6 +4,11 @@ menutitle: Read
 permalink: /read/
 ---
 
+# Volume 3 (2023)
+
+{% bibliography --query @*[volume=3] %}
+
+
 # Volume 2 (2022)
 
 {% bibliography --query @*[volume=2] %}
