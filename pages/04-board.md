@@ -62,19 +62,19 @@ http://movb.de/jekyll-details-support.html -->
 {% for chair in active_chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
-[Call for paper and complete board](/cfp_{{area.id}}/)
+[Call for papers and reviewers](/cfp_{{area.id}}/)
 
 {% endif %}
 {% endfor %}<!-- Loop through all areas -->
 
-## Artifact Evaluation Board
+### Artifact Evaluation Board
 
 {% for chair in site.data.areas.artifacts.board.chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
 [Self-nomination and complete board](/cfp_artifacts/)
 
-## Student Editorial Board
+### Student Editorial Board
 
 {% for chair in site.data.areas.students.board.chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
