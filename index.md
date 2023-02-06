@@ -36,5 +36,7 @@ If you have works that fall in the scope of the journal areas, we'll be very hap
 
 ### Memberships
 
-<a href="https://freejournals.org/"><img src="/images/FJN-logo-long.png" alt="Free Journal Network logo" width="200"/></a>
+<a href="https://freejournals.org/"><img src="/images/FJN-logo-long.png" alt="Free Journal Network logo" width="150"/></a>
+&nbsp;
+<a href="https://dblp.org/db/journals/jsys/index.html"><img src="https://dblp.org/img/logo.320x120.png" alt="DPDL logo" width="150"/></a>
 
