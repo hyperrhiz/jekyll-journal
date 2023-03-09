@@ -85,3 +85,11 @@ members:
   twitter: 
   from: 2021
   until: 0
+
+- name: Noman Bashir
+  affiliation: University of Massachusetts Amherst
+  webpage: https://noman-bashir.github.io/
+  orcid: 
+  twitter: 
+  from: 2023
+  until: 0
