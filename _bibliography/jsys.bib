@@ -198,28 +198,3 @@
   langid = {english},
   review_url = {https://openreview.net/forum?id=kCKRUcUGSup}
 }
-
-@article{2023-02-01-uferSolution,
-  type = {Solution},
-  ids = {Sol_KevoHeap},
-  title = {"Algorithmic Heap Layout Manipulation in the Linux Kernel"},
-  shorttitle = {KevoHeap},
-  author = {Ufer, Max Jens and Baier, Daniel},
-  year = {2023},
-  month = feb,
-  journal = {Journal of Systems Research},
-  volume = {3},
-  number = {1},
-  issn = {2770-5501},
-  doi = {10.5070/SR33160040},
-  url = {https://escholarship.org/uc/item/8ss3f7w1},
-  urldate = {2023-02-01},
-  abstract = {
-    To evaluate the severity of a security vulnerability a security researcher usually tries to prove its exploitability by writing an actual exploit. In the case of buffer overflows on the heap, a necessary part of this is manipulating the heap layout in a way that creates an exploitable state, usually by placing a vulnerable object adjacent to a target object. This requires manual effort and extensive knowledge of the target. With a target as complex as the Linux kernel, this problem becomes highly non-trivial. At the current time, there has been little research in terms of employing algorithmic solutions for this. In this work, we present Kernel-SIEVE, a framework for evaluating heap layout manipulation algorithms that target the SLAB/SLUB allocator in the Linux kernel. Inspired by previous work that targets user-space allocators [33–35] it provides an interface for triggering allocations/deallocations in the kernel and contains a feedback loop that returns the resulting distance of two target objects. With this, we create the (to our knowledge) first performance benchmarks for heap layout manipulation algorithms in the Linux kernel. We present and evaluate two algorithms: A pseudo-random search, whose performance serves as a baseline, and KEvoHeap, a genetic algorithm based on Heelan’s EvoHeap [33, 35]. We show that KEvoHeap is successful at creating the desired heap layout in all test cases and also surpasses the user-space performance benchmarks of EvoHeap. Finally, we discuss the challenges of applying these kinds of algorithms in real-world scenarios and weigh different possible approaches to tackle the problems that arise. Our research results are publicly available on GitHub [43].
-    },
-  area = {Systems Security},
-  artifacts_url = {https://github.com/fkie-cad/Algorithmic-Heap-Layout-Manipulation-in-the-Linux-Kernel},
-  langid = {english},
-  review_url = {https://openreview.net/forum?id=UqszJh5h6v}
-}
-

@@ -1,6 +1,4 @@
 ---
-layout: page
-menutitle: Editorial Board
 permalink: /board/
 ---
 
@@ -13,8 +11,6 @@ The editorial board of JSys is made of people committed to open access for all, 
 
 - [Journal Management](#journal-management)
 - [Area Chairs](#area-chairs)
-- [Artifact Evaluation Board](#artifact-evaluation-board)
-- [Student Editorial Board](#student-editorial-board)
 - [Co-Founders](#co-founders)
 
 <!-- /TOC -->

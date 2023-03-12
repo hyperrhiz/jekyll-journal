@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /type_SoK/
 ---
 

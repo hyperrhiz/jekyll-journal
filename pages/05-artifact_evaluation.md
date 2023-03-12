@@ -1,6 +1,4 @@
 ---
-layout: page
-menutitle: Artifact Evaluation
 permalink: /artifact_evaluation/
 ---
 

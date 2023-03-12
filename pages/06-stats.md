@@ -1,6 +1,4 @@
 ---
-layout: page
-menutitle: Stats
 permalink: /stats/
 ---
 

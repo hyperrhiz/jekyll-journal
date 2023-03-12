@@ -1,6 +1,4 @@
 ---
-layout: page
-menutitle: Call for Papers
 permalink: /cfp/
 ---
 

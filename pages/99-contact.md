@@ -1,6 +1,4 @@
 ---
-layout: page
-menutitle: Contact
 permalink: /contact/
 ---
 

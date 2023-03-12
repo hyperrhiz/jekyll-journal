@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Read"
+    url: /read
+  - title: "Call for Papers"
+    url: /cfp
+  - title: "Instructions for Authors"
+    url: /instructions
+  - title: "Editorial Board"
+    url: /board
+  - title: "Artifact Evaluation"
+    url: /artifact_evaluation
+  - title: "Stats"
+    url: /stats
+  - title: "Contact"
+    url: /contact
