@@ -1,6 +1,10 @@
 ---
 layout: single
 author_profile: true
+sidebar:
+  - title: Memberships
+    text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
+  - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"
 ---
 
 # Journal of Systems Research
@@ -35,9 +39,9 @@ JSys is founded on its commitment to inclusiveness, transparency, and quality
 
 If you have works that fall in the scope of the journal areas, we'll be very happy to read about your ideas and help you improve further and disseminate your system works <i class="fa-solid fa-rocket"></i>
 
-### Memberships
+<!-- ### Memberships
 
 <a href="https://freejournals.org/"><img src="/images/FJN-logo-long.png" alt="Free Journal Network logo" width="150"/></a>
 &nbsp;
-<a href="https://dblp.org/db/journals/jsys/index.html"><img src="https://dblp.org/img/logo.320x120.png" alt="DPDL logo" width="150"/></a>
+<a href="https://dblp.org/db/journals/jsys/index.html"><img src="https://dblp.org/img/logo.320x120.png" alt="DPDL logo" width="150"/></a> -->
 

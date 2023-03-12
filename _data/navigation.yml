@@ -14,3 +14,9 @@ main:
     url: /stats
   - title: "Contact"
     url: /contact
+
+sidebar:
+  - title: Membership
+    image: /images/FJN-logo-long.png
+    image_alt: "Free Journal Network logo"
+    text: "sdfs "

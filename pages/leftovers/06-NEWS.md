@@ -1,5 +1,4 @@
 ---
-layout: page
 # menutitle: NEWS
 permalink: /news/
 ---

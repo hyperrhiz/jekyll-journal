@@ -1,5 +1,4 @@
 ---
-layout: page
 # menutitle: EDIT
 permalink: /edit/
 ---
