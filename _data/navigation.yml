@@ -15,8 +15,7 @@ main:
   - title: "Contact"
     url: /contact
 
-sidebar:
-  - title: Membership
-    image: /images/FJN-logo-long.png
-    image_alt: "Free Journal Network logo"
-    text: "sdfs "
+memberships:
+  - title: Memberships
+    text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
+  - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"

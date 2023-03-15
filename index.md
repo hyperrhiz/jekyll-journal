@@ -1,13 +1,14 @@
 ---
 layout: single
 author_profile: true
+toc: false
 sidebar:
   - title: Memberships
     text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
   - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"
 ---
 
-# Journal of Systems Research
+# JSys
 
 The Journal of Systems Research (JSys) is a new journal covering the wide area of computer systems. JSys is a scholarly-led initiative aiming to address some limitations of today's publishing outlets in computer science.
 
@@ -38,10 +39,3 @@ JSys is founded on its commitment to inclusiveness, transparency, and quality
 - Every paper is reviewed by **three board members as well as one student reviewer**. By taking part in reviewing, students get naturally integrated into the community... plus, they tend to have a sharp eye for details <i class="fa-solid fa-face-smile-wink"></i>
 
 If you have works that fall in the scope of the journal areas, we'll be very happy to read about your ideas and help you improve further and disseminate your system works <i class="fa-solid fa-rocket"></i>
-
-<!-- ### Memberships
-
-<a href="https://freejournals.org/"><img src="/images/FJN-logo-long.png" alt="Free Journal Network logo" width="150"/></a>
-&nbsp;
-<a href="https://dblp.org/db/journals/jsys/index.html"><img src="https://dblp.org/img/logo.320x120.png" alt="DPDL logo" width="150"/></a> -->
-

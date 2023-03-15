@@ -329,4 +329,4 @@ defaults:
       related: false
       toc: true
       toc_sticky: true
-      toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
+      toc_icon: "hands-holding-circle"  # corresponding Font Awesome icon name (without fa prefix)

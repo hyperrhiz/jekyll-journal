@@ -8,21 +8,44 @@
 
 /* My custom CSS */
 
-$orange:rgb(255,153,51);
-$dark-orange: #ab4401;
+// $orange:rgb(255,153,51);
+// $dark-orange: #ab4401;
 
-$link-color: $dark-orange;
-$link-color-hover: $orange;
-$link-color-visited: $dark-orange;
-$primary-color: $orange;
+// $link-color: $dark-orange;
+// $link-color-hover: $orange;
+// $link-color-visited: $dark-orange;
+// $primary-color: $orange;
 
-a {
-    text-decoration: none;
 
-    &:hover {
-        text-decoration: none;
-    }
+$green: #058316;
+$link-color: #000000;
+$primary-color: $green;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:$primary-color
 }
+
+
+/**
+ * FontAwesome
+ */
+
+.fas, .fa, .fab, .fa-solid {
+    color: $primary-color
+}
+
+// a {
+//     text-decoration: none;
+
+//     &:hover {
+//         text-decoration: none;
+//     }
+// }
 
 /* Animations */
 $intro-transition  : none; // Disabling page transition animation
