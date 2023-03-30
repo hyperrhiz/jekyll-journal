@@ -1,5 +1,5 @@
 ---
-permalink: /read/
+permalink: /read
 ---
 
 # Volume 3 (2023)

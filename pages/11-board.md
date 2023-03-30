@@ -1,19 +1,10 @@
 ---
-permalink: /board/
+permalink: /board
 ---
 
 # Editorial board
 
 The editorial board of JSys is made of people committed to open access for all, open review, and high-quality feedback.
-
-
-<!-- TOC depthTo:2 -->
-
-- [Journal Management](#journal-management)
-- [Area Chairs](#area-chairs)
-- [Co-Founders](#co-founders)
-
-<!-- /TOC -->
 
 ## Journal Management 
 

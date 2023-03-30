@@ -330,3 +330,5 @@ defaults:
       toc: true
       toc_sticky: true
       toc_icon: "hands-holding-circle"  # corresponding Font Awesome icon name (without fa prefix)
+      sidebar:
+        nav: side-nav

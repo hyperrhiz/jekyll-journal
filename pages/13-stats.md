@@ -1,5 +1,5 @@
 ---
-permalink: /stats/
+permalink: /stats
 ---
 
 # Authorship

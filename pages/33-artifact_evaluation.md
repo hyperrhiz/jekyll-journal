@@ -1,5 +1,5 @@
 ---
-permalink: /artifact_evaluation/
+permalink: /artifact_evaluation
 ---
 
 # Artifact Evaluation

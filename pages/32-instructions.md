@@ -1,5 +1,5 @@
 ---
-permalink: /instructions/
+permalink: /instructions
 ---
 
 ## Unique aspects about JSys

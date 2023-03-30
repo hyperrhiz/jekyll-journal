@@ -1,21 +1,40 @@
 # main links
 main:
+  - title: "About"
+    # url: /about
+    url: /board # <- link to the first child page
+  - title: "Write"
+    # url: /write
+    url: /cfp # <- link to the first child page
   - title: "Read"
     url: /read
-  - title: "Call for Papers"
-    url: /cfp
-  - title: "Instructions for Authors"
-    url: /instructions
-  - title: "Editorial Board"
-    url: /board
-  - title: "Artifact Evaluation"
-    url: /artifact_evaluation
-  - title: "Stats"
-    url: /stats
-  - title: "Contact"
-    url: /contact
+  - title: "Contribute"
+    url: /contribute
 
-memberships:
-  - title: Memberships
-    text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
-  - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"
+side-nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    # url: /about
+    children:
+      - title: "Editorial Board"
+        url: /board
+      - title: "Policies"
+        url: /policies
+      - title: "Stats"
+        url: /stats
+      - title: "Contact"
+        url: /contact
+  - title: "Write"
+    # url: /write
+    children:
+      - title: "Call for Papers"
+        url: /cfp
+      - title: "Instructions for Authors"
+        url: /instructions
+      - title: "Artifact Evaluation"
+        url: /artifact_evaluation
+  - title: "Read"
+    url: /read
+  - title: "Contribute"
+    url: /contribute

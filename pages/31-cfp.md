@@ -1,5 +1,5 @@
 ---
-permalink: /cfp/
+permalink: /cfp
 ---
 
 # Call for Papers
