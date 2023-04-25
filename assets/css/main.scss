@@ -4,8 +4,6 @@
 @charset "utf-8";
 
 
-
-
 /* My custom CSS */
 
 // $orange:rgb(255,153,51);
@@ -17,9 +15,69 @@
 // $primary-color: $orange;
 
 
+
 $green: #058316;
 $link-color: #000000;
+$text-color: rgb(70, 70, 70);
 $primary-color: $green;
+$primary-color-light:#baefb6; 
+
+a {
+    text-decoration: none;
+}
+
+// Not sure how to rename
+$brand-color-light:#baefb6; 
+// $grey-color:       rgb(85, 85, 85);
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// a.bibtag {
+//     padding: .25em .5em .1em .5em;
+//     background-color:  $brand-color;
+//     color:  white;
+//     border-radius: 2px;
+// }
+
+// .collapse {
+//     font-size: 90%;
+//     color: $text-color;
+//     background-color: $brand-color-light;
+//     border: 1px solid $text-color;
+// }
+// pre,code {
+//   border: none;
+//   color: #555555;
+//   background: none;
+// }
+// .highlight {
+//     background: $brand-color-light;
+// }
+
+
+
+/**
+ * Tables
+ */
+
+table {
+    clear: both;
+}
+table td {
+    vertical-align: top;
+}
+
+table .column-short {
+    width: 60px;
+}
+
+div.bib-entry-highlight {
+    width: 100%;
+    padding: 1.5em;
+    color: white;
+    background-color: $primary-color;
+}
+
 
 h1,
 h2,

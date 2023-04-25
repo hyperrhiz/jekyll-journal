@@ -331,4 +331,7 @@ defaults:
       toc_sticky: true
       toc_icon: "hands-holding-circle"  # corresponding Font Awesome icon name (without fa prefix)
       sidebar:
-        nav: side-nav
+        - nav: side-nav
+        - title: Memberships
+          text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
+        - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"

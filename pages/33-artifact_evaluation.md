@@ -46,6 +46,8 @@ reader's mind.  What are the "main claims"?  What is a reasonable
 tolerance, based on the paper and the experiments that the evaluator
 tried?  The evaluator should explain these things in their review.
 
+In short, the Artifact Evaluation Board tries to ascertain: **Can an independent third-party, without the help of the authors, reproduce the main results of the paper?**
+
 There are several sources of good advice about preparing artifacts for
 evaluation.  These two are particularly noteworthy:
 

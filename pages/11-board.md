@@ -4,9 +4,14 @@ permalink: /board
 
 # Editorial board
 
+TODO
+
+- needs some rework too, but won’t change for now
+- editorial board member→ Reviewer !
+
 The editorial board of JSys is made of people committed to open access for all, open review, and high-quality feedback.
 
-## Journal Management 
+## Journal Management
 
 ### Editors-in-Chief
 

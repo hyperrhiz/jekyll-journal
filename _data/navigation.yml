@@ -1,21 +1,25 @@
 # main links
 main:
-  - title: "About"
-    # url: /about
-    url: /board # <- link to the first child page
-  - title: "Write"
-    # url: /write
-    url: /cfp # <- link to the first child page
-  - title: "Read"
-    url: /read
-  - title: "Contribute"
-    url: /contribute
-
-side-nav:
+  # It seems I need at least one entry there by default, 
+  # but that's probably something I can tweek...
   - title: "Home"
     url: /
+  # - title: "About"
+  #   # url: /about
+  #   url: /board # <- link to the first child page
+  # - title: "Read"
+  #   url: /read
+  # - title: "Write"
+  #   # url: /write
+  #   url: /cfp # <- link to the first child page
+  # - title: "Contribute"
+  #   url: /contribute
+
+side-nav:
+  # - title: "Home"
+  #   url: /
   - title: "About"
-    # url: /about
+    url: /board
     children:
       - title: "Editorial Board"
         url: /board
@@ -25,8 +29,10 @@ side-nav:
         url: /stats
       - title: "Contact"
         url: /contact
+  - title: "Read"
+    url: /read
   - title: "Write"
-    # url: /write
+    url: /cfp
     children:
       - title: "Call for Papers"
         url: /cfp
@@ -34,7 +40,10 @@ side-nav:
         url: /instructions
       - title: "Artifact Evaluation"
         url: /artifact_evaluation
-  - title: "Read"
-    url: /read
   - title: "Contribute"
     url: /contribute
+
+memberships: 
+  - title: Memberships
+    text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
+  - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"

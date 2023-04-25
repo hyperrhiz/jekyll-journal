@@ -6,8 +6,6 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default;
-
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
@@ -50,6 +48,8 @@ $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
+
+$doc-font-size: $type-size-5;
 
 /*
    Colors

@@ -1,9 +1,5 @@
 ---
 toc: false
-sidebar:
-  - title: Memberships
-    text: "[![Free Journal Network logo](/images/FJN-logo-long.png)](https://freejournals.org/)"
-  - text: "[![DPDL logo](https://dblp.org/img/logo.320x120.png)](https://dblp.org/db/journals/jsys/index.html)"
 ---
 
 # JSys
