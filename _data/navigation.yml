@@ -19,7 +19,7 @@ side-nav:
   # - title: "Home"
   #   url: /
   - title: "About"
-    url: /board
+    url: /about
     children:
       - title: "Editorial Board"
         url: /board

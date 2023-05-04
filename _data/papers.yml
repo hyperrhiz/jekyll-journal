@@ -1,5 +1,13 @@
 type:
 
+- title: Solution
+  active: 1
+  url: /type_solution
+
+- title: Problem
+  active: 1
+  url: /type_problem
+
 - title: Systemization of Knowledge (SoK)
   active: 1
   url: /type_SoK
@@ -7,11 +15,3 @@ type:
 - title: Tools/benchmark
   active: 1
   url: /type_ToolBench
-
-- title: Problem
-  active: 1
-  url: /type_problem
-
-- title: Solution
-  active: 1
-  url: /type_solution

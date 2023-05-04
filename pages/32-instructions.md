@@ -4,59 +4,14 @@ permalink: /instructions
 
 # Instructions for Authors
 
-<!-- TOC -->
+This page provides detailed instructions for authors submitting to JSys.
 
-- [Unique features of JSys](#unique-features-of-jsys)
-    - [Artifacts must be submitted *along* with the paper](#artifacts-must-be-submitted-along-with-the-paper)
-    - [Paper submissions and reviews are publicly visible](#paper-submissions-and-reviews-are-publicly-visible)
-    - [All communication happens via comments on OpenReview](#all-communication-happens-via-comments-on-openreview)
-- [Submitting a New Paper](#submitting-a-new-paper)
-    - [Formatting Instructions](#formatting-instructions)
-    - [Template](#template)
-    - [DOI and Bibliography](#doi-and-bibliography)
-- [Submitting a Revision](#submitting-a-revision)
-- [Preparing the Final Version](#preparing-the-final-version)
-- [Artifact Evaluation](#artifact-evaluation)
-- [Conflicts](#conflicts)
-- [Advertising](#advertising)
-    - [Arxiv](#arxiv)
-    - [Social Media](#social-media)
-
-<!-- /TOC -->
-
-TODO
-
-- [ ] Highlighted link to policies at the top
-- [ ] Write a one-liner for the Advertising section
-
-## Unique features of JSys
-
-Please note that the JSys review process differs from traditional conferences or journals in the systems area. It is closest in spirit to [VLDB](https://www.vldb.org/), but there are some important differences:
-
-### Artifacts must be submitted *along* with the paper
-
-Traditionally, artifact evaluation is optional, and done *after* the paper is accepted. 
-At JSys, artifact evaluation proceeds parallely with paper review. 
-For Solution and Tool/Benchmark papers, artifact evaluation is mandatory. 
-
-JSys has two submission websites open for papers and artifacts for each deadline. For example, if you are submitting to the Mar 2023 deadline, the paper submission is [here](https://openreview.net/group?id=JSYS/2023/March_Papers), and the artifact submission is [here](https://openreview.net/group?id=JSYS/2023/March_Artifacts). 
-
-### Paper submissions and reviews are publicly visible
-
-Paper review is double-blind and public, while artifact evaluation is single-blind and private.
-Artifacts are reviewed privately to allow sharing of sensitive information (e.g., ssh keys).
-Some conferences treat paper submissions as confidential until publication; this is not the case at JSys since the submissions are public. 
-
-### All communication happens via comments on OpenReview
-
-JSys uses OpenReview for submission, review, revision, and comments. 
-The area chairs and reviewers will communicate with authors via OpenReview comments.
-Please ensure that you are able to receive email from the OpenReview system. 
+Prospective authors should also carefully read the [journal policies](/policies) for more information.
 
 ## Submitting a New Paper
 
-JSys uses [OpenReview](https://openreview.net/) for submitting and reviewing papers. Papers should be submitted electronically as PDF. 
-Papers and artifacts area reviewed separately.
+JSys uses [OpenReview](https://openreview.net/) for submitting and reviewing papers. Papers should be submitted electronically as PDF.
+Papers and artifacts are reviewed separately.
 
 JSys opens new submission forums for each deadline. Here are the links for recent and upcoming deadlines.
 
@@ -92,50 +47,49 @@ Alternatively, one can download the zip file [here](https://github.com/jsysresea
 
 JSys articles are assigned a Crossref DOI upon publication.
 
-Consequently, every reference in the bibliography must include a DOI whenever available. The [JSys LaTeX template](#template) includes everything necessary to display DOIs according to [Crossref's guidelines](https://www.crossref.org/display-guidelines/). The only thing you have to do is fill in the DOI fields in your `.bib` file.
+Consequently, every reference in the bibliography must include a DOI whenever available. The [JSys LaTeX template](#template) includes everything necessary to display DOIs according to [Crossref's guidelines](https://www.crossref.org/display-guidelines/). The only thing you have to do is **fill in the DOI fields** in your `.bib` file.
 
 ## Submitting a Revision
 
-> UPDATE: Now they are expected to resubmit to a subsequent deadline. So this whole text should be scrapped.
+If the authors receive a [*Revise* decision](/policies#revise), they will are invite to submit their revised manuscript in a subsequent JSys deadline.
 
-If the authors receive a *Revise* decision, they have three months from the time of decision to upload a revised version of their paper. For example, if the decision was provided on April 15, the authors have until Jul 15 to upload their revised version.
+A revision is a contract between the authors and the reviewers: as long as the authors complete the requested changes in good faith by the deadline, the paper will be accepted after a quick review.
+Nevertheless, the editors reserve the right to reject the paper if additional evidence indicates that the central hypothesis or result of the paper no longer holds.
 
-OpenReview will show a "Revision" button. The authors can use this to upload their PDF. After doing so, **please leave a comment alerting the reviewers about the revised PDF**. Authors can upload their PDF multiple times, so it is important to tell the reviewers when it is ready for review.
+The revised manuscript must be submitted on OpenReview and include:
 
-Reviewers then have one month to read the revised version and come to a final decision regarding the submission.
+- A cover letter explaining the changes made, and how they address reviewer concerns. The cover letter can take as many pages as required. Authors should be thorough in responding to reviewer comments.
+- The revised manuscript with changes highlighted for easy reviewing.
 
-The revised PDF should include the following:
-- A cover letter detailing how the authors are responding to reviewer comments. The cover letter can take as many pages as required. Authors should be thorough in responding to reviewer comments. 
-- The revised PDF, with all changes highlighted. 
-
-Overall, it should be easy for the reviewers to understand how the PDF has changed in response to their comments. 
-
-The final decision will also be communicated via OpenReview. 
+In case authors are unsure if or how they should address a given point from the reviews, they should contact the area chairs via OpenReview or email for assistance.
 
 ## Preparing the Final Version
 
-> To revise as well.
+> Congratulations on getting your work accepted to JSys!
 
-Congratulations on getting your paper accepted to JSys! 
+For the final version of the PDF, please use the `jsys_camera_ready.tex` [template](https://github.com/jsysresearch/template). Please note that the final version should use the `jsys_camera_ready` package (`jsys_camera_ready.tex` does this by default). The final version should also include the authors and their affiliation. We strongly encourage including ORCIDs.
 
-For the final version of the PDF, please use the `jsys_camera_ready.tex` [template](https://github.com/jsysresearch/template). Please note that the final version should use the `jsys_camera_ready` package (`jsys_camera_ready.tex` does this by default). The final version should also include the authors and their affiliation. We strongly encourage including ORCIDs. 
+The final version should be uploaded using the "Final version" button on OpenReview. Please leave a comment ("Official Comment" button) indicating that the final version has been uploaded (this is important to notify the Area Chair).
 
-The final version should be uploaded using the "Revision" button on OpenReview. Please leave a comment indicating the final version has been uploaded (this is important to notify the Area Chair). 
+One of the authors, on behalf of all authors, must sign [this publication agreement](https://github.com/jsysresearch/community/blob/main/agreement.pdf), and mail it to `editors@jsys.org`.
 
-One of the authors, on behalf of all authors, must sign [this publication agreement](https://github.com/jsysresearch/community/blob/main/agreement.pdf), and mail it to `editors@jsys.org`. 
+Once the PDF and the signed agreement are received, we will publish the final PDF on the website within two business days.
 
-Once the PDF and the signed agreement are received, we will publish the final PDF on the website within two business days. 
+|<i class="fas fa-exclamation-triangle"></i>||Reminder|
+|:---|:---|:---|
+|||Solution and Tools/Benchmark papers are **required** to pass the [JSys Artifact Evaluation](#artifact-evaluation) prior to publication. |
+|||If artifacts are missing or not yet accepted, we will hold the publication of accepted manuscripts until the accompanying artifacts pass the artifact evaluation as well.|
 
 ## Artifact Evaluation
 
 JSys submissions for the Solution or Tools/Benchmark category **must** be accompanied by artifacts that are evaluated by JSys Artifact Evaluation Board.
-
 Different from traditional evaluations, note that the JSys Artifact Evaluation proceeds **in parallel** of the paper evaluation (and not after the paper has been accepted).
+
 Refer to the [Artifact Evaluation page](/artifact_evaluation) for details about the evaluation procedure, expectations, and tips for authors.
 
 ## Conflicts
 
-When submitting your paper to JSys, you must provide information about conflicts with reviewers on the editorial board.
+When submitting your paper to JSys, authors must provide information about their conflicts with reviewers on the editorial board.
 JSys considers the following cases as conflicts.
 
 - The reviewer is your PhD or post-doc advisor.
@@ -150,7 +104,7 @@ Authors _must not_ improperly identify a reviewer as in conflict if none of thes
 - You have discussed the work with them, or
 - They are your personal friend.
 
-The Editor-in-Chief and Area Chairs will review paper conflicts to ensure the integrity of the reviewing process, adding or removing conflicts if necessary. If you have any questions about conflicts, please contact the editor-in-chief and area chairs.
+The Editor-in-Chief and Area Chairs will review paper conflicts to ensure the integrity of the reviewing process, adding or removing conflicts if necessary. If you have any questions about conflicts, please [contact the Editor-in-Chiefs](/contact).
 
 ## Advertising
 
@@ -166,12 +120,15 @@ JSys allows submission of papers already uploaded on Arxiv. However,
 - the system's name (if any) used in the two papers must be different.
 
 The authors should make a good-faith effort to preserve the double-blind nature of the JSys submission.
-Please inform the Editor-in-Chief and Area Chairs if there is a previous Arxiv submission; this helps if reviewers unintentionally find the Arxiv paper.
+
+> Please inform the Editor-in-Chief and Area Chairs if there is a previous Arxiv submission; this helps if reviewers unintentionally find the Arxiv paper.
+
+TODO: clarify how people are supposed to do that! 
 
 ### Social Media
 
 JSys does not forbid authors to advertise their work on social media.
-However, do not link to the OpenReview submission, as doing so breaks double-blindness.
+However, they should do not link to the OpenReview submission, as doing so breaks double-blindness.
 
 For example,
 

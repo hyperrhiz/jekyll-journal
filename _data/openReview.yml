@@ -1,33 +1,43 @@
 forums:
 
+- title: May 2023 - Paper 
+  open: 0
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2023/May_Papers
+
+- title: May 2023 - Aritfact 
+  open: 0
+  show: 1
+  url: https://openreview.net/group?id=JSYS/2023/May_Artifacts
+
 - title: March 2023 - Paper 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2023/March_Papers
 
 - title: March 2023 - Aritfact 
-  open: 1
+  open: 0
   show: 1
   url: https://openreview.net/group?id=JSYS/2023/March_Artifacts
 
 - title: October 2022 - Paper 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2022/Oct_Papers
 
 - title: October 2022 - Aritfact 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2022/Oct_Artifacts
 
 - title: August 2022 - Paper 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2022/Aug_Papers
 
 - title: August 2022 - Aritfact 
   open: 0
-  show: 1
+  show: 0
   url: https://openreview.net/group?id=JSYS/2022/Aug_Artifacts
 
 - title: May 2022 - Paper 

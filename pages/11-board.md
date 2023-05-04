@@ -30,7 +30,7 @@ http://movb.de/jekyll-details-support.html -->
 {% endif %}
 {% endfor %}<!-- Loop through all areas -->
 
-### Artifact Evaluation Board
+## Artifact Evaluation Board
 
 {% for chair in site.data.areas.artifacts.board.chairs %}
 - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}

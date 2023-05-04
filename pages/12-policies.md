@@ -12,7 +12,9 @@ There are three possible editorial decisions for a paper submitted to JSys:
 
 - Accept with shepherding
 - Revise
-- Reject.
+- Reject
+
+Each decision and its consequences is explained below.
 
 #### Accept with shepherding
   
@@ -24,14 +26,6 @@ Authors who submit on March 1st and get an acceptance decision by March 15th can
 **The paper needs work that will take more than one month.**
 The authors can submit a revised version in a following JSys deadline.
 The reviewing timeline for a resubmission is the same as a regular paper.
-
-A revision is a contract between the authors and the reviewers: as long as the authors complete the requested changes in good faith by the deadline, the paper will be accepted after a quick review.
-Nevertheless, the editors reserve the right to reject the paper if additional evidence indicates that the central hypothesis or result of the paper no longer holds.
-
-The revised manuscript must be submitted on OpenReview and include:
-
-- A revision plan explaining the changes made, and how they address reviewer concerns;
-- The revised manuscript with changes highlighted for easy reviewing.
 
 Please refer to the details in the [Instructions for Authors](/instructions#submitting-a-revision).
 
@@ -53,6 +47,10 @@ We believe this is a preferable outcome than overloading reviewers (thereby lowe
 ### Contemporary Work
 
 Any peer-reviewed work that was published (PDF available on the publisher’s website) less than two months prior to the initial submission is considered contemporary with the submission. Reviewers will not penalize the submission for not comparing with contemporary work. However, reviewers may ask for a qualitative comparison to be added in the final version of the submitted work.
+
+## Copyright and Originality
+
+All work submitted to JSys must be original work. The authors must have the copyright for the submitted work. Simultaneous submissions are not allowed: any work submitted to JSys must not be under consideration for another workshop, conference, or journal.
 
 ## Plagiarism
 
