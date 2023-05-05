@@ -4,21 +4,17 @@ permalink: /contact
 
 # Contact
 
-For any question about the journal, contact the Editors-in-Chiefs at
-
-|:---|:---|:---|
-|<i class="fas fa-envelope"></i>||[editors@jsys.org](mailto:editors@jsys.org)|
+For any question about the journal, contact the Editors-in-Chiefs by email.
 
 ## Editors-in-Chiefs
 
-{% for person in site.data.management.eic %}
-- [{{ person.name}}]({{person.webpage}})  
+{% for person in site.data.management.eic %}- [{{ person.name}}]({{person.webpage}})  
     {{person.affiliation}}  
 {% endfor %}
 
-## Social Media
-
+|||Contact Points|
 |:---|:---|:---|
+|<i class="fas fa-envelope"></i>||[editors@jsys.org](mailto:editors@jsys.org)|
 |<i class="fab fa-twitter"></i>||[@jsysresearch](https://twitter.com/jsysresearch)|
 |<i class="fab fa-mastodon"></i>||[@jsys@discuss.systems](https://discuss.systems/@jsys)|
 

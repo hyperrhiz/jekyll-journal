@@ -17,14 +17,10 @@ http://movb.de/jekyll-details-support.html -->
 {% assign areas = site.data.areas.meta.area | sort: "id" %}
 {% for area in areas %}
 {% if area.active == 1 %}
-
 {% assign active_chairs = site.data.areas[area.id].board.chairs | where_exp: "person", "person.until==0" | sort: "name"%}
-
-- [{{area.title}}](/cfp_{{area.id}}/)
-{% for chair in active_chairs %}
+- [{{area.title}}](/cfp_{{area.id}}/){% for chair in active_chairs %}
   - [{{chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
-{% endif %}
-{% endfor %}<!-- Loop through all areas -->
+{% endif %}{% endfor %}<!-- Loop through all areas -->
 
 ## Artifact Evaluation Board
 
@@ -37,8 +33,7 @@ http://movb.de/jekyll-details-support.html -->
 
 ### Editors-in-Chief
 
-{% for person in site.data.management.eic %}
-- [{{ person.name}}]({{person.webpage}})  
+{% for person in site.data.management.eic %}- [{{ person.name}}]({{person.webpage}})  
     {{person.affiliation}}  
     <i class="fab fa-orcid"></i>   &nbsp; [{{person.orcid}}](https://orcid.org/{{person.orcid}})  
     <i class="fab fa-twitter"></i> &nbsp; [@{{person.twitter}}](https://twitter.com/{{person.twitter}})
@@ -60,8 +55,6 @@ http://movb.de/jekyll-details-support.html -->
 
 ## Co-Founders
 
-{% for member in site.data.co-founders.list %}
-- [{{ member.name}}]({{member.webpage}})  
+{% for member in site.data.co-founders.list %}- [{{ member.name}}]({{member.webpage}})  
     [<i class="fab fa-orcid"></i>   &nbsp; {{member.orcid}}](https://orcid.org/{{member.orcid}})  
-    [<i class="fab fa-twitter"></i> &nbsp; @{{member.twitter}}](https://twitter.com/{{member.twitter}})
 {% endfor %}

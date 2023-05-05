@@ -25,8 +25,8 @@ side-nav:
         url: /board
       - title: "Policies"
         url: /policies
-      - title: "Stats"
-        url: /stats
+      # - title: "Stats"
+      #   url: /stats
       - title: "Contact"
         url: /contact
   - title: "Read"

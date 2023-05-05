@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 ---
 
 {% assign area = site.data.areas.meta.area | where: "id", page.id | first %}
@@ -13,76 +13,68 @@ layout: default
 {% assign active_members = site.data.areas[page.id].board.members | where_exp: "person", "person.until==0" | sort: "name" %}
 {% assign former_members = site.data.areas[page.id].board.members | where_exp: "person", "person.until!=0" | sort: "until" | reverse %}
 
-<div class="post">
+<h1>{{area.title}}</h1>
 
-  <article class="post-content">
+{% for item in cfp.introduction %}
+<p> 
+  {{item.paragraph}} 
+  {% if item.link %}
+  <i class="fas fa-hand-point-right"></i> <a href="{{item.link}}">Nomination form</a>
+  {% endif%}
+</p>
+{% endfor %}
 
-    <h1>{{area.title}}</h1>
+<h2>{{cfp.responsibilities.title}}</h2>
+
+<p>{{cfp.responsibilities.text}}</p>
+<ul>
+  {% for item in cfp.responsibilities.items %}
+  <li> {{item}} </li>
+  {% endfor %}
+</ul>
+
+<h2>Area Board</h2>
+
+<div>
+  <p>{{area.title}} area is chaired by</p> 
+  <ul>
+    {% for chair in active_chairs %}
+    <li>
+      <a href="{{chair.webpage }}">{{ chair.name }}</a>, {{chair.affiliation}}  <br />
+      {% if chair.email %}
+        <i class="fas fa-envelope"></i>&nbsp; 
+        <a href="mailto{{chair.email}}">{{ chair.email }}</a>
+      {% endif %}
+    </li>{% endfor %}
+  </ul>
   
-    {% for item in cfp.introduction %}
-    <p> 
-      {{item.paragraph}} 
-      {% if item.link %}
-      <i class="fas fa-hand-point-right"></i> <a href="{{item.link}}">Nomination form</a>
-      {% endif%}
-    </p>
+  <p>and the reviewers are:</p> 
+  <ul>
+    {% for member in active_members %}
+    <li>
+      <a href="{{member.webpage }}">{{ member.name }}</a>, {{member.affiliation}} 
+    </li>
     {% endfor %}
+  </ul>
+</div>
+
+
+<h2>Former Members</h2>
+<div>
+  <p>Chairs</p> 
+  <ul>
+    {% for chair in former_chairs %}
+    <li>
+      {{ chair.name }}, {{chair.affiliation}}  ({{ chair.from }}-{{ chair.until }})
+    </li>{% endfor %}
+  </ul>
   
-    <h2>{{cfp.responsibilities.title}}</h2>
-  
-    <p>{{cfp.responsibilities.text}}</p>
-    <ul>
-      {% for item in cfp.responsibilities.items %}
-      <li> {{item}} </li>
-      {% endfor %}
-    </ul>
-
-    <h2>Area Board</h2>
-
-    <div>
-      The {{area.title}} area is chaired by
-      <ul>
-        {% for chair in active_chairs %}
-        <li>
-          <a href="{{chair.webpage }}">{{ chair.name }}</a>, {{chair.affiliation}}  <br />
-          {% if chair.email %}
-            <i class="fas fa-envelope"></i>&nbsp; 
-            <a href="mailto{{chair.email}}">{{ chair.email }}</a>
-          {% endif %}
-        </li>{% endfor %}
-      </ul>
-      
-      and the reviewers are:
-      <ul>
-        {% for member in active_members %}
-        <li>
-          <a href="{{member.webpage }}">{{ member.name }}</a>, {{member.affiliation}} 
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-
-
-    <h2>Former Members</h2>
-    <div>
-      Chairs
-      <ul>
-        {% for chair in former_chairs %}
-        <li>
-          {{ chair.name }}, {{chair.affiliation}}  ({{ chair.from }}-{{ chair.until }})
-        </li>{% endfor %}
-      </ul>
-      
-      Reviewers
-      <ul>
-        {% for member in former_members %}
-        <li>
-          {{ member.name }}, {{member.affiliation}}  ({{ member.from }}-{{ member.until }})
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    
-  </article>
-
+  <p>Reviewers</p> 
+  <ul>
+    {% for member in former_members %}
+    <li>
+      {{ member.name }}, {{member.affiliation}}  ({{ member.from }}-{{ member.until }})
+    </li>
+    {% endfor %}
+  </ul>
 </div>
