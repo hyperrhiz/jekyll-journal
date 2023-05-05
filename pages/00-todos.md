@@ -22,6 +22,7 @@ toc: false
     - student reviewers
     - meta-review and reviewers name
     - instruction for reviewers page?
+    - ISSN and link to website sources
 - Consider moving the "reviewing process" to info for authors (it's not really a policy)
 - [ ] Endogeny to compute and display
     - The proportion of published papers where at least one of the authors is an editor, editorial board member or reviewer must not exceed 20% based on the research content of the latest two issues.
