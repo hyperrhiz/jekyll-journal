@@ -8,15 +8,16 @@ toc: false
 ## Pre-merge TODOs
 
 - [x] Fix the per-area CFP page layout
-- [-] Fix weird sizes for lists
+- [x] Fix weird sizes for lists
     - Hafl-way solved: the issue is that p and il item sizes are defined proportionaly to the parent. So if they are nested, they get scalled multiple times and get smaller and smaller.
-    - I should be able to fix this by tweeking the css, but it works okay as is for now.
-- [ ] Get the latest bib
-- [ ] Put together the self-notination forms and finish the "contributing" page.
+    - Fixed by tweeking the css
+- [x] Get the latest bib
+- [x] finish the "contributing" page.
 
 ## TODO
 
 - Polish the bibliograhy
+- Put together the self-notination forms
 - missing somewhere:
     - student reviewers
     - meta-review and reviewers name

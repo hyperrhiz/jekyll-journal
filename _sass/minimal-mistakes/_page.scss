@@ -114,6 +114,10 @@ body {
   li,
   dl {
     font-size: $type-size-6;
+
+    & table, li, p {
+      font-size: $type-size-5;
+    }
   }
 
   /* paragraph indents */

@@ -24,10 +24,10 @@ http://movb.de/jekyll-details-support.html -->
 
 ## Artifact Evaluation Board
 
+The [Artifact Evaluation Board](/cfp_artifacts/) is chaired by
 {% for chair in site.data.areas.artifacts.board.chairs %}
-- [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
+  - [{{ chair.name}}]({{chair.webpage}}), {{chair.affiliation}}{% endfor %}
 
-[Self-nomination and complete board](/cfp_artifacts/)
 
 ## Journal Management
 
