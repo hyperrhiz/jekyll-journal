@@ -4,10 +4,6 @@ permalink: /board
 
 # Editorial board
 
-TODO: 
-
-- Fix the per-area CFP page layout
-
 The editorial board of JSys is made of people committed to open access for all, open review, and high-quality feedback.
 
 ## Areas

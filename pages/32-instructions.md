@@ -6,7 +6,13 @@ permalink: /instructions
 
 This page provides detailed instructions for authors submitting to JSys.
 
-Prospective authors should also carefully read the [journal policies](/policies) for more information.
+> Prospective authors should also read carefully the [journal policies](/policies) for more information.
+
+## Communication via OpenReview
+
+JSys uses [OpenReview](https://openreview.net/) for submission, review, revision, and comments.
+
+The area chairs and reviewers will communicate with authors via OpenReview comments. Please ensure that you receive emails from the OpenReview system. We recommend authors to sign in regurlarly in OpenReview to ensure they do not miss an important notification.
 
 ## Submitting a New Paper
 

@@ -1,35 +1,52 @@
 ---
 permalink: /about
+toc: false
 ---
 
-<!-- No need for that page -> link to the first child page instead -->
+TODO: 
+
+- missing somewhere:
+    - student reviewers
+    - meta-review and reviewers name
+    - instruction for reviewers page?
+- Fix the per-area CFP page layout
+- Fix weird sizes for lists
+- Consider moving the "reviewing process" to info for authors (it's not really a policy)
+- [ ] Endogeny to compute and display
+    - The proportion of published papers where at least one of the authors is an editor, editorial board member or reviewer must not exceed 20% based on the research content of the latest two issues.
+- [ ] Fix table glitch with the TOC
+- [ ] Get the latest bib
+- [ ] Put together the self-notination forms and finish the "contributing" page.
 
 
-The Journal of Systems Research (JSys) is a diamond open-access (no fees for authors or readers) journal that seeks to publish research that moves the field forward and will be of interest to the systems community. JSys emphasizes rigorous research that improves the state-of-the-art, even if the increment is modest. JSys requires that papers that put forth a new tool, benchmark, or software solution undergo Artifact Evaluation and make their artifact publicly available.
+# About
 
-> Please see the [instructions for authors](https://www.jsys.org/instructions) for details.
+The Journal of Systems Research (JSys) is a diamond Open Access.  
+That is, it is **free to read** and **free to publish** (no fees for authors or readers).
 
+JSys seeks to publish research that moves the field forward and will be of interest to the systems community. JSys emphasizes rigorous research that improves the state-of-the-art, even if the increment is modest. JSys requires that papers that put forth a new tool, benchmark, or software solution undergo Artifact Evaluation and make their artifact publicly available.
 
-## Unique features of JSys
+<!-- ## Unique features of JSys -->
 
-Please note that the JSys review process differs from traditional conferences or journals in the systems area. It is closest in spirit to [VLDB](https://www.vldb.org/), but there are some important differences:
+The JSys editorial process differs from traditional conferences or journals in the systems area. 
+It is closest in spirit to [VLDB](https://www.vldb.org/), but there are some important differences worth highlighting.
 
-### Artifacts must be submitted *along* with the paper
+## Artifacts must be submitted *along* with the paper
 
-Traditionally, artifact evaluation is optional, and done *after* the paper is accepted. 
-At JSys, artifact evaluation proceeds parallely with paper review. 
-For Solution and Tool/Benchmark papers, artifact evaluation is mandatory. 
+Traditionally, artifact evaluation is optional, and done *after* the paper is accepted.
+At JSys, artifact evaluation proceeds in parallel of the paper review.
+The artifact evaluation is mandatory for [Solution and Tool/Benchmark papers](/cfp#paper-types).
 
-JSys has two submission websites open for papers and artifacts for each deadline. For example, if you are submitting to the Mar 2023 deadline, the paper submission is [here](https://openreview.net/group?id=JSYS/2023/March_Papers), and the artifact submission is [here](https://openreview.net/group?id=JSYS/2023/March_Artifacts). 
+## Paper submissions and reviews are publicly visible
 
-### Paper submissions and reviews are publicly visible
+The paper review is double-blind and **public**.  
+Most conferences treat paper submissions as confidential until publication, this is different at JSys. The submissions are public (after the submission deadline) as well as the reviews (once the editorial decision has been made). JSys also publishes the reviewer names together with the papers.
 
-Paper review is double-blind and public, while artifact evaluation is single-blind and private.
-Artifacts are reviewed privately to allow sharing of sensitive information (e.g., ssh keys).
-Some conferences treat paper submissions as confidential until publication; this is not the case at JSys since the submissions are public. 
+The artifact evaluation is single-blind and **private**.  
+Artifacts are reviewed privately to allow sharing of sensitive information (e.g., ssh keys). The artifact evaluation process is typically an active exchange between authors and reviewers, aiming to improve the artifact quality.
 
-### All communication happens via comments on OpenReview
+## Want to learn more about JSys?
 
-JSys uses OpenReview for submission, review, revision, and comments. 
-The area chairs and reviewers will communicate with authors via OpenReview comments.
-Please ensure that you are able to receive email from the OpenReview system. 
+- The [Policies page](/policies) for a complete depiction of JSys operating principles.  
+- The [Call for Papers](/cfp) clarifies the journal's scope.  
+- The [Instructions for Authors](/instructions) provide important practical details for prospective authors.
