@@ -29,3 +29,4 @@ toc: false
 - [ ] Fix table glitch with the TOC
 - [ ] add the new assistants
 - [ ] Uddate the area data
+- [ ] clarify how people are supposed to inform of a prior sub on arxiv or else

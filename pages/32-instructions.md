@@ -129,8 +129,6 @@ The authors should make a good-faith effort to preserve the double-blind nature 
 
 > Please inform the Editor-in-Chief and Area Chairs if there is a previous Arxiv submission; this helps if reviewers unintentionally find the Arxiv paper.
 
-TODO: clarify how people are supposed to do that! 
-
 ### Social Media
 
 JSys does not forbid authors to advertise their work on social media.
