@@ -18,17 +18,6 @@ main:
 side-nav:
   # - title: "Home"
   #   url: /
-  - title: "About"
-    url: /about
-    children:
-      - title: "Editorial Board"
-        url: /board
-      - title: "Policies"
-        url: /policies
-      # - title: "Stats"
-      #   url: /stats
-      - title: "Contact"
-        url: /contact
   - title: "Read"
     url: /read
   - title: "Write"
@@ -40,6 +29,17 @@ side-nav:
         url: /instructions
       - title: "Artifact Evaluation"
         url: /artifact_evaluation
+  - title: "About"
+    url: /about
+    children:
+      - title: "Editorial Board"
+        url: /board
+      - title: "Policies"
+        url: /policies
+      # - title: "Stats"
+      #   url: /stats
+      - title: "Contact"
+        url: /contact
   - title: "Contribute"
     url: /contribute
 
