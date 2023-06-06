@@ -219,3 +219,24 @@
   langid = {english},
   review_url = {https://openreview.net/forum?id=UqszJh5h6v}
 }
+
+@article{2023-06-06-hellingsProblem,
+  type = {Problem},
+  ids = {Pblm_Sharded_Tx_Processing},
+  title = {Cerberus: {{Minimalistic Multi-shard Byzantine-resilient Transaction Processing}}},
+  shorttitle = {Cerberus},
+  author = {Hellings, Jelle and Hugues, Daniel P. and Primero, Joshua and Sadoghi, Mohammad},
+  year = {2023},
+  month = jun,
+  journal = {Journal of Systems Research},
+  volume = {3},
+  number = {1},
+  issn = {2770-5501},
+  doi = {10.5070/SR33161314},
+  url = {https://escholarship.org/uc/item/6h427354},
+  urldate = {2023-06-06},
+  abstract = {To enable scalable resilient blockchain systems, several powerful general-purpose approaches toward sharding such systems have been demonstrated. Unfortunately, these approaches all come with substantial costs for ordering andexecution of multi-shard transactions.In this work, we ask whether one can achieve significantcost reductions for processing multi-shard transactions by limiting the type of workloads supported. To initiate the study of this problem, we propose CERBERUS, a family of minimalistic primitives for processing single-shard and multi-shard UTXO-like transactions. The first CERBERUS variant we propose is core-CERBERUS (CCERBERUS). CCERBERUS uses strict UTXO-based environmental requirements to enable powerful multi-shard transaction processing with an absolute minimum amount of coordination between shards. In the environment we designed CCERBERUS for, CCERBERUS will operate perfectly with respect to all transactions proposed and approved by well-behaved clients, but does not provide any other guarantees.To illustrate that CCERBERUS -like protocols can also be of use in environments with faulty clients, we also demonstrate two generalizations of CCERBERUS, optimistic-CERBERUS and resilient-CERBERUS, that make different tradeoffs in complexity and costs when dealing with faulty behavior and attacks. Finally, we compare these three protocols and show their potential scalability and performance benefits over state-of-the-art general-purpose systems. These results underline the importance of the study of specialized approaches toward sharding in resilient systems.},
+  area = {Distributed Consensus},
+  langid = {english},
+  review_url = {https://openreview.net/forum?id=s-78X2Y9sm}
+}
