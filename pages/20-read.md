@@ -1,5 +1,6 @@
 ---
 permalink: /read
+toc: false
 ---
 
 # Volume 3 (2023)
