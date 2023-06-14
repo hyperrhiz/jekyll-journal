@@ -47,7 +47,7 @@ area:
   
 - title: Decentralized Systems
   id: decentralized
-  active: 1
+  active: 0
 
 - title: Computer Architecture
   id: compArchitecture
