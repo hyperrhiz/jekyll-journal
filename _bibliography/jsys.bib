@@ -261,3 +261,23 @@
   langid = {english},
   review_url = {https://openreview.net/forum?id=yuY5n8gMn-s}
 }
+
+@article{2023-06-14-hodsdonSolution,
+  type = {Solution},
+  ids = {Sol_Scaling_Contiguous},
+  title = {Mason: {{Scalable}}, {{Contiguous Sequencing}} for {{Building Consistent Services}}},
+  shorttitle = {[{{Solution}}] {{Mason}}},
+  author = {Hodsdon, Christopher and Stavrinos, Theano and {Katz-Bassett}, Ethan and Lloyd, Wyatt},
+  year = {2023},
+  journal = {Journal of Systems Research},
+  volume = {3},
+  number = {1},
+  doi = {10.5070/SR33161354},
+  url = {https://escholarship.org/uc/item/5hg1429j},
+  urldate = {2023-06-14},
+  abstract = {Some recent services use a sequencer to simplify ordering operations on sharded data. The sequencer assigns each operation a multi-sequence number which explicitly orders the operation on each shard it accesses. Existing sequencers have two shortcomings. First, failures can result in some multi-sequence numbers never being assigned, exposing a non-contiguous multi-sequence, which requires complex scaffolding to handle. Second, existing implementations use single-machine sequencers, limiting service throughput to the ordering throughput of one machine.We make two contributions. First, we posit that sequencers should expose our new contiguous multi-sequence abstraction. Contiguity guarantees every sequence number is assigned an operation, simplifying the abstraction. Second, we design and implement MASON , the first system to expose the contiguous multi-sequence abstraction and the first to provide a scalable multi-sequence. MASON is thus an ideal building block for consistent, scalable services. Our evaluation shows MASON unlocks scalable throughput for two strongly-consistent services built on it.},
+  area = {Distributed Consensus},
+  artifacts_url = {https://github.com/princeton-sns/mason},
+  langid = {english},
+  review_url = {https://openreview.net/forum?id=hj77eOQNIrx}
+}
