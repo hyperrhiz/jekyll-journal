@@ -31,7 +31,7 @@ members:
   until: 0
 
 - name: Matteo Ceriotti Zella
-  affiliation: University of Duisburg-Essen
+  affiliation: Niederrhein University of Applied Sciences
   webpage: https://matteo.furuns.eu/
   orcid: 
   twitter: 
@@ -39,7 +39,7 @@ members:
   until: 0
 
 - name: Ambuj Varshney
-  affiliation: University of California, Berkeley
+  affiliation: National University of Singapore
   webpage: http://ambuj.se/
   orcid: 
   twitter: 
@@ -47,7 +47,7 @@ members:
   until: 0
 
 - name: Andres Gomez
-  affiliation: Universität St. Gallen
+  affiliation: TU Braunschweig
   webpage: http://andresgomez.ch/
   orcid: 
   twitter: 
@@ -55,7 +55,7 @@ members:
   until: 0
 
 - name: Bernd-Christian Renner
-  affiliation: University of Koblenz
+  affiliation: Hamburg University of Technology
   webpage: http://www.bcrenner.de/
   orcid: 
   twitter: 
