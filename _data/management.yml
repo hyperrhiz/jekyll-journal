@@ -18,6 +18,22 @@ eic:
 
 assistants:
 
+- name: Suyash Gupta
+  affiliation: UC Berkeley
+  webpage: https://gupta-suyash.github.io/
+  email: suyash.gupta@berkeley.edu
+  orcid: 
+  twitter: suyash_sg
+
+- name: Charly Castes
+  affiliation: EPFL
+  webpage: https://charlycst.github.io/
+  email: charly.castes@epfl.ch
+  orcid: 
+  twitter: CharlyCastes
+    
+alumni:
+        
 - name: Madelon Hulsebos
   affiliation: University of Amsterdam
   webpage: https://madelonhulsebos.github.io
