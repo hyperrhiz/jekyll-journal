@@ -28,7 +28,7 @@ JSys is founded on its commitment to inclusiveness, transparency, and quality
 <!-- ## 💎 Quality   -->
 ## <i class="fa-solid fa-gem"></i>  Quality
 
-- JSys commits to returns **reviews within 6 weeks** after submission.
+- JSys commits to return **reviews within 6 weeks** after submission.
 - System works should be usable by others. Passing an **Artifact Evaluation** is mandatory for JSys' Tools and Solution papers.
 - Every paper is reviewed by **three board members as well as one student reviewer**. By taking part in reviewing, students get naturally integrated into the community... plus, they tend to have a sharp eye for details <i class="fa-solid fa-face-smile-wink"></i>
 
