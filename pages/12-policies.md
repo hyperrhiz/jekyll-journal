@@ -81,6 +81,8 @@ Copyright holders retain copyright ownership, granting a non-exclusive license t
 
 JSys does not charge any authors processing charges (APCs) or submission charges. It is **completely free** for the authors to publish their work in the journal.
 
+JSys does not charge anything for readers either. All published papers are publicly accessible from the [Read page](/read).
+
 > JSys is managed operated by volunteers. If you appreciate the journal and what it stands for, please consider [contributing](/contribute/).
 
 ## Publishing Schedule
