@@ -18,6 +18,13 @@ eic:
 
 assistants:
 
+- name: Vishwanath Seshagiri
+  affiliation: Emory University
+  webpage: https://vishwanath1306.github.io/
+  email: vseshag@emory.edu
+  orcid: 0000-0001-7466-4369
+  twitter: __vishwanath__
+    
 - name: Suyash Gupta
   affiliation: UC Berkeley
   webpage: https://gupta-suyash.github.io/
@@ -31,7 +38,7 @@ assistants:
   email: charly.castes@epfl.ch
   orcid: 
   twitter: CharlyCastes
-    
+
 alumni:
         
 - name: Madelon Hulsebos
@@ -40,13 +47,6 @@ alumni:
   email: m.hulsebos@uva.nl
   orcid: 0000-0002-0949-7290
   twitter: MadelonHulsebos
-
-- name: Vishwanath Seshagiri
-  affiliation: Emory University
-  webpage: https://vishwanath1306.github.io/
-  email: vseshag@emory.edu
-  orcid: 0000-0001-7466-4369
-  twitter: __vishwanath__
 
 publicity:
 
