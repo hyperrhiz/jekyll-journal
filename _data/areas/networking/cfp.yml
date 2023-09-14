@@ -1,7 +1,7 @@
 
 introduction:
 
-  - paragraph: "Computer networking is the main enabler of all modern applications. JSys invites papers describing significant contributions in communication networks, networked systems, and network applications. We particularly interested in the following topics (in alphabetical order):"
+  - paragraph: "Computer networking is the main enabler of all modern applications. JSys invites papers describing significant contributions in communication networks, networked systems, and network applications. We particularly interested in the following topics (in alphabetical order)."
 
 topics:
 
@@ -10,7 +10,7 @@ topics:
   - text: Blue-sky ideas, pioneering tools, and emerging technologies that have the potential to reshape the landscape of networking
   - text: Design, analysis, and evaluation of network architectures
   - text: Network simulators, profilers, and debuggers (see the tools paper type)
-  - text: Operating systems innovations pertaining to network performance </ul> <p> Despite our focus, we still welcome strong submissions that fall under the broad view of networking research including but not limited to: </p> <ul> 
+  - text: "Operating systems innovations pertaining to network performance </ul> <p> Despite our focus, we still welcome strong submissions that fall under the broad view of networking research including but not limited to: </p> <ul>" 
   - text: Content distribution and caching, e.g., CDN, peer-to-peer, overlays
   - text: Experience and lessons learned by deploying large-scale networked systems
   - text: Internet behavior, measurements, and predictive models
@@ -21,7 +21,7 @@ topics:
   - text: Network, transport, and application-layer protocols
   - text: Reliability and availability of networks, protocols, and applications
   - text: Routing and traffic engineering
-  - text: Robustness and repeatability in networking research </ul> <p> We encourage authors to view the scope and target quality of JSys to be similar to venues like SIGCOMM, NSDI, CoNEXT, SOSP, OSDI, ASPLOS, MobiCom, and MobiSys.</p> <p> Note: The Area Chairs reserve the right to desk-reject any paper deemed out of scope or irrelevant to JSys. Please reach out to the Area Chairs if you have questions about whether your paper would be in scope. </p> <ul>
+  - text: "Robustness and repeatability in networking research </ul> <p> We encourage authors to view the scope and target quality of JSys to be similar to venues like SIGCOMM, NSDI, CoNEXT, SOSP, OSDI, ASPLOS, MobiCom, and MobiSys.</p> <p> Note: The Area Chairs reserve the right to desk-reject any paper deemed out of scope or irrelevant to JSys. Please reach out to the Area Chairs if you have questions about whether your paper would be in scope. </p>"
 
   
 
